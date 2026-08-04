@@ -93,25 +93,25 @@ Each specification includes the following components:
 *gt(v.1.3.0)* and *gsm.core(v.1.3.0.9000)*
 
 **loaded via a namespace (and not attached):** *gtable(v.0.3.6)*,
-*xfun(v.0.60)*, *bslib(v.0.11.0)*, *ggplot2(v.4.0.3)*,
+*xfun(v.0.60)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
 *htmlwidgets(v.1.6.4)*, *devtools(v.2.5.2)*, *vctrs(v.0.7.3)*,
 *tools(v.4.6.1)*, *generics(v.0.1.4)*, *tibble(v.3.3.1)*,
 *pkgconfig(v.2.0.3)*, *data.table(v.1.18.4)*, *RColorBrewer(v.1.1-3)*,
 *S7(v.0.2.2)*, *desc(v.1.4.3)*, *lifecycle(v.1.0.5)*,
 *compiler(v.4.6.1)*, *farver(v.2.1.2)*, *textshaping(v.1.0.5)*,
 *brio(v.1.1.5)*, *htmltools(v.0.5.9)*, *usethis(v.3.2.1)*,
-*sass(v.0.4.10)*, *yaml(v.2.3.12)*, *lazyeval(v.0.2.3)*,
-*plotly(v.4.12.0)*, *pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*,
-*jquerylib(v.0.1.4)*, *tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*,
-*cachem(v.1.1.0)*, *sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*,
-*digest(v.0.6.39)*, *stringi(v.1.8.7)*, *duckdb(v.1.5.4.3)*,
-*forcats(v.1.0.1)*, *rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*,
-*grid(v.4.6.1)*, *here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
+*sass(v.0.4.10)*, *yaml(v.2.3.12)*, *plotly(v.4.12.1)*,
+*pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*, *jquerylib(v.0.1.4)*,
+*tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*, *cachem(v.1.1.0)*,
+*sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*, *digest(v.0.6.39)*,
+*stringi(v.1.8.7)*, *duckdb(v.1.5.5)*, *forcats(v.1.0.1)*,
+*rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*, *grid(v.4.6.1)*,
+*here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
 *pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*, *waldo(v.0.6.2)*,
 *scales(v.1.4.0)*, *rmarkdown(v.2.31)*, *httr(v.1.4.8)*,
 *otel(v.0.2.0)*, *ragg(v.1.5.2)*, *memoise(v.2.0.1)*,
 *evaluate(v.1.0.5)*, *viridisLite(v.0.4.3)*, *rlang(v.1.3.0)*,
-*Rcpp(v.1.1.2)*, *DBI(v.1.3.0)*, *glue(v.1.8.1)*, *workr(v.1.1.0)*,
+*Rcpp(v.1.1.2)*, *glue(v.1.8.1)*, *DBI(v.1.3.0)*, *workr(v.1.1.0)*,
 *xml2(v.1.6.0)*, *pkgload(v.1.5.3)*, *rstudioapi(v.0.19.0)*,
 *jsonlite(v.2.0.0)*, *R6(v.2.6.1)*, *systemfonts(v.1.3.2)* and
 *fs(v.2.1.0)*
@@ -135,6 +135,16 @@ Guidelines](https://gilead-biostats.github.io/gsm.core/articles/ContributorGuide
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
 Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+
+#### Pull Request 131: Use public actions
+
+Merging public-actions into dev
+
+<https://github.com/Gilead-BioStats/gsm.qtl/pull/131>
+
+|   Requester    |   Date Requested    |  Reviewers  | Review Status |
+|:--------------:|:-------------------:|:-----------:|:-------------:|
+| jharmon-gilead | 2026-08-04 15:41:12 | nandriychuk |   APPROVED    |
 
 #### Pull Request 127: Fix 124: Remove unused riskmetric package
 
@@ -225,13 +235,3 @@ Merging main into dev
 | Requester |   Date Requested    |  Reviewers   | Review Status |
 |:---------:|:-------------------:|:------------:|:-------------:|
 |  zdz2101  | 2026-05-06 20:41:03 | lauramaxwell |   APPROVED    |
-
-#### Pull Request 109: Fix eligibility_listing crash on zero-row or all-NA input
-
-Merging bugfix/108-eligibility-listing-zero-row into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/109>
-
-| Requester | Date Requested | Reviewers | Review Status |
-|:--:|:--:|:--:|:--:|
-| samussiah | 2026-05-04 19:09:57 | zdz2101 copilot-pull-request-reviewer\[bot\] | APPROVED |
