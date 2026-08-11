@@ -1,6 +1,6 @@
 ---
 title: "QTL Report"
-author: "[gsm.qtl](https://gilead-biostats.github.io/gsm.qtl) Example"
+author: "[gsm.qtl](https://gilead-public.github.io/gsm.qtl) Example"
 description: "Example of a QTL Report generated using standard QTLs in gsm.kri"
 index: 1
 date: "`r format(Sys.time(), '%B %d, %Y %H:%M:%S %Z')`"
