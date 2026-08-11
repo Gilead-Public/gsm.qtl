@@ -3,15 +3,15 @@
 # Good Statistical Monitoring QTL `{gsm.qtl}` R package
 
 This README provides a high-level overview of `gsm.qtl`; see the
-[package website](https://gilead-biostats.github.io/gsm.qtl/) for
+[package website](https://gilead-public.github.io/gsm.qtl/) for
 additional details.
 
 The Good Statistical Monitoring or `gsm` suite of R packages provides a
 framework for statistical data monitoring. `gsm.qtl` is an extension
 package that contains the additional functions, workflows, and document
 template to generate reports for quality tolerance limits (QTL). See
-[`gsm.core`](https://github.com/Gilead-BioStats/gsm.core) for an
-overview of the ecosystem.
+[`gsm.core`](https://github.com/Gilead-Public/gsm.core) for an overview
+of the ecosystem.
 
 # Background
 
@@ -24,7 +24,7 @@ criteria violations, early study discontinuation, etc.
 
 Datasets necessary to calculate a particular QTL can be requested or
 customized based off of previously existing mappings, see
-[`gsm.mapping`](https://github.com/Gilead-BioStats/gsm.mapping).
+[`gsm.mapping`](https://github.com/Gilead-Public/gsm.mapping).
 Additional mappings that have been added to support `gsm.qtl` include
 the `IE` and `EXCLUSION` mappings.
 
@@ -32,7 +32,7 @@ the `IE` and `EXCLUSION` mappings.
 
 `qtlxxxx` metric yaml files have been added to calculate study level
 QTLs, these files follow similar structure to those found in
-[`gsm.kri`](https://github.com/Gilead-BioStats/gsm.kri).
+[`gsm.kri`](https://github.com/Gilead-Public/gsm.kri).
 
 # Reporting
 
@@ -47,7 +47,7 @@ You can install the latest release of gsm.qtl from
 ``` r
 
 # install.packages("pak")
-pak::pak("Gilead-BioStats/gsm.qtl@*release")
+pak::pak("Gilead-Public/gsm.qtl@*release")
 ```
 
 You can install the development version of gsm.qtl from
@@ -56,7 +56,7 @@ You can install the development version of gsm.qtl from
 ``` r
 
 # install.packages("pak")
-pak::pak("Gilead-BioStats/gsm.qtl")
+pak::pak("Gilead-Public/gsm.qtl")
 ```
 
 ## Sample Code
@@ -139,49 +139,49 @@ gsm.kri::RenderRmd(
 
 ## All functions
 
-- [`Analyze_OneSideProp()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/Analyze_OneSideProp.md)
+- [`Analyze_OneSideProp()`](https://gilead-public.github.io/gsm.qtl/dev/reference/Analyze_OneSideProp.md)
   **\[stable\]** : Funnel Plot Analysis with Normal Approximation for
   Binary and Rate Outcomes.
-- [`Eligibility_Overview()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/Eligibility_Overview.md)
+- [`Eligibility_Overview()`](https://gilead-public.github.io/gsm.qtl/dev/reference/Eligibility_Overview.md)
   : Eligibility Overview Table
-- [`QTL_Overview()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_Overview.md)
+- [`QTL_Overview()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_Overview.md)
   : QTL Overview Table
-- [`QTL_lineplot()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
+- [`QTL_lineplot()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
   : QTL Time Series Lineplot
-- [`QTL_lineplot_v2()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
+- [`QTL_lineplot_v2()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
   : QTL Time Series Widget (v2)
-- [`Report_QTL()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/Report_QTL.md)
+- [`Report_QTL()`](https://gilead-public.github.io/gsm.qtl/dev/reference/Report_QTL.md)
   **\[stable\]** : Report_QTL function
-- [`ResultsProcessor()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/ResultsProcessor.md)
+- [`ResultsProcessor()`](https://gilead-public.github.io/gsm.qtl/dev/reference/ResultsProcessor.md)
   : Title
-- [`calc_fig_size()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/calc_fig_size.md)
+- [`calc_fig_size()`](https://gilead-public.github.io/gsm.qtl/dev/reference/calc_fig_size.md)
   : Compute a widget height from the number of y-axis groups
-- [`criteria_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/criteria_groupBar.md)
+- [`criteria_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/criteria_groupBar.md)
   : Bar Chart by Group and Criteria
-- [`discontinuation_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/discontinuation_groupBar.md)
+- [`discontinuation_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_groupBar.md)
   : Stacked Discontinuation Bar Chart
-- [`discontinuation_map_reasons()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/discontinuation_map_reasons.md)
+- [`discontinuation_map_reasons()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_map_reasons.md)
   : Filter Discontinuation Reasons in data.frame
-- [`discontinuation_reasonBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/discontinuation_reasonBar.md)
+- [`discontinuation_reasonBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_reasonBar.md)
   : Discontinuation Reasons Bar Chart
-- [`eligibility_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md)
+- [`eligibility_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md)
   : Stacked Eligibility Bar Chart
-- [`eligibility_listing()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_listing.md)
+- [`eligibility_listing()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_listing.md)
   : Generate Eligibility Listing
-- [`eligibility_sourceBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_sourceBar.md)
+- [`eligibility_sourceBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_sourceBar.md)
   : Eligibility Bar Chart by Source
-- [`reasons_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
+- [`reasons_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
   : Bar Chart by Group and Reasons
-- [`scrollable_gt()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/scrollable_gt.md)
+- [`scrollable_gt()`](https://gilead-public.github.io/gsm.qtl/dev/reference/scrollable_gt.md)
   : Add scrollability to listings
 
 # Articles
 
 ### All vignettes
 
-- [IntroQTL](https://gilead-biostats.github.io/gsm.qtl/dev/articles/IntroQTL.md):
+- [IntroQTL](https://gilead-public.github.io/gsm.qtl/dev/articles/IntroQTL.md):
 
 - [Qualification Report for {gsm.qtl} R
-  Package](https://gilead-biostats.github.io/gsm.qtl/dev/articles/Qualification.md):
+  Package](https://gilead-public.github.io/gsm.qtl/dev/articles/Qualification.md):
 
   Report generated based on the qualification tests for gsm.qtl

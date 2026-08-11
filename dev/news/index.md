@@ -7,10 +7,9 @@
 #### Key Enhancements:
 
 - QTL workflows now run on the new `workr` engine. Workflow helpers
-  ([`MakeWorkflowList()`](https://gilead-biostats.github.io/gsm.core/reference/MakeWorkflowList.html),
-  [`RunWorkflows()`](https://gilead-biostats.github.io/gsm.core/reference/RunWorkflows.html),
-  and
-  [`RunQuery()`](https://gilead-biostats.github.io/gsm.core/reference/RunQuery.html))
+  ([`MakeWorkflowList()`](https://rdrr.io/pkg/gsm.core/man/MakeWorkflowList.html),
+  [`RunWorkflows()`](https://rdrr.io/pkg/gsm.core/man/RunWorkflows.html),
+  and [`RunQuery()`](https://rdrr.io/pkg/gsm.core/man/RunQuery.html))
   are now provided by `workr` instead of `gsm.core`, and the bundled
   QTL, metric, and reporting workflows have been updated to match. If
   you run these workflows in your own pipelines, update your calls to
@@ -35,7 +34,7 @@ new federated action framework in `gsm.utils`
 #### Bug Fixes:
 
 - Adds early return for zero-row df to prevent crash in
-  [`eligibility_listing()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_listing.md)
+  [`eligibility_listing()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_listing.md)
 
 ## gsm.qtl v1.2.0
 
@@ -43,10 +42,10 @@ new federated action framework in `gsm.utils`
 
 - Fixed issue
   [\#90](https://github.com/Gilead-BioStats/gsm.qtl/issues/90): Updated
-  [`eligibility_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md),
-  [`discontinuation_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/discontinuation_groupBar.md),
+  [`eligibility_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md),
+  [`discontinuation_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_groupBar.md),
   and
-  [`reasons_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
+  [`reasons_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
   to accept separate `dfNum`/`dfDenom` inputs, correcting count
   alignment for discontinued and ineligible participants.
 - Fixed footnote rendering logic so footnotes always display in report
@@ -55,7 +54,7 @@ new federated action framework in `gsm.utils`
 #### Key Enhancements:
 
 - Added `bSwapAxes` parameter to
-  [`criteria_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/criteria_groupBar.md)
+  [`criteria_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/criteria_groupBar.md)
   to support swapped axis views (Site/Criteria and Country/Criteria
   tabs).
 - Added `calc_plotly_footnote_layout()` utility for consistent plotly
@@ -71,16 +70,16 @@ new federated action framework in `gsm.utils`
 ## gsm.qtl v1.1.1
 
 - Updated `critera_groupBar()` and
-  [`reasons_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
+  [`reasons_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/reasons_groupBar.md)
   address small bugs that were affecting barchart’s tooltip text.
 - Added
-  [`QTL_lineplot_v2()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
+  [`QTL_lineplot_v2()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
   as the new report-facing time-series API using the htmlwidget stack.
 - Updated QTL report templates to use
-  [`QTL_lineplot_v2()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
+  [`QTL_lineplot_v2()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md)
   for time-series rendering.
 - Kept legacy
-  [`QTL_lineplot()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
+  [`QTL_lineplot()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
   available for backward compatibility.
 
 ## gsm.qtl v1.1.0
@@ -88,7 +87,7 @@ new federated action framework in `gsm.utils`
 #### Key Enhancements:
 
 - Updated
-  [`eligibility_groupBar()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md)
+  [`eligibility_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md)
   to support counts and percentage bar charts
 - Removed suggests of `gsm.mapping`, `gsm.kri`, and `gsm.reporting`
 

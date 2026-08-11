@@ -52,7 +52,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/Gilead-BioStats/gsm.qtl/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/Gilead-Public/gsm.qtl/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -71,8 +71,8 @@
 <div class="section level1">
 <h1 id="good-statistical-monitoring-qtl-gsmqtl-r-package">Good Statistical Monitoring QTL <code>{gsm.qtl}</code> R package<a class="anchor" aria-label="anchor" href="#good-statistical-monitoring-qtl-gsmqtl-r-package"></a>
 </h1>
-<p>This README provides a high-level overview of <code>gsm.qtl</code>; see the <a href="https://gilead-biostats.github.io/gsm.qtl/">package website</a> for additional details.</p>
-<p>The Good Statistical Monitoring or <code>gsm</code> suite of R packages provides a framework for statistical data monitoring. <code>gsm.qtl</code> is an extension package that contains the additional functions, workflows, and document template to generate reports for quality tolerance limits (QTL). See <a href="https://github.com/Gilead-BioStats/gsm.core" class="external-link"><code>gsm.core</code></a> for an overview of the ecosystem.</p>
+<p>This README provides a high-level overview of <code>gsm.qtl</code>; see the <a href="https://gilead-public.github.io/gsm.qtl/">package website</a> for additional details.</p>
+<p>The Good Statistical Monitoring or <code>gsm</code> suite of R packages provides a framework for statistical data monitoring. <code>gsm.qtl</code> is an extension package that contains the additional functions, workflows, and document template to generate reports for quality tolerance limits (QTL). See <a href="https://github.com/Gilead-Public/gsm.core" class="external-link"><code>gsm.core</code></a> for an overview of the ecosystem.</p>
 </div>
 <div class="section level1">
 <h1 id="background">Background<a class="anchor" aria-label="anchor" href="#background"></a>
@@ -82,12 +82,12 @@
 <div class="section level1">
 <h1 id="mapping">Mapping<a class="anchor" aria-label="anchor" href="#mapping"></a>
 </h1>
-<p>Datasets necessary to calculate a particular QTL can be requested or customized based off of previously existing mappings, see <a href="https://github.com/Gilead-BioStats/gsm.mapping" class="external-link"><code>gsm.mapping</code></a>. Additional mappings that have been added to support <code>gsm.qtl</code> include the <code>IE</code> and <code>EXCLUSION</code> mappings.</p>
+<p>Datasets necessary to calculate a particular QTL can be requested or customized based off of previously existing mappings, see <a href="https://github.com/Gilead-Public/gsm.mapping" class="external-link"><code>gsm.mapping</code></a>. Additional mappings that have been added to support <code>gsm.qtl</code> include the <code>IE</code> and <code>EXCLUSION</code> mappings.</p>
 </div>
 <div class="section level1">
 <h1 id="metrics">Metrics<a class="anchor" aria-label="anchor" href="#metrics"></a>
 </h1>
-<p><code>qtlxxxx</code> metric yaml files have been added to calculate study level QTLs, these files follow similar structure to those found in <a href="https://github.com/Gilead-BioStats/gsm.kri" class="external-link"><code>gsm.kri</code></a>.</p>
+<p><code>qtlxxxx</code> metric yaml files have been added to calculate study level QTLs, these files follow similar structure to those found in <a href="https://github.com/Gilead-Public/gsm.kri" class="external-link"><code>gsm.kri</code></a>.</p>
 </div>
 <div class="section level1">
 <h1 id="reporting">Reporting<a class="anchor" aria-label="anchor" href="#reporting"></a>
@@ -99,12 +99,12 @@
 <p>You can install the latest release of gsm.qtl from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"Gilead-BioStats/gsm.qtl@*release"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"Gilead-Public/gsm.qtl@*release"</span><span class="op">)</span></span></code></pre></div>
 <div class="pkgdown-devel">
 <p>You can install the development version of gsm.qtl from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"Gilead-BioStats/gsm.qtl"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"Gilead-Public/gsm.qtl"</span><span class="op">)</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level2">
@@ -119,7 +119,7 @@
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">gsm.kri</span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://purrr.tidyverse.org/" class="external-link">purrr</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://gilead-biostats.github.io/gsm.qtl">gsm.qtl</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://gilead-public.github.io/gsm.qtl">gsm.qtl</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">1234</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># Single Study</span></span>
@@ -184,8 +184,8 @@
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/Gilead-BioStats/gsm.qtl/" class="external-link">Browse source code</a></li>
-<li><a href="https://github.com/Gilead-BioStats/gsm.qtl/issues" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/Gilead-Public/gsm.qtl/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/Gilead-Public/gsm.qtl/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
@@ -223,9 +223,9 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/R-CMD-check.yaml/badge.svg?branch=dev" alt="R-CMD-check"></a></li>
-<li><a href="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/test-coverage.yaml" class="external-link"><img src="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/test-coverage.yaml/badge.svg?branch=dev" alt="test-coverage"></a></li>
-<li><a href="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/pkgdown-all.yaml" class="external-link"><img src="https://github.com/Gilead-BioStats/gsm.qtl/actions/workflows/pkgdown-all.yaml/badge.svg?branch=dev" alt="pkgdown-all"></a></li>
+<li><a href="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/R-CMD-check.yaml/badge.svg?branch=dev" alt="R-CMD-check"></a></li>
+<li><a href="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/test-coverage.yaml" class="external-link"><img src="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/test-coverage.yaml/badge.svg?branch=dev" alt="test-coverage"></a></li>
+<li><a href="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/pkgdown-all.yaml" class="external-link"><img src="https://github.com/Gilead-Public/gsm.qtl/actions/workflows/pkgdown-all.yaml/badge.svg?branch=dev" alt="pkgdown-all"></a></li>
 </ul>
 </div>
 

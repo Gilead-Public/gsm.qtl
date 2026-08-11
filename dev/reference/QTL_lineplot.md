@@ -28,4 +28,4 @@ A `plotly` object
 
 This function is retained as a legacy Plotly-based compatibility path.
 For report rendering, prefer
-[`QTL_lineplot_v2()`](https://gilead-biostats.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md).
+[`QTL_lineplot_v2()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot_v2.md).

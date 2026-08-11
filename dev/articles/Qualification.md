@@ -104,7 +104,7 @@ Each specification includes the following components:
 *pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*, *jquerylib(v.0.1.4)*,
 *tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*, *cachem(v.1.1.0)*,
 *sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*, *digest(v.0.6.39)*,
-*stringi(v.1.8.7)*, *duckdb(v.1.5.5)*, *forcats(v.1.0.1)*,
+*stringi(v.1.8.9)*, *duckdb(v.1.5.5)*, *forcats(v.1.0.1)*,
 *rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*, *grid(v.4.6.1)*,
 *here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
 *pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*, *waldo(v.0.6.2)*,
@@ -131,16 +131,26 @@ approved by the designated reviewers and pass all required GitHub
 qualification checks. Once these conditions are met, the `fix` branch is
 merged into the target branch. This process is fully documented in the
 [Contributor
-Guidelines](https://gilead-biostats.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
+Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
 Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+
+#### Pull Request 133: fix: update Gilead-BioStats links to Gilead-Public
+
+Merging fix-132 into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/133>
+
+|  Requester  |   Date Requested    |   Reviewers    | Review Status |
+|:-----------:|:-------------------:|:--------------:|:-------------:|
+| nandriychuk | 2026-08-11 18:12:35 | jharmon-gilead |   APPROVED    |
 
 #### Pull Request 131: Use public actions
 
 Merging public-actions into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/131>
+<https://github.com/Gilead-Public/gsm.qtl/pull/131>
 
 |   Requester    |   Date Requested    |  Reviewers  | Review Status |
 |:--------------:|:-------------------:|:-----------:|:-------------:|
@@ -150,7 +160,7 @@ Merging public-actions into dev
 
 Merging remove-riskmetric into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/127>
+<https://github.com/Gilead-Public/gsm.qtl/pull/127>
 
 |   Requester    |   Date Requested    | Reviewers | Review Status |
 |:--------------:|:-------------------:|:---------:|:-------------:|
@@ -160,7 +170,7 @@ Merging remove-riskmetric into dev
 
 Merging main into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/126>
+<https://github.com/Gilead-Public/gsm.qtl/pull/126>
 
 |  Requester   |   Date Requested    |   Reviewers    | Review Status |
 |:------------:|:-------------------:|:--------------:|:-------------:|
@@ -170,7 +180,7 @@ Merging main into dev
 
 Merging rc-v1.3.0 into main
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/123>
+<https://github.com/Gilead-Public/gsm.qtl/pull/123>
 
 |  Requester   |   Date Requested    |       Reviewers        | Review Status |
 |:------------:|:-------------------:|:----------------------:|:-------------:|
@@ -180,7 +190,7 @@ Merging rc-v1.3.0 into main
 
 Merging fix-118-rename_activity_fields into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/119>
+<https://github.com/Gilead-Public/gsm.qtl/pull/119>
 
 |   Requester    |   Date Requested    |      Reviewers       | Review Status |
 |:--------------:|:-------------------:|:--------------------:|:-------------:|
@@ -190,7 +200,7 @@ Merging fix-118-rename_activity_fields into dev
 
 Merging fix-116-add_active_fields into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/117>
+<https://github.com/Gilead-Public/gsm.qtl/pull/117>
 
 | Requester | Date Requested | Reviewers | Review Status |
 |:--:|:--:|:--:|:--:|
@@ -200,7 +210,7 @@ Merging fix-116-add_active_fields into dev
 
 Merging main into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/114>
+<https://github.com/Gilead-Public/gsm.qtl/pull/114>
 
 |  Requester   |   Date Requested    |   Reviewers    | Review Status |
 |:------------:|:-------------------:|:--------------:|:-------------:|
@@ -210,7 +220,7 @@ Merging main into dev
 
 Merging gsm.qtl-v1.2.2-rc into main
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/113>
+<https://github.com/Gilead-Public/gsm.qtl/pull/113>
 
 |  Requester   |   Date Requested    |   Reviewers    | Review Status |
 |:------------:|:-------------------:|:--------------:|:-------------:|
@@ -220,18 +230,8 @@ Merging gsm.qtl-v1.2.2-rc into main
 
 Merging rc-v1.2.1 into main
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/112>
+<https://github.com/Gilead-Public/gsm.qtl/pull/112>
 
 | Requester |   Date Requested    | Reviewers | Review Status |
 |:---------:|:-------------------:|:---------:|:-------------:|
 |  zdz2101  | 2026-05-06 20:48:27 | samussiah |   APPROVED    |
-
-#### Pull Request 111: catch dev up to main
-
-Merging main into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/111>
-
-| Requester |   Date Requested    |  Reviewers   | Review Status |
-|:---------:|:-------------------:|:------------:|:-------------:|
-|  zdz2101  | 2026-05-06 20:41:03 | lauramaxwell |   APPROVED    |

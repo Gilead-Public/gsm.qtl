@@ -28,7 +28,7 @@
   </ul></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/Gilead-BioStats/gsm.qtl/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/Gilead-Public/gsm.qtl/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul></div>
 
 
@@ -38,7 +38,7 @@
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Changelog</h1>
-      <small>Source: <a href="https://github.com/Gilead-BioStats/gsm.qtl/blob/dev/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
+      <small>Source: <a href="https://github.com/Gilead-Public/gsm.qtl/blob/dev/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
     <div class="section level2">
@@ -48,7 +48,7 @@
 <h2 class="pkg-version" data-toc-text="1.3.0" id="gsmqtl-v130">gsm.qtl v1.3.0<a class="anchor" aria-label="anchor" href="#gsmqtl-v130"></a></h2>
 <div class="section level4">
 <h4 id="key-enhancements-1-3-0">Key Enhancements:<a class="anchor" aria-label="anchor" href="#key-enhancements-1-3-0"></a></h4>
-<ul><li>QTL workflows now run on the new <code>workr</code> engine. Workflow helpers (<code><a href="https://gilead-biostats.github.io/gsm.core/reference/MakeWorkflowList.html" class="external-link">MakeWorkflowList()</a></code>, <code><a href="https://gilead-biostats.github.io/gsm.core/reference/RunWorkflows.html" class="external-link">RunWorkflows()</a></code>, and <code><a href="https://gilead-biostats.github.io/gsm.core/reference/RunQuery.html" class="external-link">RunQuery()</a></code>) are now provided by <code>workr</code> instead of <code>gsm.core</code>, and the bundled QTL, metric, and reporting workflows have been updated to match. If you run these workflows in your own pipelines, update your calls to use <code>workr::</code> in place of <code>gsm.core::</code>.</li>
+<ul><li>QTL workflows now run on the new <code>workr</code> engine. Workflow helpers (<code><a href="https://rdrr.io/pkg/gsm.core/man/MakeWorkflowList.html" class="external-link">MakeWorkflowList()</a></code>, <code><a href="https://rdrr.io/pkg/gsm.core/man/RunWorkflows.html" class="external-link">RunWorkflows()</a></code>, and <code><a href="https://rdrr.io/pkg/gsm.core/man/RunQuery.html" class="external-link">RunQuery()</a></code>) are now provided by <code>workr</code> instead of <code>gsm.core</code>, and the bundled QTL, metric, and reporting workflows have been updated to match. If you run these workflows in your own pipelines, update your calls to use <code>workr::</code> in place of <code>gsm.core::</code>.</li>
 <li>Standardized the metadata on all bundled workflows: every workflow now declares an <code>Active</code> flag, and the QTL metric workflows (<code>qtl0001</code>, <code>qtl0002</code>) declare a <code>GenerateRiskSignal</code> flag, bringing QTL workflows in line with the broader <code>gsm</code> workflow framework.</li>
 </ul></div>
 <div class="section level4">
