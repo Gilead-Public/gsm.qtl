@@ -134,21 +134,25 @@ test_that("eligibility_groupBar tooltip reads the datum row (#134)", {
   expect_match(spec$tooltip$formatter, "'Eligibility Status: '", fixed = TRUE)
 })
 
-test_that("eligibility_sourceBar returns plotly object (#14, #21, #22)", {
+test_that("eligibility_sourceBar counts by source with total labels (#14, #21, #22, #134)", {
   df <- qtl_test_participant_df()
   out <- eligibility_sourceBar(df = df)
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
+  rows <- bars_data_of(out)
 
-  expect_s3_class(out, "plotly")
+  expect_s3_class(out, "bars")
+  expect_identical(spec$mapping, list(x = "Source", y = "n", fill = "Source"))
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Participant Count by Category/Source")
+  expect_identical(spec$scales$x$label, "Source")
+  expect_identical(spec$scales$y$label, "Participant Count")
+  expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$Source))
+  expect_true(spec$annotations$labels$total$display)
+  expect_match(spec$tooltip$formatter, "'Source: '", fixed = TRUE)
 
-  source_text <- plotly_trace_text(out)
-
-  expect_true(any(grepl("Source: EDC", source_text, fixed = TRUE)))
-  expect_match(
-    built$x$layout$title$text,
-    "Participant Count by Category/Source",
-    fixed = TRUE
-  )
+  edc <- Filter(function(r) r$Source == "EDC", rows)[[1]]
+  expect_equal(edc$n, 3)
 })
 
 test_that("criteria_groupBar uses grouping and label arguments (#14, #21, #22, #23)", {

@@ -67,20 +67,33 @@ test_that("discontinuation_groupBar honours varStatus and valuesDiscontinued (#7
   expect_equal(pd_count(custom_rows, "S02"), 2)
 })
 
-test_that("discontinuation_reasonBar uses df and reason variable (#14, #21, #22)", {
+test_that("discontinuation_reasonBar counts by reason with total labels (#14, #21, #22, #134)", {
   df <- qtl_test_participant_df()
   out <- discontinuation_reasonBar(df = df, varCompreas = compreas)
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
+  rows <- bars_data_of(out)
 
-  expect_s3_class(out, "plotly")
-
-  trace_names <- unique(stats::na.omit(plotly_trace_names(out)))
-  expect_true("Adverse event" %in% trace_names)
-  expect_match(
-    built$x$layout$title$text,
-    "Participant Count by Reasons",
-    fixed = TRUE
+  expect_s3_class(out, "bars")
+  expect_identical(
+    spec$mapping,
+    list(x = "compreas", y = "n", fill = "compreas")
   )
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Participant Count by Reasons")
+  expect_identical(spec$scales$x$label, "Discontinuation Reasons")
+  expect_identical(spec$scales$y$label, "Participant Count")
+  expect_identical(spec$scales$fill$label, "Discontinuation Reasons")
+  # compreas is blank for two fixture rows. A blank level cannot carry a named
+  # colour through the spec because jsonlite substitutes the positional index
+  # for an empty JSON key, so assert the named levels that do round-trip.
+  expected <- .qtl_ggplot_hue(df$compreas)
+  named <- names(expected)[nzchar(names(expected))]
+  expect_identical(spec$scales$fill$colors[named], as.list(expected[named]))
+  expect_true(spec$annotations$labels$total$display)
+
+  reasons <- vapply(rows, function(r) r$compreas, character(1))
+  expect_true("Adverse event" %in% reasons)
 })
 
 test_that("reasons_groupBar uses group and reason arguments (#14, #21, #22)", {
