@@ -10,4 +10,5 @@
 ^\.positai$
 ^\.claude$
 ^AGENTS\.md$
+^data-raw$
 ^tests/playwright$
