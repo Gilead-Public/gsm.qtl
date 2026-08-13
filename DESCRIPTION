@@ -1,6 +1,6 @@
 Package: gsm.qtl
 Title: Good Statistical Monitoring QTLs
-Version: 1.3.0.9000
+Version: 1.3.0.9001
 Authors@R: c(
     person("Zhongkai", "Wang", , "Zhongkai.Wang6@gilead.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1883-2265")),

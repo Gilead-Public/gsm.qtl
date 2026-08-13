@@ -1,5 +1,26 @@
 # gsm.qtl (development version)
 
+### Key Enhancements:
+
+- The six QTL barchart functions (`eligibility_groupBar()`, `eligibility_sourceBar()`,
+  `criteria_groupBar()`, `discontinuation_groupBar()`, `discontinuation_reasonBar()` and
+  `reasons_groupBar()`) now render through `gsm.vizr::bars()` on the `gsm.viz` JavaScript
+  library instead of `ggplot2` + `plotly::ggplotly()`. Their arguments are unchanged, but
+  **they now return a `bars` htmlwidget rather than a `plotly` object** — code that inspected
+  or post-processed the returned plotly object needs updating. Chart appearance is
+  structurally equivalent; charts sit slightly taller than before because `gsm.viz` adds its
+  axis and legend chrome on top of the per-category height.
+- `gsm.qtl` no longer vendors its own copy of the `gsm.viz` bundle. The QTL time-series widget
+  now loads the shared bundle published by `gsm.vizr`, which moves it from `gsm.viz` 2.2.0 to
+  2.4.1.
+
+### Other Updates:
+
+- Added `gsm.vizr` as a package dependency.
+- Removed the unused `Widget_BarChartQTL` widget and its `barChartQTL.js` shim.
+- `QTL_lineplot()` still renders with `plotly`, so `plotly` and `ggplot2` remain dependencies
+  until a generic line renderer is available.
+
 # gsm.qtl v1.3.0
 
 ### Key Enhancements:
