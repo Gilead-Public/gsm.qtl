@@ -90,7 +90,7 @@ Each specification includes the following components:
 **other attached packages:** *gsm.qtl(v.1.3.0.9000)*,
 *testthat(v.3.3.2)*, *stringr(v.1.6.0)*, *gh(v.1.6.1.9000)*,
 *pander(v.0.6.6)*, *purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.51)*,
-*gt(v.1.3.0)* and *gsm.core(v.1.3.0.9000)*
+*gt(v.1.3.0)* and *gsm.core(v.1.3.1.9000)*
 
 **loaded via a namespace (and not attached):** *gtable(v.0.3.6)*,
 *xfun(v.0.60)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
@@ -135,6 +135,16 @@ Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuideli
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
 Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+
+#### Pull Request 136: Ignore data-raw
+
+Merging ignore-data-raw into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/136>
+
+|   Requester    |   Date Requested    |  Reviewers   | Review Status |
+|:--------------:|:-------------------:|:------------:|:-------------:|
+| jharmon-gilead | 2026-08-13 14:37:12 | lauramaxwell |   APPROVED    |
 
 #### Pull Request 133: fix: update Gilead-BioStats links to Gilead-Public
 
@@ -225,13 +235,3 @@ Merging gsm.qtl-v1.2.2-rc into main
 |  Requester   |   Date Requested    |   Reviewers    | Review Status |
 |:------------:|:-------------------:|:--------------:|:-------------:|
 | lauramaxwell | 2026-05-14 19:42:37 | jharmon-gilead |   APPROVED    |
-
-#### Pull Request 112: gsm.qtl v1.2.1
-
-Merging rc-v1.2.1 into main
-
-<https://github.com/Gilead-Public/gsm.qtl/pull/112>
-
-| Requester |   Date Requested    | Reviewers | Review Status |
-|:---------:|:-------------------:|:---------:|:-------------:|
-|  zdz2101  | 2026-05-06 20:48:27 | samussiah |   APPROVED    |

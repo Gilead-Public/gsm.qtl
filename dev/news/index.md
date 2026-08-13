@@ -7,9 +7,10 @@
 #### Key Enhancements:
 
 - QTL workflows now run on the new `workr` engine. Workflow helpers
-  ([`MakeWorkflowList()`](https://rdrr.io/pkg/gsm.core/man/MakeWorkflowList.html),
-  [`RunWorkflows()`](https://rdrr.io/pkg/gsm.core/man/RunWorkflows.html),
-  and [`RunQuery()`](https://rdrr.io/pkg/gsm.core/man/RunQuery.html))
+  ([`MakeWorkflowList()`](https://gilead-biostats.github.io/gsm.core/reference/MakeWorkflowList.html),
+  [`RunWorkflows()`](https://gilead-biostats.github.io/gsm.core/reference/RunWorkflows.html),
+  and
+  [`RunQuery()`](https://gilead-biostats.github.io/gsm.core/reference/RunQuery.html))
   are now provided by `workr` instead of `gsm.core`, and the bundled
   QTL, metric, and reporting workflows have been updated to match. If
   you run these workflows in your own pipelines, update your calls to
