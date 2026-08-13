@@ -1,6 +1,6 @@
 # gsm.qtl v1.3.1
 
-This patch release removes the log4r package dependency, because the log4r package was archived on CRAN (#124)
+This patch release removes an unused dependency that had a dependency on the log4r package, because the log4r package was archived on CRAN (#124)
 
 # gsm.qtl v1.3.0
 
