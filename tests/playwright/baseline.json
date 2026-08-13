@@ -1,0 +1,7191 @@
+[
+  {
+    "index": 0,
+    "labels": [
+      "0X1013",
+      "0X4835",
+      "0X130",
+      "0X257",
+      "0X297",
+      "0X078",
+      "0X5554",
+      "0X8385",
+      "0X6448",
+      "0X3911",
+      "0X3573",
+      "0X3256",
+      "0X9368",
+      "0X4349",
+      "0X848",
+      "0X2247",
+      "0X7467",
+      "0X8430",
+      "0X4254",
+      "0X7821",
+      "0X1891",
+      "0X3912",
+      "0X9382",
+      "0X3837",
+      "0X5012",
+      "0X629",
+      "0X4589",
+      "0X5629",
+      "0X5756",
+      "0X6399",
+      "0X9225",
+      "0X8416",
+      "0X9626",
+      "0X1638",
+      "0X5186",
+      "0X8821",
+      "0X2946",
+      "0X4784",
+      "0X2779",
+      "0X5371",
+      "0X3952",
+      "0X842",
+      "0X3450",
+      "0X8355"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Site",
+    "xLabel": "Site",
+    "yLabel": "Participant Count",
+    "captions": [
+      "Note: Excludes 5 site(s) with no ineligible participants (31 participants)."
+    ],
+    "datasets": [
+      {
+        "label": "No Eligibility Risk",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 23,
+            "y": "0X1013",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "No Eligibility Risk",
+              "totals": 23,
+              "perc": 59
+            }
+          },
+          {
+            "x": 19,
+            "y": "0X4835",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 48.7
+            }
+          },
+          {
+            "x": 18,
+            "y": "0X130",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "No Eligibility Risk",
+              "totals": 18,
+              "perc": 47.4
+            }
+          },
+          {
+            "x": 20,
+            "y": "0X257",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X257",
+              "fillcol": "No Eligibility Risk",
+              "totals": 20,
+              "perc": 57.1
+            }
+          },
+          {
+            "x": 14,
+            "y": "0X297",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X297",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 41.2
+            }
+          },
+          {
+            "x": 16,
+            "y": "0X078",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X078",
+              "fillcol": "No Eligibility Risk",
+              "totals": 16,
+              "perc": 50
+            }
+          },
+          {
+            "x": 17,
+            "y": "0X5554",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 54.8
+            }
+          },
+          {
+            "x": 19,
+            "y": "0X8385",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8385",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 63.3
+            }
+          },
+          {
+            "x": 17,
+            "y": "0X6448",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X6448",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 58.6
+            }
+          },
+          {
+            "x": 18,
+            "y": "0X3911",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "No Eligibility Risk",
+              "totals": 18,
+              "perc": 64.3
+            }
+          },
+          {
+            "x": 19,
+            "y": "0X3573",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 70.4
+            }
+          },
+          {
+            "x": 16,
+            "y": "0X3256",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3256",
+              "fillcol": "No Eligibility Risk",
+              "totals": 16,
+              "perc": 61.5
+            }
+          },
+          {
+            "x": 17,
+            "y": "0X9368",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9368",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 68
+            }
+          },
+          {
+            "x": 17,
+            "y": "0X4349",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4349",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 70.8
+            }
+          },
+          {
+            "x": 14,
+            "y": "0X848",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 63.6
+            }
+          },
+          {
+            "x": 13,
+            "y": "0X2247",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2247",
+              "fillcol": "No Eligibility Risk",
+              "totals": 13,
+              "perc": 65
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X7467",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X7467",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 55.6
+            }
+          },
+          {
+            "x": 11,
+            "y": "0X8430",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8430",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 64.7
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X4254",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "No Eligibility Risk",
+              "totals": 8,
+              "perc": 53.3
+            }
+          },
+          {
+            "x": 14,
+            "y": "0X7821",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X7821",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 93.3
+            }
+          },
+          {
+            "x": 11,
+            "y": "0X1891",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1891",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 84.6
+            }
+          },
+          {
+            "x": 5,
+            "y": "0X3912",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3912",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 38.5
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X9382",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9382",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 76.9
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X3837",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3837",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 83.3
+            }
+          },
+          {
+            "x": 11,
+            "y": "0X5012",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5012",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 91.7
+            }
+          },
+          {
+            "x": 11,
+            "y": "0X629",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X629",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 91.7
+            }
+          },
+          {
+            "x": 9,
+            "y": "0X4589",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4589",
+              "fillcol": "No Eligibility Risk",
+              "totals": 9,
+              "perc": 81.8
+            }
+          },
+          {
+            "x": 6,
+            "y": "0X5629",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5629",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 54.5
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X5756",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5756",
+              "fillcol": "No Eligibility Risk",
+              "totals": 8,
+              "perc": 72.7
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X6399",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X6399",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 90.9
+            }
+          },
+          {
+            "x": 6,
+            "y": "0X9225",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9225",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 60
+            }
+          },
+          {
+            "x": 5,
+            "y": "0X8416",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8416",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 62.5
+            }
+          },
+          {
+            "x": 6,
+            "y": "0X9626",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9626",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 75
+            }
+          },
+          {
+            "x": 6,
+            "y": "0X1638",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1638",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 85.7
+            }
+          },
+          {
+            "x": 5,
+            "y": "0X5186",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5186",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 71.4
+            }
+          },
+          {
+            "x": 4,
+            "y": "0X8821",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8821",
+              "fillcol": "No Eligibility Risk",
+              "totals": 4,
+              "perc": 57.1
+            }
+          },
+          {
+            "x": 4,
+            "y": "0X2946",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2946",
+              "fillcol": "No Eligibility Risk",
+              "totals": 4,
+              "perc": 66.7
+            }
+          },
+          {
+            "x": 5,
+            "y": "0X4784",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4784",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 83.3
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X2779",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2779",
+              "fillcol": "No Eligibility Risk",
+              "totals": 3,
+              "perc": 75
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X5371",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5371",
+              "fillcol": "No Eligibility Risk",
+              "totals": 3,
+              "perc": 75
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3952",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3952",
+              "fillcol": "No Eligibility Risk",
+              "totals": 2,
+              "perc": 66.7
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X842",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X842",
+              "fillcol": "No Eligibility Risk",
+              "totals": 2,
+              "perc": 66.7
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3450",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3450",
+              "fillcol": "No Eligibility Risk",
+              "totals": 1,
+              "perc": 50
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8355",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8355",
+              "fillcol": "No Eligibility Risk",
+              "totals": 1,
+              "perc": 50
+            }
+          }
+        ]
+      },
+      {
+        "label": "Ineligible",
+        "backgroundColor": "#FF5859",
+        "data": [
+          {
+            "x": 16,
+            "y": "0X1013",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "Ineligible",
+              "totals": 16,
+              "perc": 41
+            }
+          },
+          {
+            "x": 20,
+            "y": "0X4835",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 51.3
+            }
+          },
+          {
+            "x": 20,
+            "y": "0X130",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 52.6
+            }
+          },
+          {
+            "x": 15,
+            "y": "0X257",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X257",
+              "fillcol": "Ineligible",
+              "totals": 15,
+              "perc": 42.9
+            }
+          },
+          {
+            "x": 20,
+            "y": "0X297",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X297",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 58.8
+            }
+          },
+          {
+            "x": 16,
+            "y": "0X078",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X078",
+              "fillcol": "Ineligible",
+              "totals": 16,
+              "perc": 50
+            }
+          },
+          {
+            "x": 14,
+            "y": "0X5554",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "Ineligible",
+              "totals": 14,
+              "perc": 45.2
+            }
+          },
+          {
+            "x": 11,
+            "y": "0X8385",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8385",
+              "fillcol": "Ineligible",
+              "totals": 11,
+              "perc": 36.7
+            }
+          },
+          {
+            "x": 12,
+            "y": "0X6448",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X6448",
+              "fillcol": "Ineligible",
+              "totals": 12,
+              "perc": 41.4
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X3911",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "Ineligible",
+              "totals": 10,
+              "perc": 35.7
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X3573",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 29.6
+            }
+          },
+          {
+            "x": 10,
+            "y": "0X3256",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3256",
+              "fillcol": "Ineligible",
+              "totals": 10,
+              "perc": 38.5
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X9368",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9368",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 32
+            }
+          },
+          {
+            "x": 7,
+            "y": "0X4349",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4349",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 29.2
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X848",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 36.4
+            }
+          },
+          {
+            "x": 7,
+            "y": "0X2247",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2247",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 35
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X7467",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X7467",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 44.4
+            }
+          },
+          {
+            "x": 6,
+            "y": "0X8430",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8430",
+              "fillcol": "Ineligible",
+              "totals": 6,
+              "perc": 35.3
+            }
+          },
+          {
+            "x": 7,
+            "y": "0X4254",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 46.7
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X7821",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X7821",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 6.7
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X1891",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1891",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 15.4
+            }
+          },
+          {
+            "x": 8,
+            "y": "0X3912",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3912",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 61.5
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X9382",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9382",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 23.1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3837",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3837",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 16.7
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5012",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5012",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 8.3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X629",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X629",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 8.3
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X4589",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4589",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 18.2
+            }
+          },
+          {
+            "x": 5,
+            "y": "0X5629",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5629",
+              "fillcol": "Ineligible",
+              "totals": 5,
+              "perc": 45.5
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X5756",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5756",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 27.3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6399",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X6399",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 9.1
+            }
+          },
+          {
+            "x": 4,
+            "y": "0X9225",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9225",
+              "fillcol": "Ineligible",
+              "totals": 4,
+              "perc": 40
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X8416",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8416",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 37.5
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X9626",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9626",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 25
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1638",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1638",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 14.3
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X5186",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5186",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 28.6
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X8821",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8821",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 42.9
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X2946",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2946",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 33.3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4784",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4784",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 16.7
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2779",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2779",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 25
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5371",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5371",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 25
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3952",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3952",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 33.3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X842",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X842",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 33.3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3450",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3450",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 50
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8355",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8355",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 50
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "labels": [
+      "0X1013",
+      "0X4835",
+      "0X130",
+      "0X257",
+      "0X297",
+      "0X078",
+      "0X5554",
+      "0X8385",
+      "0X6448",
+      "0X3911",
+      "0X3573",
+      "0X3256",
+      "0X9368",
+      "0X4349",
+      "0X848",
+      "0X2247",
+      "0X7467",
+      "0X8430",
+      "0X4254",
+      "0X7821",
+      "0X1891",
+      "0X3912",
+      "0X9382",
+      "0X3837",
+      "0X5012",
+      "0X629",
+      "0X4589",
+      "0X5629",
+      "0X5756",
+      "0X6399",
+      "0X9225",
+      "0X8416",
+      "0X9626",
+      "0X1638",
+      "0X5186",
+      "0X8821",
+      "0X2946",
+      "0X4784",
+      "0X2779",
+      "0X5371",
+      "0X3952",
+      "0X842",
+      "0X3450",
+      "0X8355"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "percent",
+    "title": "Participant Percentage by Site",
+    "xLabel": "Site",
+    "yLabel": "Participant Percentage",
+    "captions": [
+      "Note: Excludes 5 site(s) with no ineligible participants (31 participants)."
+    ],
+    "datasets": [
+      {
+        "label": "No Eligibility Risk",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 58.97435897435898,
+            "y": "0X1013",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "No Eligibility Risk",
+              "totals": 23,
+              "perc": 59
+            },
+            "_rawY": 23
+          },
+          {
+            "x": 48.717948717948715,
+            "y": "0X4835",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 48.7
+            },
+            "_rawY": 19
+          },
+          {
+            "x": 47.368421052631575,
+            "y": "0X130",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "No Eligibility Risk",
+              "totals": 18,
+              "perc": 47.4
+            },
+            "_rawY": 18
+          },
+          {
+            "x": 57.14285714285714,
+            "y": "0X257",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X257",
+              "fillcol": "No Eligibility Risk",
+              "totals": 20,
+              "perc": 57.1
+            },
+            "_rawY": 20
+          },
+          {
+            "x": 41.17647058823529,
+            "y": "0X297",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X297",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 41.2
+            },
+            "_rawY": 14
+          },
+          {
+            "x": 50,
+            "y": "0X078",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X078",
+              "fillcol": "No Eligibility Risk",
+              "totals": 16,
+              "perc": 50
+            },
+            "_rawY": 16
+          },
+          {
+            "x": 54.83870967741935,
+            "y": "0X5554",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 54.8
+            },
+            "_rawY": 17
+          },
+          {
+            "x": 63.33333333333333,
+            "y": "0X8385",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8385",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 63.3
+            },
+            "_rawY": 19
+          },
+          {
+            "x": 58.620689655172406,
+            "y": "0X6448",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X6448",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 58.6
+            },
+            "_rawY": 17
+          },
+          {
+            "x": 64.28571428571429,
+            "y": "0X3911",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "No Eligibility Risk",
+              "totals": 18,
+              "perc": 64.3
+            },
+            "_rawY": 18
+          },
+          {
+            "x": 70.37037037037037,
+            "y": "0X3573",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "No Eligibility Risk",
+              "totals": 19,
+              "perc": 70.4
+            },
+            "_rawY": 19
+          },
+          {
+            "x": 61.53846153846154,
+            "y": "0X3256",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3256",
+              "fillcol": "No Eligibility Risk",
+              "totals": 16,
+              "perc": 61.5
+            },
+            "_rawY": 16
+          },
+          {
+            "x": 68,
+            "y": "0X9368",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9368",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 68
+            },
+            "_rawY": 17
+          },
+          {
+            "x": 70.83333333333334,
+            "y": "0X4349",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4349",
+              "fillcol": "No Eligibility Risk",
+              "totals": 17,
+              "perc": 70.8
+            },
+            "_rawY": 17
+          },
+          {
+            "x": 63.63636363636363,
+            "y": "0X848",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 63.6
+            },
+            "_rawY": 14
+          },
+          {
+            "x": 65,
+            "y": "0X2247",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2247",
+              "fillcol": "No Eligibility Risk",
+              "totals": 13,
+              "perc": 65
+            },
+            "_rawY": 13
+          },
+          {
+            "x": 55.55555555555556,
+            "y": "0X7467",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X7467",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 55.6
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 64.70588235294117,
+            "y": "0X8430",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8430",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 64.7
+            },
+            "_rawY": 11
+          },
+          {
+            "x": 53.333333333333336,
+            "y": "0X4254",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "No Eligibility Risk",
+              "totals": 8,
+              "perc": 53.3
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 93.33333333333333,
+            "y": "0X7821",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X7821",
+              "fillcol": "No Eligibility Risk",
+              "totals": 14,
+              "perc": 93.3
+            },
+            "_rawY": 14
+          },
+          {
+            "x": 84.61538461538461,
+            "y": "0X1891",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1891",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 84.6
+            },
+            "_rawY": 11
+          },
+          {
+            "x": 38.46153846153847,
+            "y": "0X3912",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3912",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 38.5
+            },
+            "_rawY": 5
+          },
+          {
+            "x": 76.92307692307693,
+            "y": "0X9382",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9382",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 76.9
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 83.33333333333334,
+            "y": "0X3837",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3837",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 83.3
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 91.66666666666666,
+            "y": "0X5012",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5012",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 91.7
+            },
+            "_rawY": 11
+          },
+          {
+            "x": 91.66666666666666,
+            "y": "0X629",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X629",
+              "fillcol": "No Eligibility Risk",
+              "totals": 11,
+              "perc": 91.7
+            },
+            "_rawY": 11
+          },
+          {
+            "x": 81.81818181818183,
+            "y": "0X4589",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4589",
+              "fillcol": "No Eligibility Risk",
+              "totals": 9,
+              "perc": 81.8
+            },
+            "_rawY": 9
+          },
+          {
+            "x": 54.54545454545454,
+            "y": "0X5629",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5629",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 54.5
+            },
+            "_rawY": 6
+          },
+          {
+            "x": 72.72727272727273,
+            "y": "0X5756",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5756",
+              "fillcol": "No Eligibility Risk",
+              "totals": 8,
+              "perc": 72.7
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 90.9090909090909,
+            "y": "0X6399",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X6399",
+              "fillcol": "No Eligibility Risk",
+              "totals": 10,
+              "perc": 90.9
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 60,
+            "y": "0X9225",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9225",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 60
+            },
+            "_rawY": 6
+          },
+          {
+            "x": 62.5,
+            "y": "0X8416",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8416",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 62.5
+            },
+            "_rawY": 5
+          },
+          {
+            "x": 75,
+            "y": "0X9626",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X9626",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 75
+            },
+            "_rawY": 6
+          },
+          {
+            "x": 85.71428571428571,
+            "y": "0X1638",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X1638",
+              "fillcol": "No Eligibility Risk",
+              "totals": 6,
+              "perc": 85.7
+            },
+            "_rawY": 6
+          },
+          {
+            "x": 71.42857142857143,
+            "y": "0X5186",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5186",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 71.4
+            },
+            "_rawY": 5
+          },
+          {
+            "x": 57.14285714285714,
+            "y": "0X8821",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8821",
+              "fillcol": "No Eligibility Risk",
+              "totals": 4,
+              "perc": 57.1
+            },
+            "_rawY": 4
+          },
+          {
+            "x": 66.66666666666666,
+            "y": "0X2946",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2946",
+              "fillcol": "No Eligibility Risk",
+              "totals": 4,
+              "perc": 66.7
+            },
+            "_rawY": 4
+          },
+          {
+            "x": 83.33333333333334,
+            "y": "0X4784",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X4784",
+              "fillcol": "No Eligibility Risk",
+              "totals": 5,
+              "perc": 83.3
+            },
+            "_rawY": 5
+          },
+          {
+            "x": 75,
+            "y": "0X2779",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X2779",
+              "fillcol": "No Eligibility Risk",
+              "totals": 3,
+              "perc": 75
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 75,
+            "y": "0X5371",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X5371",
+              "fillcol": "No Eligibility Risk",
+              "totals": 3,
+              "perc": 75
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 66.66666666666666,
+            "y": "0X3952",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3952",
+              "fillcol": "No Eligibility Risk",
+              "totals": 2,
+              "perc": 66.7
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 66.66666666666666,
+            "y": "0X842",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X842",
+              "fillcol": "No Eligibility Risk",
+              "totals": 2,
+              "perc": 66.7
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 50,
+            "y": "0X3450",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X3450",
+              "fillcol": "No Eligibility Risk",
+              "totals": 1,
+              "perc": 50
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 50,
+            "y": "0X8355",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "invid": "0X8355",
+              "fillcol": "No Eligibility Risk",
+              "totals": 1,
+              "perc": 50
+            },
+            "_rawY": 1
+          }
+        ]
+      },
+      {
+        "label": "Ineligible",
+        "backgroundColor": "#FF5859",
+        "data": [
+          {
+            "x": 41.02564102564102,
+            "y": "0X1013",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "Ineligible",
+              "totals": 16,
+              "perc": 41
+            },
+            "_rawY": 16
+          },
+          {
+            "x": 51.28205128205128,
+            "y": "0X4835",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 51.3
+            },
+            "_rawY": 20
+          },
+          {
+            "x": 52.63157894736842,
+            "y": "0X130",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 52.6
+            },
+            "_rawY": 20
+          },
+          {
+            "x": 42.857142857142854,
+            "y": "0X257",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X257",
+              "fillcol": "Ineligible",
+              "totals": 15,
+              "perc": 42.9
+            },
+            "_rawY": 15
+          },
+          {
+            "x": 58.82352941176471,
+            "y": "0X297",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X297",
+              "fillcol": "Ineligible",
+              "totals": 20,
+              "perc": 58.8
+            },
+            "_rawY": 20
+          },
+          {
+            "x": 50,
+            "y": "0X078",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X078",
+              "fillcol": "Ineligible",
+              "totals": 16,
+              "perc": 50
+            },
+            "_rawY": 16
+          },
+          {
+            "x": 45.16129032258064,
+            "y": "0X5554",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "Ineligible",
+              "totals": 14,
+              "perc": 45.2
+            },
+            "_rawY": 14
+          },
+          {
+            "x": 36.666666666666664,
+            "y": "0X8385",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8385",
+              "fillcol": "Ineligible",
+              "totals": 11,
+              "perc": 36.7
+            },
+            "_rawY": 11
+          },
+          {
+            "x": 41.37931034482759,
+            "y": "0X6448",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X6448",
+              "fillcol": "Ineligible",
+              "totals": 12,
+              "perc": 41.4
+            },
+            "_rawY": 12
+          },
+          {
+            "x": 35.714285714285715,
+            "y": "0X3911",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "Ineligible",
+              "totals": 10,
+              "perc": 35.7
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 29.629629629629626,
+            "y": "0X3573",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 29.6
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 38.46153846153847,
+            "y": "0X3256",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3256",
+              "fillcol": "Ineligible",
+              "totals": 10,
+              "perc": 38.5
+            },
+            "_rawY": 10
+          },
+          {
+            "x": 32,
+            "y": "0X9368",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9368",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 32
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 29.166666666666668,
+            "y": "0X4349",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4349",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 29.2
+            },
+            "_rawY": 7
+          },
+          {
+            "x": 36.36363636363637,
+            "y": "0X848",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 36.4
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 35,
+            "y": "0X2247",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2247",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 35
+            },
+            "_rawY": 7
+          },
+          {
+            "x": 44.44444444444444,
+            "y": "0X7467",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X7467",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 44.4
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 35.294117647058826,
+            "y": "0X8430",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8430",
+              "fillcol": "Ineligible",
+              "totals": 6,
+              "perc": 35.3
+            },
+            "_rawY": 6
+          },
+          {
+            "x": 46.666666666666664,
+            "y": "0X4254",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "Ineligible",
+              "totals": 7,
+              "perc": 46.7
+            },
+            "_rawY": 7
+          },
+          {
+            "x": 6.666666666666667,
+            "y": "0X7821",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X7821",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 6.7
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 15.384615384615385,
+            "y": "0X1891",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1891",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 15.4
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 61.53846153846154,
+            "y": "0X3912",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3912",
+              "fillcol": "Ineligible",
+              "totals": 8,
+              "perc": 61.5
+            },
+            "_rawY": 8
+          },
+          {
+            "x": 23.076923076923077,
+            "y": "0X9382",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9382",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 23.1
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 16.666666666666664,
+            "y": "0X3837",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3837",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 16.7
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 8.333333333333332,
+            "y": "0X5012",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5012",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 8.3
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 8.333333333333332,
+            "y": "0X629",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X629",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 8.3
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 18.181818181818183,
+            "y": "0X4589",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4589",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 18.2
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 45.45454545454545,
+            "y": "0X5629",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5629",
+              "fillcol": "Ineligible",
+              "totals": 5,
+              "perc": 45.5
+            },
+            "_rawY": 5
+          },
+          {
+            "x": 27.27272727272727,
+            "y": "0X5756",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5756",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 27.3
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 9.090909090909092,
+            "y": "0X6399",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X6399",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 9.1
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 40,
+            "y": "0X9225",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9225",
+              "fillcol": "Ineligible",
+              "totals": 4,
+              "perc": 40
+            },
+            "_rawY": 4
+          },
+          {
+            "x": 37.5,
+            "y": "0X8416",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8416",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 37.5
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 25,
+            "y": "0X9626",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X9626",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 25
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 14.285714285714285,
+            "y": "0X1638",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X1638",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 14.3
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 28.57142857142857,
+            "y": "0X5186",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5186",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 28.6
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 42.857142857142854,
+            "y": "0X8821",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8821",
+              "fillcol": "Ineligible",
+              "totals": 3,
+              "perc": 42.9
+            },
+            "_rawY": 3
+          },
+          {
+            "x": 33.33333333333333,
+            "y": "0X2946",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2946",
+              "fillcol": "Ineligible",
+              "totals": 2,
+              "perc": 33.3
+            },
+            "_rawY": 2
+          },
+          {
+            "x": 16.666666666666664,
+            "y": "0X4784",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X4784",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 16.7
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 25,
+            "y": "0X2779",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X2779",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 25
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 25,
+            "y": "0X5371",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X5371",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 25
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 33.33333333333333,
+            "y": "0X3952",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3952",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 33.3
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 33.33333333333333,
+            "y": "0X842",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X842",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 33.3
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 50,
+            "y": "0X3450",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X3450",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 50
+            },
+            "_rawY": 1
+          },
+          {
+            "x": 50,
+            "y": "0X8355",
+            "_fill": "Ineligible",
+            "_datum": {
+              "invid": "0X8355",
+              "fillcol": "Ineligible",
+              "totals": 1,
+              "perc": 50
+            },
+            "_rawY": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "labels": [
+      "US",
+      "Japan",
+      "UK"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Country",
+    "xLabel": "Country",
+    "yLabel": "Participant Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "No Eligibility Risk",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 201,
+            "y": "US",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "country": "US",
+              "fillcol": "No Eligibility Risk",
+              "totals": 201,
+              "perc": 63
+            }
+          },
+          {
+            "x": 179,
+            "y": "Japan",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "country": "Japan",
+              "fillcol": "No Eligibility Risk",
+              "totals": 179,
+              "perc": 68.3
+            }
+          },
+          {
+            "x": 115,
+            "y": "UK",
+            "_fill": "No Eligibility Risk",
+            "_datum": {
+              "country": "UK",
+              "fillcol": "No Eligibility Risk",
+              "totals": 115,
+              "perc": 60.5
+            }
+          }
+        ]
+      },
+      {
+        "label": "Ineligible",
+        "backgroundColor": "#FF5859",
+        "data": [
+          {
+            "x": 118,
+            "y": "US",
+            "_fill": "Ineligible",
+            "_datum": {
+              "country": "US",
+              "fillcol": "Ineligible",
+              "totals": 118,
+              "perc": 37
+            }
+          },
+          {
+            "x": 83,
+            "y": "Japan",
+            "_fill": "Ineligible",
+            "_datum": {
+              "country": "Japan",
+              "fillcol": "Ineligible",
+              "totals": 83,
+              "perc": 31.7
+            }
+          },
+          {
+            "x": 75,
+            "y": "UK",
+            "_fill": "Ineligible",
+            "_datum": {
+              "country": "UK",
+              "fillcol": "Ineligible",
+              "totals": 75,
+              "perc": 39.5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "labels": [
+      "Ineligible, Both Criteria",
+      "Eligibility PD only",
+      "EDC I/E only"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Category/Source",
+    "xLabel": "Source",
+    "yLabel": "Participant Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "EDC I/E only",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 102,
+            "y": "EDC I/E only",
+            "_fill": "EDC I/E only",
+            "_datum": {
+              "Source": "EDC I/E only",
+              "n": 102
+            }
+          }
+        ]
+      },
+      {
+        "label": "Eligibility PD only",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 148,
+            "y": "Eligibility PD only",
+            "_fill": "Eligibility PD only",
+            "_datum": {
+              "Source": "Eligibility PD only",
+              "n": 148
+            }
+          }
+        ]
+      },
+      {
+        "label": "Ineligible, Both Criteria",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 26,
+            "y": "Ineligible, Both Criteria",
+            "_fill": "Ineligible, Both Criteria",
+            "_datum": {
+              "Source": "Ineligible, Both Criteria",
+              "n": 26
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "labels": [
+      "incl9",
+      "incl8",
+      "incl7",
+      "incl6",
+      "incl5",
+      "incl4",
+      "incl3",
+      "incl2",
+      "incl10",
+      "incl1",
+      "excl9",
+      "excl8",
+      "excl7",
+      "excl6",
+      "excl5",
+      "excl4",
+      "excl3",
+      "excl2",
+      "excl10",
+      "excl1"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Criteria by Site",
+    "xLabel": "Criteria",
+    "yLabel": "Criteria Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "0X078",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X078",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X078",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X078",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X078",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl8",
+            "_fill": "0X078",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X078",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl7",
+            "_fill": "0X078",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X078",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X1013",
+        "backgroundColor": "#F27D54",
+        "data": [
+          {
+            "x": 2,
+            "y": "incl5",
+            "_fill": "0X1013",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X1013",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X1013",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X1013",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X1013",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X1013",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X130",
+        "backgroundColor": "#EB8333",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X130",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X130",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X130",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X130",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl1",
+            "_fill": "0X130",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X130",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X1638",
+        "backgroundColor": "#E28900",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X1638",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X1638",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X1891",
+        "backgroundColor": "#D98F00",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X1891",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X1891",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X2247",
+        "backgroundColor": "#CE9500",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "0X2247",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X2247",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl10",
+            "_fill": "0X2247",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl8",
+            "_fill": "0X2247",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X2247",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X2247",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X257",
+        "backgroundColor": "#C29A00",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X257",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl6",
+            "_fill": "0X257",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X257",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X257",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X257",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X2779",
+        "backgroundColor": "#B5A000",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X2779",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X2779",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X2946",
+        "backgroundColor": "#A6A400",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "0X2946",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X2946",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "0X2946",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X2946",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X297",
+        "backgroundColor": "#95A900",
+        "data": [
+          {
+            "x": 2,
+            "y": "incl9",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X297",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl1",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl8",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl4",
+            "_fill": "0X297",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X297",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3256",
+        "backgroundColor": "#81AD00",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl10",
+            "_fill": "0X3256",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X3256",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl6",
+            "_fill": "0X3256",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X3256",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl3",
+            "_fill": "0X3256",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X3256",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X3256",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3256",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3450",
+        "backgroundColor": "#69B100",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X3450",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X3450",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3573",
+        "backgroundColor": "#48B500",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X3573",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X3573",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "0X3573",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X3573",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X3573",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X3573",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3837",
+        "backgroundColor": "#00B817",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "0X3837",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X3837",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3911",
+        "backgroundColor": "#00BB44",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "0X3911",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X3911",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl2",
+            "_fill": "0X3911",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3911",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3912",
+        "backgroundColor": "#00BD5F",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X3912",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X3912",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl2",
+            "_fill": "0X3912",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X3912",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl8",
+            "_fill": "0X3912",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X3912",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X3912",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X3912",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4254",
+        "backgroundColor": "#00BF75",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X4254",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X4254",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl2",
+            "_fill": "0X4254",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X4254",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4349",
+        "backgroundColor": "#00C089",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "0X4349",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X4349",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl1",
+            "_fill": "0X4349",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X4349",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X4349",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X4349",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4784",
+        "backgroundColor": "#00C19C",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "0X4784",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X4784",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4835",
+        "backgroundColor": "#00C1AD",
+        "data": [
+          {
+            "x": 2,
+            "y": "incl7",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X4835",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl2",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl1",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl4",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl3",
+            "_fill": "0X4835",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X4835",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5012",
+        "backgroundColor": "#00C0BD",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "0X5012",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X5012",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5186",
+        "backgroundColor": "#00BECC",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X5186",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X5186",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5371",
+        "backgroundColor": "#00BCD9",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl10",
+            "_fill": "0X5371",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X5371",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5554",
+        "backgroundColor": "#00B8E6",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl6",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X5554",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl2",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X5554",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X5554",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X5554",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5629",
+        "backgroundColor": "#00B3F1",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl8",
+            "_fill": "0X5629",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X5629",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl4",
+            "_fill": "0X5629",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X5629",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X5629",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X5629",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5756",
+        "backgroundColor": "#00AEFA",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "0X5756",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X5756",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X629",
+        "backgroundColor": "#00A7FF",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl10",
+            "_fill": "0X629",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "invid": "0X629",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X6399",
+        "backgroundColor": "#4F9FFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X6399",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X6399",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X6448",
+        "backgroundColor": "#7D96FF",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X6448",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl5",
+            "_fill": "0X6448",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X6448",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X6448",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X6448",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X7467",
+        "backgroundColor": "#9E8DFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl5",
+            "_fill": "0X7467",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X7467",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl1",
+            "_fill": "0X7467",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X7467",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "excl3",
+            "_fill": "0X7467",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X7467",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X7821",
+        "backgroundColor": "#B783FF",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl10",
+            "_fill": "0X7821",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "invid": "0X7821",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X8355",
+        "backgroundColor": "#CC7AFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl5",
+            "_fill": "0X8355",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X8355",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X8385",
+        "backgroundColor": "#DC71FA",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl7",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X8385",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl10",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl1",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "0X8385",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X8385",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X8416",
+        "backgroundColor": "#E96AF1",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X8416",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X8416",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl1",
+            "_fill": "0X8416",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X8416",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X842",
+        "backgroundColor": "#F365E6",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X842",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X842",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X8430",
+        "backgroundColor": "#FB61D9",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X8430",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl4",
+            "_fill": "0X8430",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "0X8430",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl4",
+            "_fill": "0X8430",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl3",
+            "_fill": "0X8430",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X8430",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X848",
+        "backgroundColor": "#FF61CA",
+        "data": [
+          {
+            "x": 2,
+            "y": "excl3",
+            "_fill": "0X848",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X848",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X8821",
+        "backgroundColor": "#FF62BA",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "0X8821",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X8821",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "0X8821",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X8821",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X9225",
+        "backgroundColor": "#FF66A9",
+        "data": [
+          {
+            "x": 1,
+            "y": "excl8",
+            "_fill": "0X9225",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X9225",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl6",
+            "_fill": "0X9225",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X9225",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X9225",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X9225",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X9368",
+        "backgroundColor": "#FF6B97",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "0X9368",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl3",
+            "_fill": "0X9368",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl10",
+            "_fill": "0X9368",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl2",
+            "_fill": "0X9368",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X9368",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X9626",
+        "backgroundColor": "#FD7083",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl7",
+            "_fill": "0X9626",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X9626",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "labels": [
+      "incl9",
+      "incl8",
+      "incl7",
+      "incl6",
+      "incl5",
+      "incl4",
+      "incl3",
+      "incl2",
+      "incl10",
+      "incl1",
+      "excl9",
+      "excl8",
+      "excl7",
+      "excl6",
+      "excl5",
+      "excl4",
+      "excl3",
+      "excl2",
+      "excl10",
+      "excl1"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Criteria by Country",
+    "xLabel": "Criteria",
+    "yLabel": "Criteria Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Japan",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "incl9",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 5,
+            "y": "incl7",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "Japan",
+              "n": 5
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl6",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "Japan",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl5",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl3",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "Japan",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl2",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl10",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "country": "Japan",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl1",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "country": "Japan",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "excl8",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "Japan",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl7",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "Japan",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl6",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "country": "Japan",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl5",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "Japan",
+              "n": 2
+            }
+          },
+          {
+            "x": 5,
+            "y": "excl3",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "Japan",
+              "n": 5
+            }
+          },
+          {
+            "x": 4,
+            "y": "excl2",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "country": "Japan",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl10",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "country": "Japan",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "excl1",
+            "_fill": "Japan",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "UK",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 4,
+            "y": "incl9",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl8",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 4,
+            "y": "incl7",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl6",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl4",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl3",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "incl2",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl1",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "country": "UK",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl9",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl8",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl7",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl5",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 3,
+            "y": "excl4",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "country": "UK",
+              "n": 3
+            }
+          },
+          {
+            "x": 4,
+            "y": "excl3",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 3,
+            "y": "excl1",
+            "_fill": "UK",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "UK",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "US",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 3,
+            "y": "incl9",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl8",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl7",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl6",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl5",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 5,
+            "y": "incl4",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "country": "US",
+              "n": 5
+            }
+          },
+          {
+            "x": 3,
+            "y": "incl3",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 4,
+            "y": "incl2",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 2,
+            "y": "incl10",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl9",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "excl8",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 4,
+            "y": "excl7",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl6",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 4,
+            "y": "excl5",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl4",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl3",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 5,
+            "y": "excl2",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "country": "US",
+              "n": 5
+            }
+          },
+          {
+            "x": 1,
+            "y": "excl10",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 4,
+            "y": "excl1",
+            "_fill": "US",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "US",
+              "n": 4
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "labels": [
+      "0X9626",
+      "0X9368",
+      "0X9225",
+      "0X8821",
+      "0X848",
+      "0X8430",
+      "0X842",
+      "0X8416",
+      "0X8385",
+      "0X8355",
+      "0X7821",
+      "0X7467",
+      "0X6448",
+      "0X6399",
+      "0X629",
+      "0X5756",
+      "0X5629",
+      "0X5554",
+      "0X5371",
+      "0X5186",
+      "0X5012",
+      "0X4835",
+      "0X4784",
+      "0X4349",
+      "0X4254",
+      "0X3912",
+      "0X3911",
+      "0X3837",
+      "0X3573",
+      "0X3450",
+      "0X3256",
+      "0X297",
+      "0X2946",
+      "0X2779",
+      "0X257",
+      "0X2247",
+      "0X1891",
+      "0X1638",
+      "0X130",
+      "0X1013",
+      "0X078"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Site by Criteria",
+    "xLabel": "Site",
+    "yLabel": "Criteria Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "excl1",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8416",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X8416",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6448",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5629",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X5629",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4349",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X4349",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X257",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2247",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X130",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "invid": "0X130",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl10",
+        "backgroundColor": "#EA8331",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X7821",
+            "_fill": "excl10",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "invid": "0X7821",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X629",
+            "_fill": "excl10",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "invid": "0X629",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl2",
+        "backgroundColor": "#D89000",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9368",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X9225",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X9225",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3911",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3911",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3256",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X3256",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X130",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X130",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1013",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "invid": "0X1013",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl3",
+        "backgroundColor": "#C09B00",
+        "data": [
+          {
+            "x": 2,
+            "y": "0X848",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X848",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8430",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X7467",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X7467",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X4835",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X4835",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3256",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "invid": "0X3256",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl4",
+        "backgroundColor": "#A3A500",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8430",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5629",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X5629",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "invid": "0X297",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl5",
+        "backgroundColor": "#7CAE00",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8355",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X8355",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6448",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6399",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X6399",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3912",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X3912",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3450",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X3450",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X257",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1891",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "invid": "0X1891",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl6",
+        "backgroundColor": "#39B600",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9225",
+            "_fill": "excl6",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X9225",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3256",
+            "_fill": "excl6",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X3256",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X257",
+            "_fill": "excl6",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "invid": "0X257",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl7",
+        "backgroundColor": "#00BB4E",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8385",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5756",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X5756",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4784",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X4784",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3837",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X3837",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2946",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X2946",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X078",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "invid": "0X078",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl8",
+        "backgroundColor": "#00BF7D",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9225",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X9225",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5629",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X5629",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3912",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X3912",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2247",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X078",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "invid": "0X078",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl9",
+        "backgroundColor": "#00C1A3",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8430",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8385",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5012",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X5012",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "invid": "0X4835",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl1",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8385",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X7467",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X7467",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4349",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X4349",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "invid": "0X297",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl10",
+        "backgroundColor": "#00BAE0",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9368",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8385",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5371",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X5371",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3256",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X3256",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2247",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "invid": "0X2247",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl2",
+        "backgroundColor": "#00B0F6",
+        "data": [
+          {
+            "x": 3,
+            "y": "0X5554",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X5554",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3912",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "invid": "0X3912",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl3",
+        "backgroundColor": "#35A2FF",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9368",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2779",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X2779",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2247",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X2247",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1638",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X1638",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X130",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X130",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1013",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "invid": "0X1013",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl4",
+        "backgroundColor": "#9590FF",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8430",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8416",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X8416",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5186",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X5186",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X078",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "invid": "0X078",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl5",
+        "backgroundColor": "#C77CFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X7467",
+            "_fill": "incl5",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X7467",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6448",
+            "_fill": "incl5",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X1013",
+            "_fill": "incl5",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "invid": "0X1013",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl6",
+        "backgroundColor": "#E76BF3",
+        "data": [
+          {
+            "x": 2,
+            "y": "0X5554",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X5554",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4349",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X4349",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3911",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X3911",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2946",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X2946",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X2247",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "invid": "0X2247",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl7",
+        "backgroundColor": "#FA62DB",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9626",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X9626",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X8385",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X8385",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X6448",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X6448",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X4835",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X4835",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3912",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X3912",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X297",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X297",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X257",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X257",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X078",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "invid": "0X078",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl8",
+        "backgroundColor": "#FF62BC",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X9368",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X9368",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8821",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X8821",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8385",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X8385",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "invid": "0X5554",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl9",
+        "backgroundColor": "#FF6A98",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X8821",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X8821",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X8430",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X8430",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X842",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X842",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X297",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "invid": "0X297",
+              "n": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "labels": [
+      "US",
+      "UK",
+      "Japan"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Country by Criteria",
+    "xLabel": "Country",
+    "yLabel": "Criteria Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "excl1",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 4,
+            "y": "US",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 3,
+            "y": "UK",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "UK",
+              "n": 3
+            }
+          },
+          {
+            "x": 3,
+            "y": "Japan",
+            "_fill": "excl1",
+            "_datum": {
+              "ietestcd_concat": "excl1",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl10",
+        "backgroundColor": "#EA8331",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "excl10",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "excl10",
+            "_datum": {
+              "ietestcd_concat": "excl10",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl2",
+        "backgroundColor": "#D89000",
+        "data": [
+          {
+            "x": 5,
+            "y": "US",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "country": "US",
+              "n": 5
+            }
+          },
+          {
+            "x": 4,
+            "y": "Japan",
+            "_fill": "excl2",
+            "_datum": {
+              "ietestcd_concat": "excl2",
+              "country": "Japan",
+              "n": 4
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl3",
+        "backgroundColor": "#C09B00",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 4,
+            "y": "UK",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 5,
+            "y": "Japan",
+            "_fill": "excl3",
+            "_datum": {
+              "ietestcd_concat": "excl3",
+              "country": "Japan",
+              "n": 5
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl4",
+        "backgroundColor": "#A3A500",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "UK",
+            "_fill": "excl4",
+            "_datum": {
+              "ietestcd_concat": "excl4",
+              "country": "UK",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl5",
+        "backgroundColor": "#7CAE00",
+        "data": [
+          {
+            "x": 4,
+            "y": "US",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 2,
+            "y": "UK",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "Japan",
+            "_fill": "excl5",
+            "_datum": {
+              "ietestcd_concat": "excl5",
+              "country": "Japan",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl6",
+        "backgroundColor": "#39B600",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "excl6",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "Japan",
+            "_fill": "excl6",
+            "_datum": {
+              "ietestcd_concat": "excl6",
+              "country": "Japan",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl7",
+        "backgroundColor": "#00BB4E",
+        "data": [
+          {
+            "x": 4,
+            "y": "US",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "Japan",
+            "_fill": "excl7",
+            "_datum": {
+              "ietestcd_concat": "excl7",
+              "country": "Japan",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl8",
+        "backgroundColor": "#00BF7D",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "UK",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 3,
+            "y": "Japan",
+            "_fill": "excl8",
+            "_datum": {
+              "ietestcd_concat": "excl8",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "excl9",
+        "backgroundColor": "#00C1A3",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "excl9",
+            "_datum": {
+              "ietestcd_concat": "excl9",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl1",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 3,
+            "y": "UK",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "country": "UK",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "Japan",
+            "_fill": "incl1",
+            "_datum": {
+              "ietestcd_concat": "incl1",
+              "country": "Japan",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl10",
+        "backgroundColor": "#00BAE0",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 3,
+            "y": "Japan",
+            "_fill": "incl10",
+            "_datum": {
+              "ietestcd_concat": "incl10",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl2",
+        "backgroundColor": "#00B0F6",
+        "data": [
+          {
+            "x": 4,
+            "y": "US",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "US",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "incl2",
+            "_datum": {
+              "ietestcd_concat": "incl2",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl3",
+        "backgroundColor": "#35A2FF",
+        "data": [
+          {
+            "x": 3,
+            "y": "US",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "UK",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "UK",
+              "n": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "Japan",
+            "_fill": "incl3",
+            "_datum": {
+              "ietestcd_concat": "incl3",
+              "country": "Japan",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl4",
+        "backgroundColor": "#9590FF",
+        "data": [
+          {
+            "x": 5,
+            "y": "US",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "country": "US",
+              "n": 5
+            }
+          },
+          {
+            "x": 2,
+            "y": "UK",
+            "_fill": "incl4",
+            "_datum": {
+              "ietestcd_concat": "incl4",
+              "country": "UK",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl5",
+        "backgroundColor": "#C77CFF",
+        "data": [
+          {
+            "x": 3,
+            "y": "US",
+            "_fill": "incl5",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "incl5",
+            "_datum": {
+              "ietestcd_concat": "incl5",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl6",
+        "backgroundColor": "#E76BF3",
+        "data": [
+          {
+            "x": 3,
+            "y": "US",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "Japan",
+            "_fill": "incl6",
+            "_datum": {
+              "ietestcd_concat": "incl6",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl7",
+        "backgroundColor": "#FA62DB",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 4,
+            "y": "UK",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 5,
+            "y": "Japan",
+            "_fill": "incl7",
+            "_datum": {
+              "ietestcd_concat": "incl7",
+              "country": "Japan",
+              "n": 5
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl8",
+        "backgroundColor": "#FF62BC",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "incl8",
+            "_datum": {
+              "ietestcd_concat": "incl8",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "incl9",
+        "backgroundColor": "#FF6A98",
+        "data": [
+          {
+            "x": 3,
+            "y": "US",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "US",
+              "n": 3
+            }
+          },
+          {
+            "x": 4,
+            "y": "UK",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "UK",
+              "n": 4
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "incl9",
+            "_datum": {
+              "ietestcd_concat": "incl9",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "labels": [
+      "0X130",
+      "0X4835",
+      "0X3911",
+      "0X3573",
+      "0X1013",
+      "0X5554",
+      "0X848",
+      "0X4254",
+      "0X1174"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Site",
+    "xLabel": "Site",
+    "yLabel": "Participant Count",
+    "captions": [
+      "Note: Excludes 14 site(s) with no prematurely discontinued participants (736 participants)."
+    ],
+    "datasets": [
+      {
+        "label": "Completed/Ongoing",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 6,
+            "y": "0X130",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "Completed/Ongoing",
+              "totals": 6
+            }
+          },
+          {
+            "x": 4,
+            "y": "0X4835",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "Completed/Ongoing",
+              "totals": 4
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X3911",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "Completed/Ongoing",
+              "totals": 3
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X3573",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "Completed/Ongoing",
+              "totals": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X1013",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "Completed/Ongoing",
+              "totals": 2
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X5554",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "Completed/Ongoing",
+              "totals": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X848",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "Completed/Ongoing",
+              "totals": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "Completed/Ongoing",
+              "totals": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "Premature Discontinuation",
+        "backgroundColor": "#FF5859",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X130",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X130",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "0X4835",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X4835",
+              "fillcol": "Premature Discontinuation",
+              "totals": 3
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X3911",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X3911",
+              "fillcol": "Premature Discontinuation",
+              "totals": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X3573",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1013",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X1013",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X5554",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X848",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X848",
+              "fillcol": "Premature Discontinuation",
+              "totals": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X4254",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1174",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "invid": "0X1174",
+              "fillcol": "Premature Discontinuation",
+              "totals": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "labels": [
+      "US",
+      "Japan",
+      "UK"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Country",
+    "xLabel": "Country",
+    "yLabel": "Participant Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Completed/Ongoing",
+        "backgroundColor": "#00BFC4",
+        "data": [
+          {
+            "x": 315,
+            "y": "US",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "country": "US",
+              "fillcol": "Completed/Ongoing",
+              "totals": 315
+            }
+          },
+          {
+            "x": 258,
+            "y": "Japan",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "country": "Japan",
+              "fillcol": "Completed/Ongoing",
+              "totals": 258
+            }
+          },
+          {
+            "x": 185,
+            "y": "UK",
+            "_fill": "Completed/Ongoing",
+            "_datum": {
+              "country": "UK",
+              "fillcol": "Completed/Ongoing",
+              "totals": 185
+            }
+          }
+        ]
+      },
+      {
+        "label": "Premature Discontinuation",
+        "backgroundColor": "#FF5859",
+        "data": [
+          {
+            "x": 4,
+            "y": "US",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "country": "US",
+              "fillcol": "Premature Discontinuation",
+              "totals": 4
+            }
+          },
+          {
+            "x": 4,
+            "y": "Japan",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "country": "Japan",
+              "fillcol": "Premature Discontinuation",
+              "totals": 4
+            }
+          },
+          {
+            "x": 5,
+            "y": "UK",
+            "_fill": "Premature Discontinuation",
+            "_datum": {
+              "country": "UK",
+              "fillcol": "Premature Discontinuation",
+              "totals": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "labels": [
+      "Withdrew Consent",
+      "Lost to Follow-Up",
+      "Death"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Participant Count by Reasons",
+    "xLabel": "Discontinuation Reasons",
+    "yLabel": "Participant Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Death",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 5,
+            "y": "Death",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "n": 5
+            }
+          }
+        ]
+      },
+      {
+        "label": "Lost to Follow-Up",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 5,
+            "y": "Lost to Follow-Up",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "n": 5
+            }
+          }
+        ]
+      },
+      {
+        "label": "Withdrew Consent",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 3,
+            "y": "Withdrew Consent",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "n": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "labels": [
+      "Withdrew Consent",
+      "Lost to Follow-Up",
+      "Death"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Discontinuation Reason by Site",
+    "xLabel": "Reason",
+    "yLabel": "Reason Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "0X1013",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "Withdrew Consent",
+            "_fill": "0X1013",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X1013",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X1174",
+        "backgroundColor": "#D39200",
+        "data": [
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "0X1174",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X1174",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X130",
+        "backgroundColor": "#93AA00",
+        "data": [
+          {
+            "x": 1,
+            "y": "Withdrew Consent",
+            "_fill": "0X130",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X130",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3573",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "0X3573",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X3573",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X3911",
+        "backgroundColor": "#00C19F",
+        "data": [
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "0X3911",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X3911",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Death",
+            "_fill": "0X3911",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X3911",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4254",
+        "backgroundColor": "#00B9E3",
+        "data": [
+          {
+            "x": 1,
+            "y": "Death",
+            "_fill": "0X4254",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X4254",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X4835",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "0X4835",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "Death",
+            "_fill": "0X4835",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X4835",
+              "n": 2
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X5554",
+        "backgroundColor": "#DB72FB",
+        "data": [
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "0X5554",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X5554",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "0X848",
+        "backgroundColor": "#FF61C3",
+        "data": [
+          {
+            "x": 1,
+            "y": "Withdrew Consent",
+            "_fill": "0X848",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X848",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Death",
+            "_fill": "0X848",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X848",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "labels": [
+      "Withdrew Consent",
+      "Lost to Follow-Up",
+      "Death"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Discontinuation Reason by Country",
+    "xLabel": "Reason",
+    "yLabel": "Reason Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Japan",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 3,
+            "y": "Lost to Follow-Up",
+            "_fill": "Japan",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "Japan",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "Death",
+            "_fill": "Japan",
+            "_datum": {
+              "compreas": "Death",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "UK",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 1,
+            "y": "Withdrew Consent",
+            "_fill": "UK",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "UK",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "Death",
+            "_fill": "UK",
+            "_datum": {
+              "compreas": "Death",
+              "country": "UK",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "US",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 2,
+            "y": "Withdrew Consent",
+            "_fill": "US",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "Lost to Follow-Up",
+            "_fill": "US",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "Death",
+            "_fill": "US",
+            "_datum": {
+              "compreas": "Death",
+              "country": "US",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "labels": [
+      "0X848",
+      "0X5554",
+      "0X4835",
+      "0X4254",
+      "0X3911",
+      "0X3573",
+      "0X130",
+      "0X1174",
+      "0X1013"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Site by Discontinuation Reason",
+    "xLabel": "Site",
+    "yLabel": "Reason Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Death",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X848",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X848",
+              "n": 1
+            }
+          },
+          {
+            "x": 2,
+            "y": "0X4835",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X4835",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4254",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X4254",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3911",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "invid": "0X3911",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "Lost to Follow-Up",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X5554",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X5554",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X4835",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X4835",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3911",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X3911",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X3573",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X3573",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1174",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "invid": "0X1174",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "Withdrew Consent",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 1,
+            "y": "0X848",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X848",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X130",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X130",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "0X1013",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "invid": "0X1013",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "labels": [
+      "US",
+      "UK",
+      "Japan"
+    ],
+    "indexAxis": "y",
+    "position": "stack",
+    "stat": "identity",
+    "title": "Country by Discontinuation Reason",
+    "xLabel": "Country",
+    "yLabel": "Reason Count",
+    "captions": [],
+    "datasets": [
+      {
+        "label": "Death",
+        "backgroundColor": "#F8766D",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "UK",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "country": "UK",
+              "n": 3
+            }
+          },
+          {
+            "x": 1,
+            "y": "Japan",
+            "_fill": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "country": "Japan",
+              "n": 1
+            }
+          }
+        ]
+      },
+      {
+        "label": "Lost to Follow-Up",
+        "backgroundColor": "#00BA38",
+        "data": [
+          {
+            "x": 1,
+            "y": "US",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "US",
+              "n": 1
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "UK",
+              "n": 1
+            }
+          },
+          {
+            "x": 3,
+            "y": "Japan",
+            "_fill": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "country": "Japan",
+              "n": 3
+            }
+          }
+        ]
+      },
+      {
+        "label": "Withdrew Consent",
+        "backgroundColor": "#619CFF",
+        "data": [
+          {
+            "x": 2,
+            "y": "US",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "country": "US",
+              "n": 2
+            }
+          },
+          {
+            "x": 1,
+            "y": "UK",
+            "_fill": "Withdrew Consent",
+            "_datum": {
+              "compreas": "Withdrew Consent",
+              "country": "UK",
+              "n": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

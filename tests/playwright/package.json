@@ -1,0 +1,9 @@
+{
+  "name": "gsm-qtl-visual-tests",
+  "private": true,
+  "scripts": {
+    "pretest": "cd ../.. && Rscript tests/playwright/render-fixture.R",
+    "test": "playwright test --config=playwright.config.js"
+  },
+  "devDependencies": { "@playwright/test": "^1.48.0" }
+}
