@@ -155,46 +155,69 @@ test_that("eligibility_sourceBar counts by source with total labels (#14, #21, #
   expect_equal(edc$n, 3)
 })
 
-test_that("criteria_groupBar uses grouping and label arguments (#14, #21, #22, #23)", {
+test_that("criteria_groupBar splits concatenated criteria and stacks by group (#14, #21, #22, #23, #134)", {
   df <- qtl_test_participant_df() %>%
     dplyr::mutate(
       ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE)
     )
 
   out <- criteria_groupBar(df = df, varGroupID = invid, strGroupLabel = "Site")
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
+  rows <- bars_data_of(out)
 
-  expect_s3_class(out, "plotly")
+  expect_s3_class(out, "bars")
+  expect_identical(
+    spec$mapping,
+    list(x = "ietestcd_concat", y = "n", fill = "invid")
+  )
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Criteria by Site")
+  expect_identical(spec$scales$x$label, "Criteria")
+  expect_identical(spec$scales$y$label, "Criteria Count")
+  expect_identical(spec$scales$fill$label, "Site")
+  expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$invid))
+  expect_true(spec$annotations$labels$total$display)
 
-  criteria_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Criteria:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Site:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Criteria: I001", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Criteria: E010", criteria_text, fixed = TRUE)))
-  expect_false(any(grepl("Criteria: I001, E010", criteria_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Criteria by Site", fixed = TRUE)
+  criteria <- unique(vapply(rows, function(r) r$ietestcd_concat, character(1)))
+  expect_true(all(c("I001", "E010") %in% criteria))
+  expect_false("I001, E010" %in% criteria)
 })
 
-test_that("criteria_groupBar uses grouping and label arguments correctly when swapping axes (#90)", {
+test_that("criteria_groupBar swaps category and fill when bSwapAxes is TRUE (#90, #134)", {
   df <- qtl_test_participant_df() %>%
     dplyr::mutate(
       ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE)
     )
 
-  out <- criteria_groupBar(
+  spec <- bars_spec_of(criteria_groupBar(
     df = df,
     varGroupID = invid,
     strGroupLabel = "Site",
     bSwapAxes = TRUE
+  ))
+
+  expect_identical(
+    spec$mapping,
+    list(x = "invid", y = "n", fill = "ietestcd_concat")
   )
-  built <- plotly::plotly_build(out)
-
-  expect_s3_class(out, "plotly")
-
-  criteria_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Criteria:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Site:", criteria_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Site by Criteria", fixed = TRUE)
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Site by Criteria")
+  expect_identical(spec$scales$x$label, "Site")
+  expect_identical(spec$scales$fill$label, "Criteria")
+  criteria <- df %>%
+    dplyr::filter(
+      !is.na(.data$ietestcd_concat),
+      nzchar(.data$ietestcd_concat)
+    ) %>%
+    tidyr::separate_longer_delim(ietestcd_concat, ",") %>%
+    dplyr::pull(ietestcd_concat)
+  expect_identical(
+    unlist(spec$scales$fill$colors),
+    .qtl_ggplot_hue(criteria)
+  )
+  expect_match(spec$tooltip$formatter, "'Criteria: '", fixed = TRUE)
+  expect_match(spec$tooltip$formatter, "'Site: '", fixed = TRUE)
 })
 
 test_that("eligibility_listing covers df and download arguments (#21, #22, #24, #25)", {
