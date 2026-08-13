@@ -93,9 +93,12 @@ eligibility_groupBar <- function(
         ),
         fill = list(
           label = "Eligibility",
+          # Key order sets the stack order: gsm.viz reads it from this map and
+          # ignores the factor-derived scales$fill$order whenever a named colour
+          # map is supplied. Keep it in the `fillcol` level order above.
           colors = c(
-            "Ineligible" = "#FF5859",
             "No Eligibility Risk" = "#00BFC4",
+            "Ineligible" = "#FF5859",
             "Neither" = "#7CAE00"
           )
         )

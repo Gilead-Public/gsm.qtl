@@ -81,9 +81,12 @@ discontinuation_groupBar <- function(
         y = list(label = "Participant Count"),
         fill = list(
           label = "Study Status",
+          # Key order sets the stack order: gsm.viz reads it from this map and
+          # ignores the factor-derived scales$fill$order whenever a named colour
+          # map is supplied. Keep it in the `fillcol` level order above.
           colors = c(
-            "Premature Discontinuation" = "#FF5859",
-            "Completed/Ongoing" = "#00BFC4"
+            "Completed/Ongoing" = "#00BFC4",
+            "Premature Discontinuation" = "#FF5859"
           )
         )
       ),

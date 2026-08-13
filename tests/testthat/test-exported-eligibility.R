@@ -24,6 +24,12 @@ test_that("eligibility_groupBar builds a horizontal identity stack (#14, #15, #2
   expect_identical(spec$scales$y$label, "Participant Count")
   expect_identical(spec$scales$fill$label, "Eligibility")
   expect_identical(spec$scales$fill$colors$Ineligible, "#FF5859")
+  # Stack order comes from the colour-map key order, not scales$fill$order, so
+  # the keys must stay in the published ggplot fill order.
+  expect_identical(
+    names(spec$scales$fill$colors),
+    c("No Eligibility Risk", "Ineligible", "Neither")
+  )
   # expect_equal, not expect_identical: jsonlite parses a whole JSON number back
   # as an integer, so an identical() check against 25 would fail on type alone.
   expect_true(spec$theme$dynamicSizing)

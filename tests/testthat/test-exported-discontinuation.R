@@ -25,6 +25,12 @@ test_that("discontinuation_groupBar builds a horizontal identity stack (#14, #21
     "#FF5859"
   )
   expect_identical(spec$scales$fill$colors$`Completed/Ongoing`, "#00BFC4")
+  # Stack order comes from the colour-map key order, not scales$fill$order, so
+  # the keys must stay in the published ggplot fill order.
+  expect_identical(
+    names(spec$scales$fill$colors),
+    c("Completed/Ongoing", "Premature Discontinuation")
+  )
   expect_match(spec$labels$captions, "Excludes .* site\\(s\\)")
   expect_match(spec$labels$captions, "prematurely discontinued participants")
   expect_match(
