@@ -22,6 +22,7 @@ Imports:
     forcats,
     ggplot2,
     gsm.core (>= 1.1.2),
+    gsm.vizr,
     gt,
     htmltools,
     htmlwidgets,
@@ -50,6 +51,7 @@ VignetteBuilder:
     knitr
 Remotes:
     gsm.core=Gilead-Public/gsm.core@dev,
+    gsm.vizr=Gilead-Public/gsm.vizr@feat/158-vizr-foundation,
     workr=Gilead-Public/workr@main,
     qcthat=Gilead-Public/qcthat@*release
 Config/Needs/website: DT, here, pkgdown, devtools
