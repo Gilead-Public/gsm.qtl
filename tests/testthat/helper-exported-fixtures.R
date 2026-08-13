@@ -6,32 +6,6 @@ bars_data_of <- function(w) {
   jsonlite::fromJSON(as.character(w$x$data), simplifyVector = FALSE)
 }
 
-plotly_trace_text <- function(plotly_obj) {
-  unlist(
-    lapply(plotly_obj$x$data, function(trace) {
-      if (is.null(trace$text)) {
-        character(0)
-      } else {
-        trace$text
-      }
-    }),
-    use.names = FALSE
-  )
-}
-
-plotly_trace_names <- function(plotly_obj) {
-  unlist(
-    lapply(plotly_obj$x$data, function(trace) {
-      if (is.null(trace$name)) {
-        NA_character_
-      } else {
-        trace$name
-      }
-    }),
-    use.names = FALSE
-  )
-}
-
 qtl_test_participant_df <- function() {
   tibble::tribble(
     ~invid , ~country , ~subjid    , ~Source               , ~ietestcd_concat , ~dvdtm                    , ~eligibility_criteria       , ~compyn , ~compreas            ,

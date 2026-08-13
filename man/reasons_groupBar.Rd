@@ -18,7 +18,7 @@ reasons_groupBar(df, varGroupID, varCompreas, strGroupLabel, bSwapAxes = FALSE)
 \item{bSwapAxes}{A \code{boolean} to denote whether or not the y-axis and fill groups should be swapped.}
 }
 \value{
-A \code{plotly} object
+A \code{bars} htmlwidget
 }
 \description{
 Bar Chart by Group and Reasons

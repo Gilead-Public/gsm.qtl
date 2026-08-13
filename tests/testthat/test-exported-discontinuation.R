@@ -96,49 +96,55 @@ test_that("discontinuation_reasonBar counts by reason with total labels (#14, #2
   expect_true("Adverse event" %in% reasons)
 })
 
-test_that("reasons_groupBar uses group and reason arguments (#14, #21, #22)", {
+test_that("reasons_groupBar stacks reasons by group (#14, #21, #22, #134)", {
   df <- qtl_test_participant_df()
+
   out <- reasons_groupBar(
     df = df,
     varGroupID = invid,
     varCompreas = compreas,
     strGroupLabel = "Site"
   )
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
 
-  expect_s3_class(out, "plotly")
-
-  tooltip_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Site: S01", tooltip_text, fixed = TRUE)))
-  expect_true(any(grepl("Discontinuation Reason:", tooltip_text, fixed = TRUE)))
+  expect_s3_class(out, "bars")
+  expect_identical(spec$mapping, list(x = "compreas", y = "n", fill = "invid"))
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Discontinuation Reason by Site")
+  expect_identical(spec$scales$x$label, "Reason")
+  expect_identical(spec$scales$y$label, "Reason Count")
+  expect_identical(spec$scales$fill$label, "Site")
+  expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$invid))
+  expect_true(spec$annotations$labels$total$display)
   expect_match(
-    built$x$layout$title$text,
-    "Discontinuation Reason by Site",
+    spec$tooltip$formatter,
+    "'Discontinuation Reason: '",
     fixed = TRUE
   )
+  expect_match(spec$tooltip$formatter, "'Site: '", fixed = TRUE)
 })
 
-test_that("reasons_groupBar swaps axes correctly when bSwapAxes is TRUE (#90)", {
+test_that("reasons_groupBar swaps category and fill when bSwapAxes is TRUE (#90, #134)", {
   df <- qtl_test_participant_df()
-  out <- reasons_groupBar(
+
+  spec <- bars_spec_of(reasons_groupBar(
     df = df,
     varGroupID = invid,
     varCompreas = compreas,
     strGroupLabel = "Site",
     bSwapAxes = TRUE
-  )
-  built <- plotly::plotly_build(out)
+  ))
 
-  expect_s3_class(out, "plotly")
-
-  tooltip_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Site:", tooltip_text, fixed = TRUE)))
-  expect_true(any(grepl("Discontinuation Reason:", tooltip_text, fixed = TRUE)))
-  expect_match(
-    built$x$layout$title$text,
-    "Site by Discontinuation Reason",
-    fixed = TRUE
-  )
+  expect_identical(spec$mapping, list(x = "invid", y = "n", fill = "compreas"))
+  expect_identical(spec$labels$title, "Site by Discontinuation Reason")
+  expect_identical(spec$scales$x$label, "Site")
+  expect_identical(spec$scales$fill$label, "Reason")
+  # The fixture carries blank compreas values, which cannot round-trip as a
+  # named JSON key; assert the named levels that do.
+  expected <- .qtl_ggplot_hue(df$compreas)
+  named <- names(expected)[nzchar(names(expected))]
+  expect_identical(spec$scales$fill$colors[named], as.list(expected[named]))
 })
 
 test_that("discontinuation_map_reasons respects yaml_path (#21, #22)", {

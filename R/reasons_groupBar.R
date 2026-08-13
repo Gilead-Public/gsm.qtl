@@ -6,82 +6,71 @@
 #' @param strGroupLabel A `string` to label the `varGroupID` in reference to axes, legend, footnotes.
 #' @param bSwapAxes A `boolean` to denote whether or not the y-axis and fill groups should be swapped.
 #'
-#' @returns A `plotly` object
+#' @returns A `bars` htmlwidget
 #'
 #' @export
-reasons_groupBar <- function(df, varGroupID, varCompreas, strGroupLabel, bSwapAxes = FALSE) {
-  var_sym <- rlang::ensym(varGroupID)
-  var_name <- rlang::as_string(var_sym)
+reasons_groupBar <- function(
+  df,
+  varGroupID,
+  varCompreas,
+  strGroupLabel,
+  bSwapAxes = FALSE
+) {
+  group_sym <- rlang::ensym(varGroupID)
+  var_name <- rlang::as_string(group_sym)
   compreas_sym <- rlang::ensym(varCompreas)
   compreas_name <- rlang::as_string(compreas_sym)
 
   df_counts <- df %>%
-    dplyr::count(.data[[compreas_name]], .data[[var_name]], name = "n")
+    dplyr::count(!!compreas_sym, !!group_sym, name = "n")
 
-  if (bSwapAxes) {
-    distinct_n_y <- df_counts %>% dplyr::distinct(.data[[var_name]]) %>% nrow()
+  # bSwapAxes picks which variable is the category and which is the fill; both
+  # branches draw horizontally, exactly as the two ggplot branches did.
+  category <- if (bSwapAxes) var_name else compreas_name
+  fill <- if (bSwapAxes) compreas_name else var_name
+  fill_colors <- .qtl_ggplot_hue(df_counts[[fill]])
 
-    group_reasons_bar <- df_counts %>%
-      ggplot(
-        aes(
-          x = n,
-          y = .data[[var_name]],
-          fill = .data[[compreas_name]],
-          text = paste0(
-            strGroupLabel, ": ", .data[[var_name]],
-            "\nDiscontinuation Reason: ", .data[[compreas_name]],
-            "\nCount: ", n
-          )
+  df_counts[[category]] <- .qtl_chart_order(df_counts[[category]])
+
+  gsm.vizr::bars(
+    df_counts,
+    gsm.vizr::bars_spec(
+      x = category,
+      y = "n",
+      fill = fill,
+      stat = "identity",
+      orientation = "horizontal",
+      scales = list(
+        x = list(label = if (bSwapAxes) strGroupLabel else "Reason"),
+        y = list(label = "Reason Count"),
+        fill = list(
+          label = if (bSwapAxes) "Reason" else strGroupLabel,
+          colors = fill_colors
         )
-      ) +
-      geom_col() +
-      geom_text(
-        data = df_counts %>% dplyr::group_by(.data[[var_name]]) %>% dplyr::summarise(n = sum(n), .groups = "drop"),
-        aes(x = n, y = .data[[var_name]], label = n),
-        inherit.aes = FALSE,
-        nudge_x = 0.5,
-        size = 4,
-        color = "black"
-      ) +
-      labs(y = strGroupLabel, x = "Reason Count", fill = "Reason", title = paste0(strGroupLabel, " by Discontinuation Reason")) +
-      theme_classic(base_size = 11) +
-      theme(
-        panel.grid.major.y = element_blank()
+      ),
+      labels = list(
+        title = if (bSwapAxes) {
+          paste0(strGroupLabel, " by Discontinuation Reason")
+        } else {
+          paste0("Discontinuation Reason by ", strGroupLabel)
+        }
+      ),
+      annotations = list(labels = list(total = list(display = TRUE))),
+      theme = .qtl_bar_theme(),
+      tooltip = list(
+        formatter = gsm.vizr::js_hook(sprintf(
+          "function (value, context, details) {
+             var d = (details && details.datum) || {};
+             return ['%s: ' + d['%s'],
+                     'Discontinuation Reason: ' + d['%s'],
+                     'Count: ' + d.n];
+           }",
+          strGroupLabel,
+          var_name,
+          compreas_name
+        ))
       )
-  } else {
-    distinct_n_y <- df_counts %>% dplyr::distinct(.data[[compreas_name]]) %>% nrow()
-
-    group_reasons_bar <- df_counts %>%
-      ggplot(
-        aes(
-          x = n,
-          y = .data[[compreas_name]],
-          fill = .data[[var_name]],
-          text = paste0(
-            strGroupLabel, ": ", .data[[var_name]],
-            "\nDiscontinuation Reason: ", .data[[compreas_name]],
-            "\nCount: ", n
-          )
-        )
-      ) +
-      geom_col() +
-      geom_text(
-        data = df_counts %>% dplyr::group_by(.data[[compreas_name]]) %>% dplyr::summarise(n = sum(n), .groups = "drop"),
-        aes(x = n, y = .data[[compreas_name]], label = n),
-        inherit.aes = FALSE,
-        nudge_x = 0.5,
-        size = 4,
-        color = "black"
-      ) +
-      labs(y = "Reason", x = "Reason Count", fill = strGroupLabel, title = paste0("Discontinuation Reason by ", strGroupLabel)) +
-      theme_classic(base_size = 11) +
-      theme(
-        axis.text.y = element_text(angle = 45, vjust = 1),
-        panel.grid.major.y = element_blank()
-      )
-  }
-
-  # Create plotly
-  plotly::ggplotly(group_reasons_bar, tooltip = c("text"), h = calc_fig_size(n_rows = distinct_n_y)) %>%
-    layout(xaxis = list(autorange = TRUE), yaxis = list(autorange = TRUE))
+    ),
+    minHeight = 500
+  )
 }
