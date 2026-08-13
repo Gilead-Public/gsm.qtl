@@ -1,32 +1,70 @@
-test_that("discontinuation_groupBar uses all arguments (#14, #21, #22, #76, #90)", {
+test_that("discontinuation_groupBar builds a horizontal identity stack (#14, #21, #22, #76, #90, #134)", {
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(compyn == "N")
-  out <- discontinuation_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site")
-  out_custom <- discontinuation_groupBar(
+
+  out <- discontinuation_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  )
+  spec <- bars_spec_of(out)
+
+  expect_s3_class(out, "bars")
+  expect_identical(
+    spec$mapping,
+    list(x = "invid", y = "totals", fill = "fillcol")
+  )
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$position, "stack")
+  expect_identical(spec$labels$title, "Participant Count by Site")
+  expect_identical(spec$scales$fill$label, "Study Status")
+  expect_identical(
+    spec$scales$fill$colors$`Premature Discontinuation`,
+    "#FF5859"
+  )
+  expect_identical(spec$scales$fill$colors$`Completed/Ongoing`, "#00BFC4")
+  expect_match(spec$labels$captions, "Excludes .* site\\(s\\)")
+  expect_match(spec$labels$captions, "prematurely discontinued participants")
+  expect_match(
+    spec$tooltip$formatter,
+    "'Discontinuation Status: '",
+    fixed = TRUE
+  )
+})
+
+test_that("discontinuation_groupBar honours varStatus and valuesDiscontinued (#76, #134)", {
+  df <- qtl_test_participant_df()
+  dfNum <- df %>% dplyr::filter(compyn == "N")
+
+  pd_count <- function(rows, group) {
+    hit <- Filter(
+      function(r) r$invid == group && r$fillcol == "Premature Discontinuation",
+      rows
+    )
+    if (length(hit) == 0) 0 else hit[[1]]$totals
+  }
+
+  default_rows <- bars_data_of(discontinuation_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
+  custom_rows <- bars_data_of(discontinuation_groupBar(
     dfNum = dfNum,
     dfDenom = df,
     varGroupID = invid,
     strGroupLabel = "Site",
     varStatus = compyn,
-    valuesDiscontinued = c("Y", "N", "N", "Y")
-  )
-  built <- plotly::plotly_build(out)
+    valuesDiscontinued = c("Y", "N")
+  ))
 
-  expect_s3_class(out, "plotly")
-  expect_s3_class(out_custom, "plotly")
-
-  default_text <- plotly_trace_text(out)
-  custom_text <- plotly_trace_text(out_custom)
-  annotations <- built$x$layout[["annotations"]]
-
-  expect_true(any(grepl("Discontinuation Status: Premature Discontinuation", default_text, fixed = TRUE)))
-  expect_true(any(grepl("Discontinuation Status: Premature Discontinuation", custom_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Participant Count by Site", fixed = TRUE)
-  expect_match(annotations[[1]][["text"]], "Excludes .* site\\(s\\)")
-  expect_match(annotations[[1]][["text"]], "prematurely discontinued participants")
-  expect_equal(annotations[[1]][["yanchor"]], "top")
-  expect_lt(annotations[[1]][["yshift"]], 0)
-  expect_gt(built$x$layout$margin$b, 50)
+  # S02 is one compyn == "N" participant and one compyn == "Y" participant, so
+  # counting "Y" as a discontinuation too moves the second one across.
+  expect_equal(pd_count(default_rows, "S02"), 1)
+  expect_equal(pd_count(custom_rows, "S02"), 2)
 })
 
 test_that("discontinuation_reasonBar uses df and reason variable (#14, #21, #22)", {
@@ -38,12 +76,21 @@ test_that("discontinuation_reasonBar uses df and reason variable (#14, #21, #22)
 
   trace_names <- unique(stats::na.omit(plotly_trace_names(out)))
   expect_true("Adverse event" %in% trace_names)
-  expect_match(built$x$layout$title$text, "Participant Count by Reasons", fixed = TRUE)
+  expect_match(
+    built$x$layout$title$text,
+    "Participant Count by Reasons",
+    fixed = TRUE
+  )
 })
 
 test_that("reasons_groupBar uses group and reason arguments (#14, #21, #22)", {
   df <- qtl_test_participant_df()
-  out <- reasons_groupBar(df = df, varGroupID = invid, varCompreas = compreas, strGroupLabel = "Site")
+  out <- reasons_groupBar(
+    df = df,
+    varGroupID = invid,
+    varCompreas = compreas,
+    strGroupLabel = "Site"
+  )
   built <- plotly::plotly_build(out)
 
   expect_s3_class(out, "plotly")
@@ -51,12 +98,22 @@ test_that("reasons_groupBar uses group and reason arguments (#14, #21, #22)", {
   tooltip_text <- plotly_trace_text(out)
   expect_true(any(grepl("Site: S01", tooltip_text, fixed = TRUE)))
   expect_true(any(grepl("Discontinuation Reason:", tooltip_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Discontinuation Reason by Site", fixed = TRUE)
+  expect_match(
+    built$x$layout$title$text,
+    "Discontinuation Reason by Site",
+    fixed = TRUE
+  )
 })
 
 test_that("reasons_groupBar swaps axes correctly when bSwapAxes is TRUE (#90)", {
   df <- qtl_test_participant_df()
-  out <- reasons_groupBar(df = df, varGroupID = invid, varCompreas = compreas, strGroupLabel = "Site", bSwapAxes = TRUE)
+  out <- reasons_groupBar(
+    df = df,
+    varGroupID = invid,
+    varCompreas = compreas,
+    strGroupLabel = "Site",
+    bSwapAxes = TRUE
+  )
   built <- plotly::plotly_build(out)
 
   expect_s3_class(out, "plotly")
@@ -64,7 +121,11 @@ test_that("reasons_groupBar swaps axes correctly when bSwapAxes is TRUE (#90)", 
   tooltip_text <- plotly_trace_text(out)
   expect_true(any(grepl("Site:", tooltip_text, fixed = TRUE)))
   expect_true(any(grepl("Discontinuation Reason:", tooltip_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Site by Discontinuation Reason", fixed = TRUE)
+  expect_match(
+    built$x$layout$title$text,
+    "Site by Discontinuation Reason",
+    fixed = TRUE
+  )
 })
 
 test_that("discontinuation_map_reasons respects yaml_path (#21, #22)", {
