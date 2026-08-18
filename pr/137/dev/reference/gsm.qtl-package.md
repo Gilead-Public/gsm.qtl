@@ -11,7 +11,7 @@ Useful links:
 
 - <https://gilead-public.github.io/gsm.qtl>
 
-- <https://github.com/Gilead-Public/gsm.qtl,>
+- <https://github.com/Gilead-Public/gsm.qtl>,
 
 - Report bugs at <https://github.com/Gilead-Public/gsm.qtl/issues>
 
@@ -21,6 +21,9 @@ Useful links:
 ([ORCID](https://orcid.org/0000-0002-1883-2265))
 
 Authors:
+
+- Zhongkai Wang <Zhongkai.Wang6@gilead.com>
+  ([ORCID](https://orcid.org/0000-0002-1883-2265))
 
 - Laura Maxwell <laura.maxwell@atorusresearch.com>
 
