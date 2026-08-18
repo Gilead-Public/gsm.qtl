@@ -4,7 +4,7 @@ const path = require('path');
 const REPORT = 'file://' + path.resolve(__dirname, 'fixture', 'qtl-report.html');
 
 // QTL0001 renders 8 barcharts and QTL0002 renders 7.
-const EXPECTED_BARCHARTS = 15;
+const EXPECTED_BARCHARTS = 14;
 
 test('every barchart renders a live chart instance', async ({ page }) => {
   const errors = [];

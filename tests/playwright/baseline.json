@@ -68,8 +68,7 @@
             "_datum": {
               "invid": "0X1013",
               "fillcol": "No Eligibility Risk",
-              "totals": 23,
-              "perc": 59
+              "totals": 23
             }
           },
           {
@@ -79,8 +78,7 @@
             "_datum": {
               "invid": "0X4835",
               "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 48.7
+              "totals": 19
             }
           },
           {
@@ -90,8 +88,7 @@
             "_datum": {
               "invid": "0X130",
               "fillcol": "No Eligibility Risk",
-              "totals": 18,
-              "perc": 47.4
+              "totals": 18
             }
           },
           {
@@ -101,8 +98,7 @@
             "_datum": {
               "invid": "0X257",
               "fillcol": "No Eligibility Risk",
-              "totals": 20,
-              "perc": 57.1
+              "totals": 20
             }
           },
           {
@@ -112,8 +108,7 @@
             "_datum": {
               "invid": "0X297",
               "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 41.2
+              "totals": 14
             }
           },
           {
@@ -123,8 +118,7 @@
             "_datum": {
               "invid": "0X078",
               "fillcol": "No Eligibility Risk",
-              "totals": 16,
-              "perc": 50
+              "totals": 16
             }
           },
           {
@@ -134,8 +128,7 @@
             "_datum": {
               "invid": "0X5554",
               "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 54.8
+              "totals": 17
             }
           },
           {
@@ -145,8 +138,7 @@
             "_datum": {
               "invid": "0X8385",
               "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 63.3
+              "totals": 19
             }
           },
           {
@@ -156,8 +148,7 @@
             "_datum": {
               "invid": "0X6448",
               "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 58.6
+              "totals": 17
             }
           },
           {
@@ -167,8 +158,7 @@
             "_datum": {
               "invid": "0X3911",
               "fillcol": "No Eligibility Risk",
-              "totals": 18,
-              "perc": 64.3
+              "totals": 18
             }
           },
           {
@@ -178,8 +168,7 @@
             "_datum": {
               "invid": "0X3573",
               "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 70.4
+              "totals": 19
             }
           },
           {
@@ -189,8 +178,7 @@
             "_datum": {
               "invid": "0X3256",
               "fillcol": "No Eligibility Risk",
-              "totals": 16,
-              "perc": 61.5
+              "totals": 16
             }
           },
           {
@@ -200,8 +188,7 @@
             "_datum": {
               "invid": "0X9368",
               "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 68
+              "totals": 17
             }
           },
           {
@@ -211,8 +198,7 @@
             "_datum": {
               "invid": "0X4349",
               "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 70.8
+              "totals": 17
             }
           },
           {
@@ -222,8 +208,7 @@
             "_datum": {
               "invid": "0X848",
               "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 63.6
+              "totals": 14
             }
           },
           {
@@ -233,8 +218,7 @@
             "_datum": {
               "invid": "0X2247",
               "fillcol": "No Eligibility Risk",
-              "totals": 13,
-              "perc": 65
+              "totals": 13
             }
           },
           {
@@ -244,8 +228,7 @@
             "_datum": {
               "invid": "0X7467",
               "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 55.6
+              "totals": 10
             }
           },
           {
@@ -255,8 +238,7 @@
             "_datum": {
               "invid": "0X8430",
               "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 64.7
+              "totals": 11
             }
           },
           {
@@ -266,8 +248,7 @@
             "_datum": {
               "invid": "0X4254",
               "fillcol": "No Eligibility Risk",
-              "totals": 8,
-              "perc": 53.3
+              "totals": 8
             }
           },
           {
@@ -277,8 +258,7 @@
             "_datum": {
               "invid": "0X7821",
               "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 93.3
+              "totals": 14
             }
           },
           {
@@ -288,8 +268,7 @@
             "_datum": {
               "invid": "0X1891",
               "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 84.6
+              "totals": 11
             }
           },
           {
@@ -299,8 +278,7 @@
             "_datum": {
               "invid": "0X3912",
               "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 38.5
+              "totals": 5
             }
           },
           {
@@ -310,8 +288,7 @@
             "_datum": {
               "invid": "0X9382",
               "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 76.9
+              "totals": 10
             }
           },
           {
@@ -321,8 +298,7 @@
             "_datum": {
               "invid": "0X3837",
               "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 83.3
+              "totals": 10
             }
           },
           {
@@ -332,8 +308,7 @@
             "_datum": {
               "invid": "0X5012",
               "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 91.7
+              "totals": 11
             }
           },
           {
@@ -343,8 +318,7 @@
             "_datum": {
               "invid": "0X629",
               "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 91.7
+              "totals": 11
             }
           },
           {
@@ -354,8 +328,7 @@
             "_datum": {
               "invid": "0X4589",
               "fillcol": "No Eligibility Risk",
-              "totals": 9,
-              "perc": 81.8
+              "totals": 9
             }
           },
           {
@@ -365,8 +338,7 @@
             "_datum": {
               "invid": "0X5629",
               "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 54.5
+              "totals": 6
             }
           },
           {
@@ -376,8 +348,7 @@
             "_datum": {
               "invid": "0X5756",
               "fillcol": "No Eligibility Risk",
-              "totals": 8,
-              "perc": 72.7
+              "totals": 8
             }
           },
           {
@@ -387,8 +358,7 @@
             "_datum": {
               "invid": "0X6399",
               "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 90.9
+              "totals": 10
             }
           },
           {
@@ -398,8 +368,7 @@
             "_datum": {
               "invid": "0X9225",
               "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 60
+              "totals": 6
             }
           },
           {
@@ -409,8 +378,7 @@
             "_datum": {
               "invid": "0X8416",
               "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 62.5
+              "totals": 5
             }
           },
           {
@@ -420,8 +388,7 @@
             "_datum": {
               "invid": "0X9626",
               "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 75
+              "totals": 6
             }
           },
           {
@@ -431,8 +398,7 @@
             "_datum": {
               "invid": "0X1638",
               "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 85.7
+              "totals": 6
             }
           },
           {
@@ -442,8 +408,7 @@
             "_datum": {
               "invid": "0X5186",
               "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 71.4
+              "totals": 5
             }
           },
           {
@@ -453,8 +418,7 @@
             "_datum": {
               "invid": "0X8821",
               "fillcol": "No Eligibility Risk",
-              "totals": 4,
-              "perc": 57.1
+              "totals": 4
             }
           },
           {
@@ -464,8 +428,7 @@
             "_datum": {
               "invid": "0X2946",
               "fillcol": "No Eligibility Risk",
-              "totals": 4,
-              "perc": 66.7
+              "totals": 4
             }
           },
           {
@@ -475,8 +438,7 @@
             "_datum": {
               "invid": "0X4784",
               "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 83.3
+              "totals": 5
             }
           },
           {
@@ -486,8 +448,7 @@
             "_datum": {
               "invid": "0X2779",
               "fillcol": "No Eligibility Risk",
-              "totals": 3,
-              "perc": 75
+              "totals": 3
             }
           },
           {
@@ -497,8 +458,7 @@
             "_datum": {
               "invid": "0X5371",
               "fillcol": "No Eligibility Risk",
-              "totals": 3,
-              "perc": 75
+              "totals": 3
             }
           },
           {
@@ -508,8 +468,7 @@
             "_datum": {
               "invid": "0X3952",
               "fillcol": "No Eligibility Risk",
-              "totals": 2,
-              "perc": 66.7
+              "totals": 2
             }
           },
           {
@@ -519,8 +478,7 @@
             "_datum": {
               "invid": "0X842",
               "fillcol": "No Eligibility Risk",
-              "totals": 2,
-              "perc": 66.7
+              "totals": 2
             }
           },
           {
@@ -530,8 +488,7 @@
             "_datum": {
               "invid": "0X3450",
               "fillcol": "No Eligibility Risk",
-              "totals": 1,
-              "perc": 50
+              "totals": 1
             }
           },
           {
@@ -541,8 +498,7 @@
             "_datum": {
               "invid": "0X8355",
               "fillcol": "No Eligibility Risk",
-              "totals": 1,
-              "perc": 50
+              "totals": 1
             }
           }
         ]
@@ -558,8 +514,7 @@
             "_datum": {
               "invid": "0X1013",
               "fillcol": "Ineligible",
-              "totals": 16,
-              "perc": 41
+              "totals": 16
             }
           },
           {
@@ -569,8 +524,7 @@
             "_datum": {
               "invid": "0X4835",
               "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 51.3
+              "totals": 20
             }
           },
           {
@@ -580,8 +534,7 @@
             "_datum": {
               "invid": "0X130",
               "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 52.6
+              "totals": 20
             }
           },
           {
@@ -591,8 +544,7 @@
             "_datum": {
               "invid": "0X257",
               "fillcol": "Ineligible",
-              "totals": 15,
-              "perc": 42.9
+              "totals": 15
             }
           },
           {
@@ -602,8 +554,7 @@
             "_datum": {
               "invid": "0X297",
               "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 58.8
+              "totals": 20
             }
           },
           {
@@ -613,8 +564,7 @@
             "_datum": {
               "invid": "0X078",
               "fillcol": "Ineligible",
-              "totals": 16,
-              "perc": 50
+              "totals": 16
             }
           },
           {
@@ -624,8 +574,7 @@
             "_datum": {
               "invid": "0X5554",
               "fillcol": "Ineligible",
-              "totals": 14,
-              "perc": 45.2
+              "totals": 14
             }
           },
           {
@@ -635,8 +584,7 @@
             "_datum": {
               "invid": "0X8385",
               "fillcol": "Ineligible",
-              "totals": 11,
-              "perc": 36.7
+              "totals": 11
             }
           },
           {
@@ -646,8 +594,7 @@
             "_datum": {
               "invid": "0X6448",
               "fillcol": "Ineligible",
-              "totals": 12,
-              "perc": 41.4
+              "totals": 12
             }
           },
           {
@@ -657,8 +604,7 @@
             "_datum": {
               "invid": "0X3911",
               "fillcol": "Ineligible",
-              "totals": 10,
-              "perc": 35.7
+              "totals": 10
             }
           },
           {
@@ -668,8 +614,7 @@
             "_datum": {
               "invid": "0X3573",
               "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 29.6
+              "totals": 8
             }
           },
           {
@@ -679,8 +624,7 @@
             "_datum": {
               "invid": "0X3256",
               "fillcol": "Ineligible",
-              "totals": 10,
-              "perc": 38.5
+              "totals": 10
             }
           },
           {
@@ -690,8 +634,7 @@
             "_datum": {
               "invid": "0X9368",
               "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 32
+              "totals": 8
             }
           },
           {
@@ -701,8 +644,7 @@
             "_datum": {
               "invid": "0X4349",
               "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 29.2
+              "totals": 7
             }
           },
           {
@@ -712,8 +654,7 @@
             "_datum": {
               "invid": "0X848",
               "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 36.4
+              "totals": 8
             }
           },
           {
@@ -723,8 +664,7 @@
             "_datum": {
               "invid": "0X2247",
               "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 35
+              "totals": 7
             }
           },
           {
@@ -734,8 +674,7 @@
             "_datum": {
               "invid": "0X7467",
               "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 44.4
+              "totals": 8
             }
           },
           {
@@ -745,8 +684,7 @@
             "_datum": {
               "invid": "0X8430",
               "fillcol": "Ineligible",
-              "totals": 6,
-              "perc": 35.3
+              "totals": 6
             }
           },
           {
@@ -756,8 +694,7 @@
             "_datum": {
               "invid": "0X4254",
               "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 46.7
+              "totals": 7
             }
           },
           {
@@ -767,8 +704,7 @@
             "_datum": {
               "invid": "0X7821",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 6.7
+              "totals": 1
             }
           },
           {
@@ -778,8 +714,7 @@
             "_datum": {
               "invid": "0X1891",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 15.4
+              "totals": 2
             }
           },
           {
@@ -789,8 +724,7 @@
             "_datum": {
               "invid": "0X3912",
               "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 61.5
+              "totals": 8
             }
           },
           {
@@ -800,8 +734,7 @@
             "_datum": {
               "invid": "0X9382",
               "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 23.1
+              "totals": 3
             }
           },
           {
@@ -811,8 +744,7 @@
             "_datum": {
               "invid": "0X3837",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 16.7
+              "totals": 2
             }
           },
           {
@@ -822,8 +754,7 @@
             "_datum": {
               "invid": "0X5012",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 8.3
+              "totals": 1
             }
           },
           {
@@ -833,8 +764,7 @@
             "_datum": {
               "invid": "0X629",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 8.3
+              "totals": 1
             }
           },
           {
@@ -844,8 +774,7 @@
             "_datum": {
               "invid": "0X4589",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 18.2
+              "totals": 2
             }
           },
           {
@@ -855,8 +784,7 @@
             "_datum": {
               "invid": "0X5629",
               "fillcol": "Ineligible",
-              "totals": 5,
-              "perc": 45.5
+              "totals": 5
             }
           },
           {
@@ -866,8 +794,7 @@
             "_datum": {
               "invid": "0X5756",
               "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 27.3
+              "totals": 3
             }
           },
           {
@@ -877,8 +804,7 @@
             "_datum": {
               "invid": "0X6399",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 9.1
+              "totals": 1
             }
           },
           {
@@ -888,8 +814,7 @@
             "_datum": {
               "invid": "0X9225",
               "fillcol": "Ineligible",
-              "totals": 4,
-              "perc": 40
+              "totals": 4
             }
           },
           {
@@ -899,8 +824,7 @@
             "_datum": {
               "invid": "0X8416",
               "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 37.5
+              "totals": 3
             }
           },
           {
@@ -910,8 +834,7 @@
             "_datum": {
               "invid": "0X9626",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 25
+              "totals": 2
             }
           },
           {
@@ -921,8 +844,7 @@
             "_datum": {
               "invid": "0X1638",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 14.3
+              "totals": 1
             }
           },
           {
@@ -932,8 +854,7 @@
             "_datum": {
               "invid": "0X5186",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 28.6
+              "totals": 2
             }
           },
           {
@@ -943,8 +864,7 @@
             "_datum": {
               "invid": "0X8821",
               "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 42.9
+              "totals": 3
             }
           },
           {
@@ -954,8 +874,7 @@
             "_datum": {
               "invid": "0X2946",
               "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 33.3
+              "totals": 2
             }
           },
           {
@@ -965,8 +884,7 @@
             "_datum": {
               "invid": "0X4784",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 16.7
+              "totals": 1
             }
           },
           {
@@ -976,8 +894,7 @@
             "_datum": {
               "invid": "0X2779",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 25
+              "totals": 1
             }
           },
           {
@@ -987,8 +904,7 @@
             "_datum": {
               "invid": "0X5371",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 25
+              "totals": 1
             }
           },
           {
@@ -998,8 +914,7 @@
             "_datum": {
               "invid": "0X3952",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 33.3
+              "totals": 1
             }
           },
           {
@@ -1009,8 +924,7 @@
             "_datum": {
               "invid": "0X842",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 33.3
+              "totals": 1
             }
           },
           {
@@ -1020,8 +934,7 @@
             "_datum": {
               "invid": "0X3450",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 50
+              "totals": 1
             }
           },
           {
@@ -1031,8 +944,7 @@
             "_datum": {
               "invid": "0X8355",
               "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 50
+              "totals": 1
             }
           }
         ]
@@ -1041,1134 +953,6 @@
   },
   {
     "index": 1,
-    "labels": [
-      "0X1013",
-      "0X4835",
-      "0X130",
-      "0X257",
-      "0X297",
-      "0X078",
-      "0X5554",
-      "0X8385",
-      "0X6448",
-      "0X3911",
-      "0X3573",
-      "0X3256",
-      "0X9368",
-      "0X4349",
-      "0X848",
-      "0X2247",
-      "0X7467",
-      "0X8430",
-      "0X4254",
-      "0X7821",
-      "0X1891",
-      "0X3912",
-      "0X9382",
-      "0X3837",
-      "0X5012",
-      "0X629",
-      "0X4589",
-      "0X5629",
-      "0X5756",
-      "0X6399",
-      "0X9225",
-      "0X8416",
-      "0X9626",
-      "0X1638",
-      "0X5186",
-      "0X8821",
-      "0X2946",
-      "0X4784",
-      "0X2779",
-      "0X5371",
-      "0X3952",
-      "0X842",
-      "0X3450",
-      "0X8355"
-    ],
-    "indexAxis": "y",
-    "position": "stack",
-    "stat": "percent",
-    "title": "Participant Percentage by Site",
-    "xLabel": "Site",
-    "yLabel": "Participant Percentage",
-    "captions": [
-      "Note: Excludes 5 site(s) with no ineligible participants (31 participants)."
-    ],
-    "datasets": [
-      {
-        "label": "No Eligibility Risk",
-        "backgroundColor": "#00BFC4",
-        "data": [
-          {
-            "x": 58.97435897435898,
-            "y": "0X1013",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X1013",
-              "fillcol": "No Eligibility Risk",
-              "totals": 23,
-              "perc": 59
-            },
-            "_rawY": 23
-          },
-          {
-            "x": 48.717948717948715,
-            "y": "0X4835",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X4835",
-              "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 48.7
-            },
-            "_rawY": 19
-          },
-          {
-            "x": 47.368421052631575,
-            "y": "0X130",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X130",
-              "fillcol": "No Eligibility Risk",
-              "totals": 18,
-              "perc": 47.4
-            },
-            "_rawY": 18
-          },
-          {
-            "x": 57.14285714285714,
-            "y": "0X257",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X257",
-              "fillcol": "No Eligibility Risk",
-              "totals": 20,
-              "perc": 57.1
-            },
-            "_rawY": 20
-          },
-          {
-            "x": 41.17647058823529,
-            "y": "0X297",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X297",
-              "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 41.2
-            },
-            "_rawY": 14
-          },
-          {
-            "x": 50,
-            "y": "0X078",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X078",
-              "fillcol": "No Eligibility Risk",
-              "totals": 16,
-              "perc": 50
-            },
-            "_rawY": 16
-          },
-          {
-            "x": 54.83870967741935,
-            "y": "0X5554",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5554",
-              "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 54.8
-            },
-            "_rawY": 17
-          },
-          {
-            "x": 63.33333333333333,
-            "y": "0X8385",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X8385",
-              "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 63.3
-            },
-            "_rawY": 19
-          },
-          {
-            "x": 58.620689655172406,
-            "y": "0X6448",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X6448",
-              "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 58.6
-            },
-            "_rawY": 17
-          },
-          {
-            "x": 64.28571428571429,
-            "y": "0X3911",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3911",
-              "fillcol": "No Eligibility Risk",
-              "totals": 18,
-              "perc": 64.3
-            },
-            "_rawY": 18
-          },
-          {
-            "x": 70.37037037037037,
-            "y": "0X3573",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3573",
-              "fillcol": "No Eligibility Risk",
-              "totals": 19,
-              "perc": 70.4
-            },
-            "_rawY": 19
-          },
-          {
-            "x": 61.53846153846154,
-            "y": "0X3256",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3256",
-              "fillcol": "No Eligibility Risk",
-              "totals": 16,
-              "perc": 61.5
-            },
-            "_rawY": 16
-          },
-          {
-            "x": 68,
-            "y": "0X9368",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X9368",
-              "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 68
-            },
-            "_rawY": 17
-          },
-          {
-            "x": 70.83333333333334,
-            "y": "0X4349",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X4349",
-              "fillcol": "No Eligibility Risk",
-              "totals": 17,
-              "perc": 70.8
-            },
-            "_rawY": 17
-          },
-          {
-            "x": 63.63636363636363,
-            "y": "0X848",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X848",
-              "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 63.6
-            },
-            "_rawY": 14
-          },
-          {
-            "x": 65,
-            "y": "0X2247",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X2247",
-              "fillcol": "No Eligibility Risk",
-              "totals": 13,
-              "perc": 65
-            },
-            "_rawY": 13
-          },
-          {
-            "x": 55.55555555555556,
-            "y": "0X7467",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X7467",
-              "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 55.6
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 64.70588235294117,
-            "y": "0X8430",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X8430",
-              "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 64.7
-            },
-            "_rawY": 11
-          },
-          {
-            "x": 53.333333333333336,
-            "y": "0X4254",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X4254",
-              "fillcol": "No Eligibility Risk",
-              "totals": 8,
-              "perc": 53.3
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 93.33333333333333,
-            "y": "0X7821",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X7821",
-              "fillcol": "No Eligibility Risk",
-              "totals": 14,
-              "perc": 93.3
-            },
-            "_rawY": 14
-          },
-          {
-            "x": 84.61538461538461,
-            "y": "0X1891",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X1891",
-              "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 84.6
-            },
-            "_rawY": 11
-          },
-          {
-            "x": 38.46153846153847,
-            "y": "0X3912",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3912",
-              "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 38.5
-            },
-            "_rawY": 5
-          },
-          {
-            "x": 76.92307692307693,
-            "y": "0X9382",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X9382",
-              "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 76.9
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 83.33333333333334,
-            "y": "0X3837",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3837",
-              "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 83.3
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 91.66666666666666,
-            "y": "0X5012",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5012",
-              "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 91.7
-            },
-            "_rawY": 11
-          },
-          {
-            "x": 91.66666666666666,
-            "y": "0X629",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X629",
-              "fillcol": "No Eligibility Risk",
-              "totals": 11,
-              "perc": 91.7
-            },
-            "_rawY": 11
-          },
-          {
-            "x": 81.81818181818183,
-            "y": "0X4589",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X4589",
-              "fillcol": "No Eligibility Risk",
-              "totals": 9,
-              "perc": 81.8
-            },
-            "_rawY": 9
-          },
-          {
-            "x": 54.54545454545454,
-            "y": "0X5629",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5629",
-              "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 54.5
-            },
-            "_rawY": 6
-          },
-          {
-            "x": 72.72727272727273,
-            "y": "0X5756",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5756",
-              "fillcol": "No Eligibility Risk",
-              "totals": 8,
-              "perc": 72.7
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 90.9090909090909,
-            "y": "0X6399",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X6399",
-              "fillcol": "No Eligibility Risk",
-              "totals": 10,
-              "perc": 90.9
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 60,
-            "y": "0X9225",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X9225",
-              "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 60
-            },
-            "_rawY": 6
-          },
-          {
-            "x": 62.5,
-            "y": "0X8416",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X8416",
-              "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 62.5
-            },
-            "_rawY": 5
-          },
-          {
-            "x": 75,
-            "y": "0X9626",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X9626",
-              "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 75
-            },
-            "_rawY": 6
-          },
-          {
-            "x": 85.71428571428571,
-            "y": "0X1638",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X1638",
-              "fillcol": "No Eligibility Risk",
-              "totals": 6,
-              "perc": 85.7
-            },
-            "_rawY": 6
-          },
-          {
-            "x": 71.42857142857143,
-            "y": "0X5186",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5186",
-              "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 71.4
-            },
-            "_rawY": 5
-          },
-          {
-            "x": 57.14285714285714,
-            "y": "0X8821",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X8821",
-              "fillcol": "No Eligibility Risk",
-              "totals": 4,
-              "perc": 57.1
-            },
-            "_rawY": 4
-          },
-          {
-            "x": 66.66666666666666,
-            "y": "0X2946",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X2946",
-              "fillcol": "No Eligibility Risk",
-              "totals": 4,
-              "perc": 66.7
-            },
-            "_rawY": 4
-          },
-          {
-            "x": 83.33333333333334,
-            "y": "0X4784",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X4784",
-              "fillcol": "No Eligibility Risk",
-              "totals": 5,
-              "perc": 83.3
-            },
-            "_rawY": 5
-          },
-          {
-            "x": 75,
-            "y": "0X2779",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X2779",
-              "fillcol": "No Eligibility Risk",
-              "totals": 3,
-              "perc": 75
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 75,
-            "y": "0X5371",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X5371",
-              "fillcol": "No Eligibility Risk",
-              "totals": 3,
-              "perc": 75
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 66.66666666666666,
-            "y": "0X3952",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3952",
-              "fillcol": "No Eligibility Risk",
-              "totals": 2,
-              "perc": 66.7
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 66.66666666666666,
-            "y": "0X842",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X842",
-              "fillcol": "No Eligibility Risk",
-              "totals": 2,
-              "perc": 66.7
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 50,
-            "y": "0X3450",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X3450",
-              "fillcol": "No Eligibility Risk",
-              "totals": 1,
-              "perc": 50
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 50,
-            "y": "0X8355",
-            "_fill": "No Eligibility Risk",
-            "_datum": {
-              "invid": "0X8355",
-              "fillcol": "No Eligibility Risk",
-              "totals": 1,
-              "perc": 50
-            },
-            "_rawY": 1
-          }
-        ]
-      },
-      {
-        "label": "Ineligible",
-        "backgroundColor": "#FF5859",
-        "data": [
-          {
-            "x": 41.02564102564102,
-            "y": "0X1013",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X1013",
-              "fillcol": "Ineligible",
-              "totals": 16,
-              "perc": 41
-            },
-            "_rawY": 16
-          },
-          {
-            "x": 51.28205128205128,
-            "y": "0X4835",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X4835",
-              "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 51.3
-            },
-            "_rawY": 20
-          },
-          {
-            "x": 52.63157894736842,
-            "y": "0X130",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X130",
-              "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 52.6
-            },
-            "_rawY": 20
-          },
-          {
-            "x": 42.857142857142854,
-            "y": "0X257",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X257",
-              "fillcol": "Ineligible",
-              "totals": 15,
-              "perc": 42.9
-            },
-            "_rawY": 15
-          },
-          {
-            "x": 58.82352941176471,
-            "y": "0X297",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X297",
-              "fillcol": "Ineligible",
-              "totals": 20,
-              "perc": 58.8
-            },
-            "_rawY": 20
-          },
-          {
-            "x": 50,
-            "y": "0X078",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X078",
-              "fillcol": "Ineligible",
-              "totals": 16,
-              "perc": 50
-            },
-            "_rawY": 16
-          },
-          {
-            "x": 45.16129032258064,
-            "y": "0X5554",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5554",
-              "fillcol": "Ineligible",
-              "totals": 14,
-              "perc": 45.2
-            },
-            "_rawY": 14
-          },
-          {
-            "x": 36.666666666666664,
-            "y": "0X8385",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X8385",
-              "fillcol": "Ineligible",
-              "totals": 11,
-              "perc": 36.7
-            },
-            "_rawY": 11
-          },
-          {
-            "x": 41.37931034482759,
-            "y": "0X6448",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X6448",
-              "fillcol": "Ineligible",
-              "totals": 12,
-              "perc": 41.4
-            },
-            "_rawY": 12
-          },
-          {
-            "x": 35.714285714285715,
-            "y": "0X3911",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3911",
-              "fillcol": "Ineligible",
-              "totals": 10,
-              "perc": 35.7
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 29.629629629629626,
-            "y": "0X3573",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3573",
-              "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 29.6
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 38.46153846153847,
-            "y": "0X3256",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3256",
-              "fillcol": "Ineligible",
-              "totals": 10,
-              "perc": 38.5
-            },
-            "_rawY": 10
-          },
-          {
-            "x": 32,
-            "y": "0X9368",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X9368",
-              "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 32
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 29.166666666666668,
-            "y": "0X4349",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X4349",
-              "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 29.2
-            },
-            "_rawY": 7
-          },
-          {
-            "x": 36.36363636363637,
-            "y": "0X848",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X848",
-              "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 36.4
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 35,
-            "y": "0X2247",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X2247",
-              "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 35
-            },
-            "_rawY": 7
-          },
-          {
-            "x": 44.44444444444444,
-            "y": "0X7467",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X7467",
-              "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 44.4
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 35.294117647058826,
-            "y": "0X8430",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X8430",
-              "fillcol": "Ineligible",
-              "totals": 6,
-              "perc": 35.3
-            },
-            "_rawY": 6
-          },
-          {
-            "x": 46.666666666666664,
-            "y": "0X4254",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X4254",
-              "fillcol": "Ineligible",
-              "totals": 7,
-              "perc": 46.7
-            },
-            "_rawY": 7
-          },
-          {
-            "x": 6.666666666666667,
-            "y": "0X7821",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X7821",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 6.7
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 15.384615384615385,
-            "y": "0X1891",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X1891",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 15.4
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 61.53846153846154,
-            "y": "0X3912",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3912",
-              "fillcol": "Ineligible",
-              "totals": 8,
-              "perc": 61.5
-            },
-            "_rawY": 8
-          },
-          {
-            "x": 23.076923076923077,
-            "y": "0X9382",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X9382",
-              "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 23.1
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 16.666666666666664,
-            "y": "0X3837",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3837",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 16.7
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 8.333333333333332,
-            "y": "0X5012",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5012",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 8.3
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 8.333333333333332,
-            "y": "0X629",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X629",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 8.3
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 18.181818181818183,
-            "y": "0X4589",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X4589",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 18.2
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 45.45454545454545,
-            "y": "0X5629",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5629",
-              "fillcol": "Ineligible",
-              "totals": 5,
-              "perc": 45.5
-            },
-            "_rawY": 5
-          },
-          {
-            "x": 27.27272727272727,
-            "y": "0X5756",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5756",
-              "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 27.3
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 9.090909090909092,
-            "y": "0X6399",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X6399",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 9.1
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 40,
-            "y": "0X9225",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X9225",
-              "fillcol": "Ineligible",
-              "totals": 4,
-              "perc": 40
-            },
-            "_rawY": 4
-          },
-          {
-            "x": 37.5,
-            "y": "0X8416",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X8416",
-              "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 37.5
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 25,
-            "y": "0X9626",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X9626",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 25
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 14.285714285714285,
-            "y": "0X1638",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X1638",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 14.3
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 28.57142857142857,
-            "y": "0X5186",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5186",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 28.6
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 42.857142857142854,
-            "y": "0X8821",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X8821",
-              "fillcol": "Ineligible",
-              "totals": 3,
-              "perc": 42.9
-            },
-            "_rawY": 3
-          },
-          {
-            "x": 33.33333333333333,
-            "y": "0X2946",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X2946",
-              "fillcol": "Ineligible",
-              "totals": 2,
-              "perc": 33.3
-            },
-            "_rawY": 2
-          },
-          {
-            "x": 16.666666666666664,
-            "y": "0X4784",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X4784",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 16.7
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 25,
-            "y": "0X2779",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X2779",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 25
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 25,
-            "y": "0X5371",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X5371",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 25
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 33.33333333333333,
-            "y": "0X3952",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3952",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 33.3
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 33.33333333333333,
-            "y": "0X842",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X842",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 33.3
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 50,
-            "y": "0X3450",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X3450",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 50
-            },
-            "_rawY": 1
-          },
-          {
-            "x": 50,
-            "y": "0X8355",
-            "_fill": "Ineligible",
-            "_datum": {
-              "invid": "0X8355",
-              "fillcol": "Ineligible",
-              "totals": 1,
-              "perc": 50
-            },
-            "_rawY": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "index": 2,
     "labels": [
       "US",
       "Japan",
@@ -2193,8 +977,7 @@
             "_datum": {
               "country": "US",
               "fillcol": "No Eligibility Risk",
-              "totals": 201,
-              "perc": 63
+              "totals": 201
             }
           },
           {
@@ -2204,8 +987,7 @@
             "_datum": {
               "country": "Japan",
               "fillcol": "No Eligibility Risk",
-              "totals": 179,
-              "perc": 68.3
+              "totals": 179
             }
           },
           {
@@ -2215,8 +997,7 @@
             "_datum": {
               "country": "UK",
               "fillcol": "No Eligibility Risk",
-              "totals": 115,
-              "perc": 60.5
+              "totals": 115
             }
           }
         ]
@@ -2232,8 +1013,7 @@
             "_datum": {
               "country": "US",
               "fillcol": "Ineligible",
-              "totals": 118,
-              "perc": 37
+              "totals": 118
             }
           },
           {
@@ -2243,8 +1023,7 @@
             "_datum": {
               "country": "Japan",
               "fillcol": "Ineligible",
-              "totals": 83,
-              "perc": 31.7
+              "totals": 83
             }
           },
           {
@@ -2254,8 +1033,7 @@
             "_datum": {
               "country": "UK",
               "fillcol": "Ineligible",
-              "totals": 75,
-              "perc": 39.5
+              "totals": 75
             }
           }
         ]
@@ -2263,7 +1041,7 @@
     ]
   },
   {
-    "index": 3,
+    "index": 2,
     "labels": [
       "Ineligible, Both Criteria",
       "Eligibility PD only",
@@ -2278,46 +1056,31 @@
     "captions": [],
     "datasets": [
       {
-        "label": "EDC I/E only",
-        "backgroundColor": "#F8766D",
-        "data": [
-          {
-            "x": 102,
-            "y": "EDC I/E only",
-            "_fill": "EDC I/E only",
-            "_datum": {
-              "Source": "EDC I/E only",
-              "n": 102
-            }
-          }
-        ]
-      },
-      {
-        "label": "Eligibility PD only",
-        "backgroundColor": "#00BA38",
-        "data": [
-          {
-            "x": 148,
-            "y": "Eligibility PD only",
-            "_fill": "Eligibility PD only",
-            "_datum": {
-              "Source": "Eligibility PD only",
-              "n": 148
-            }
-          }
-        ]
-      },
-      {
-        "label": "Ineligible, Both Criteria",
-        "backgroundColor": "#619CFF",
+        "label": null,
+        "backgroundColor": "#4e79a7",
         "data": [
           {
             "x": 26,
             "y": "Ineligible, Both Criteria",
-            "_fill": "Ineligible, Both Criteria",
             "_datum": {
               "Source": "Ineligible, Both Criteria",
               "n": 26
+            }
+          },
+          {
+            "x": 148,
+            "y": "Eligibility PD only",
+            "_datum": {
+              "Source": "Eligibility PD only",
+              "n": 148
+            }
+          },
+          {
+            "x": 102,
+            "y": "EDC I/E only",
+            "_datum": {
+              "Source": "EDC I/E only",
+              "n": 102
             }
           }
         ]
@@ -2325,7 +1088,7 @@
     ]
   },
   {
-    "index": 4,
+    "index": 3,
     "labels": [
       "incl9",
       "incl8",
@@ -3725,7 +2488,7 @@
     ]
   },
   {
-    "index": 5,
+    "index": 4,
     "labels": [
       "incl9",
       "incl8",
@@ -4297,7 +3060,7 @@
     ]
   },
   {
-    "index": 6,
+    "index": 5,
     "labels": [
       "0X9626",
       "0X9368",
@@ -5592,7 +4355,7 @@
     ]
   },
   {
-    "index": 7,
+    "index": 6,
     "labels": [
       "US",
       "UK",
@@ -6249,7 +5012,7 @@
     ]
   },
   {
-    "index": 8,
+    "index": 7,
     "labels": [
       "0X130",
       "0X4835",
@@ -6456,7 +5219,7 @@
     ]
   },
   {
-    "index": 9,
+    "index": 8,
     "labels": [
       "US",
       "Japan",
@@ -6545,7 +5308,7 @@
     ]
   },
   {
-    "index": 10,
+    "index": 9,
     "labels": [
       "Withdrew Consent",
       "Lost to Follow-Up",
@@ -6560,46 +5323,31 @@
     "captions": [],
     "datasets": [
       {
-        "label": "Death",
-        "backgroundColor": "#F8766D",
-        "data": [
-          {
-            "x": 5,
-            "y": "Death",
-            "_fill": "Death",
-            "_datum": {
-              "compreas": "Death",
-              "n": 5
-            }
-          }
-        ]
-      },
-      {
-        "label": "Lost to Follow-Up",
-        "backgroundColor": "#00BA38",
-        "data": [
-          {
-            "x": 5,
-            "y": "Lost to Follow-Up",
-            "_fill": "Lost to Follow-Up",
-            "_datum": {
-              "compreas": "Lost to Follow-Up",
-              "n": 5
-            }
-          }
-        ]
-      },
-      {
-        "label": "Withdrew Consent",
-        "backgroundColor": "#619CFF",
+        "label": null,
+        "backgroundColor": "#4e79a7",
         "data": [
           {
             "x": 3,
             "y": "Withdrew Consent",
-            "_fill": "Withdrew Consent",
             "_datum": {
               "compreas": "Withdrew Consent",
               "n": 3
+            }
+          },
+          {
+            "x": 5,
+            "y": "Lost to Follow-Up",
+            "_datum": {
+              "compreas": "Lost to Follow-Up",
+              "n": 5
+            }
+          },
+          {
+            "x": 5,
+            "y": "Death",
+            "_datum": {
+              "compreas": "Death",
+              "n": 5
             }
           }
         ]
@@ -6607,7 +5355,7 @@
     ]
   },
   {
-    "index": 11,
+    "index": 10,
     "labels": [
       "Withdrew Consent",
       "Lost to Follow-Up",
@@ -6798,7 +5546,7 @@
     ]
   },
   {
-    "index": 12,
+    "index": 11,
     "labels": [
       "Withdrew Consent",
       "Lost to Follow-Up",
@@ -6913,7 +5661,7 @@
     ]
   },
   {
-    "index": 13,
+    "index": 12,
     "labels": [
       "0X848",
       "0X5554",
@@ -7074,7 +5822,7 @@
     ]
   },
   {
-    "index": 14,
+    "index": 13,
     "labels": [
       "US",
       "UK",

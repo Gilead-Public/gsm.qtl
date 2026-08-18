@@ -35,11 +35,12 @@ async function fingerprints(page) {
 
 test('the report renders the expected chart set', async ({ page }) => {
   const fps = await fingerprints(page);
-  expect(fps).toHaveLength(15);
+  expect(fps).toHaveLength(14);
   // All six migrated functions draw horizontally.
   expect(fps.every((f) => f.indexAxis === 'y')).toBe(true);
-  // Only the percentage variant of eligibility_groupBar is normalized to percent.
-  expect(fps.filter((f) => f.stat === 'percent')).toHaveLength(1);
+  // No pre-normalized chart remains: the former "Site (by %)" tab is covered
+  // by the Site chart's position toggle.
+  expect(fps.filter((f) => f.stat === 'percent')).toHaveLength(0);
 });
 
 test('structural fingerprints match the committed baseline', async ({ page }) => {
