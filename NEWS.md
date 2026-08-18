@@ -10,6 +10,13 @@
   or post-processed the returned plotly object needs updating. Chart appearance is
   structurally equivalent; charts sit slightly taller than before because `gsm.viz` adds its
   axis and legend chrome on top of the per-category height.
+- Tooltips now use the built-in `gsm.viz` formats: the stacked group charts show
+  `<group>: <count> (<percent>)` per segment, while `eligibility_sourceBar()` and
+  `discontinuation_reasonBar()` show the plain count. Those two single-series charts also
+  no longer map `fill`, dropping the legend and colour set that duplicated the category axis.
+- The QTL0001 report renders one Site chart instead of separate `Site` and `Site (by %)`
+  tabs — the chart's position toggle switches between counts and percentages. The
+  `bPercentage` argument of `eligibility_groupBar()` is unchanged.
 - `gsm.qtl` no longer vendors its own copy of the `gsm.viz` bundle. The QTL time-series widget
   now loads the shared bundle published by `gsm.vizr`, which moves it from `gsm.viz` 2.2.0 to
   2.4.1.
