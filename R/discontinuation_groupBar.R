@@ -92,18 +92,7 @@ discontinuation_groupBar <- function(
       ),
       labels = labels,
       theme = .qtl_bar_theme(),
-      tooltip = list(
-        formatter = gsm.vizr::js_hook(sprintf(
-          "function (value, context, details) {
-             var d = (details && details.datum) || {};
-             return ['Count: ' + d.totals,
-                     '%s: ' + d['%s'],
-                     'Discontinuation Status: ' + d.fillcol];
-           }",
-          strGroupLabel,
-          var_name
-        ))
-      )
+      tooltip = list(format = "count+percent")
     ),
     minHeight = 500
   )

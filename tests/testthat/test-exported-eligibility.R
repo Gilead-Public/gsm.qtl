@@ -37,7 +37,7 @@ test_that("eligibility_groupBar builds a horizontal identity stack (#14, #15, #2
   expect_identical(out$x$minHeight, 500)
 })
 
-test_that("eligibility_groupBar aggregates counts and percentages per group (#60, #134)", {
+test_that("eligibility_groupBar aggregates counts per group (#60, #134)", {
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(Source != "Neither")
 
@@ -53,7 +53,6 @@ test_that("eligibility_groupBar aggregates counts and percentages per group (#60
   expect_equal(sum(vapply(s01, function(r) r$totals, numeric(1))), 3)
   ineligible <- Filter(function(r) r$fillcol == "Ineligible", s01)[[1]]
   expect_equal(ineligible$totals, 2)
-  expect_equal(ineligible$perc, 66.7)
 })
 
 test_that("eligibility_groupBar bPercentage switches to a filled stack (#60, #134)", {
@@ -121,7 +120,7 @@ test_that("eligibility_groupBar orders categories most-frequent-first (#134)", {
   expect_identical(unlist(spec$scales$x$order), c("S01", "S02", "S03"))
 })
 
-test_that("eligibility_groupBar tooltip reads the datum row (#134)", {
+test_that("eligibility_groupBar uses the native count+percent tooltip (#134)", {
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(Source != "Neither")
 
@@ -132,12 +131,10 @@ test_that("eligibility_groupBar tooltip reads the datum row (#134)", {
     strGroupLabel = "Site"
   ))
 
-  expect_true(is.character(spec$tooltip$formatter))
-  expect_match(spec$tooltip$formatter, "details.datum", fixed = TRUE)
-  expect_match(spec$tooltip$formatter, "'Count: '", fixed = TRUE)
-  expect_match(spec$tooltip$formatter, "'Percentage: '", fixed = TRUE)
-  expect_match(spec$tooltip$formatter, "'Site: '", fixed = TRUE)
-  expect_match(spec$tooltip$formatter, "'Eligibility Status: '", fixed = TRUE)
+  # No js_hook formatter: labels and column names no longer pass through
+  # sprintf'd JavaScript, so values with quotes cannot break the tooltip.
+  expect_identical(spec$tooltip$format, "count+percent")
+  expect_null(spec$tooltip$formatter)
 })
 
 test_that("eligibility_sourceBar counts by source with total labels (#14, #21, #22, #134)", {
@@ -147,15 +144,16 @@ test_that("eligibility_sourceBar counts by source with total labels (#14, #21, #
   rows <- bars_data_of(out)
 
   expect_s3_class(out, "bars")
-  expect_identical(spec$mapping, list(x = "Source", y = "n", fill = "Source"))
+  # No fill: it would duplicate the category axis and force a redundant legend.
+  expect_identical(spec$mapping, list(x = "Source", y = "n"))
+  expect_null(spec$scales$fill)
   expect_identical(spec$stat, "identity")
   expect_identical(spec$orientation, "horizontal")
   expect_identical(spec$labels$title, "Participant Count by Category/Source")
   expect_identical(spec$scales$x$label, "Source")
   expect_identical(spec$scales$y$label, "Participant Count")
-  expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$Source))
   expect_true(spec$annotations$labels$total$display)
-  expect_match(spec$tooltip$formatter, "'Source: '", fixed = TRUE)
+  expect_identical(spec$tooltip$format, "count")
 
   edc <- Filter(function(r) r$Source == "EDC", rows)[[1]]
   expect_equal(edc$n, 3)
@@ -222,8 +220,7 @@ test_that("criteria_groupBar swaps category and fill when bSwapAxes is TRUE (#90
     unlist(spec$scales$fill$colors),
     .qtl_ggplot_hue(criteria)
   )
-  expect_match(spec$tooltip$formatter, "'Criteria: '", fixed = TRUE)
-  expect_match(spec$tooltip$formatter, "'Site: '", fixed = TRUE)
+  expect_identical(spec$tooltip$format, "count+percent")
 })
 
 test_that("eligibility_listing covers df and download arguments (#21, #22, #24, #25)", {

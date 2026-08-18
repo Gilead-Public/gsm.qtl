@@ -34,10 +34,7 @@ eligibility_groupBar <- function(
         !!group_sym
       )))
     ) %>%
-    dplyr::count(!!group_sym, .data$fillcol, name = "totals") %>%
-    dplyr::group_by(!!group_sym) %>%
-    dplyr::mutate(perc = round(100 * .data$totals / sum(.data$totals), 1)) %>%
-    ungroup()
+    dplyr::count(!!group_sym, .data$fillcol, name = "totals")
 
   n_groups_without_ineligible <- dfDenom %>%
     filter(!(!!group_sym %in% groups_with_ineligible)) %>%
@@ -105,19 +102,9 @@ eligibility_groupBar <- function(
       ),
       labels = labels,
       theme = .qtl_bar_theme(),
-      tooltip = list(
-        formatter = gsm.vizr::js_hook(sprintf(
-          "function (value, context, details) {
-             var d = (details && details.datum) || {};
-             return ['Count: ' + d.totals,
-                     'Percentage: ' + d.perc + ' %%',
-                     '%s: ' + d['%s'],
-                     'Eligibility Status: ' + d.fillcol];
-           }",
-          strGroupLabel,
-          var_name
-        ))
-      )
+      # "<status>: <count> (<pct>)" with the percentage over the category
+      # total — the same numbers the removed formatter and perc column carried.
+      tooltip = list(format = "count+percent")
     ),
     minHeight = 500
   )

@@ -33,11 +33,7 @@ test_that("discontinuation_groupBar builds a horizontal identity stack (#14, #21
   )
   expect_match(spec$labels$captions, "Excludes .* site\\(s\\)")
   expect_match(spec$labels$captions, "prematurely discontinued participants")
-  expect_match(
-    spec$tooltip$formatter,
-    "'Discontinuation Status: '",
-    fixed = TRUE
-  )
+  expect_identical(spec$tooltip$format, "count+percent")
 })
 
 test_that("discontinuation_groupBar honours varStatus and valuesDiscontinued (#76, #134)", {
@@ -80,22 +76,16 @@ test_that("discontinuation_reasonBar counts by reason with total labels (#14, #2
   rows <- bars_data_of(out)
 
   expect_s3_class(out, "bars")
-  expect_identical(
-    spec$mapping,
-    list(x = "compreas", y = "n", fill = "compreas")
-  )
+  # No fill: it would duplicate the category axis and force a redundant legend.
+  # This also sidesteps the jsonlite blank-key limitation for blank reasons.
+  expect_identical(spec$mapping, list(x = "compreas", y = "n"))
+  expect_null(spec$scales$fill)
   expect_identical(spec$stat, "identity")
   expect_identical(spec$orientation, "horizontal")
   expect_identical(spec$labels$title, "Participant Count by Reasons")
   expect_identical(spec$scales$x$label, "Discontinuation Reasons")
   expect_identical(spec$scales$y$label, "Participant Count")
-  expect_identical(spec$scales$fill$label, "Discontinuation Reasons")
-  # compreas is blank for two fixture rows. A blank level cannot carry a named
-  # colour through the spec because jsonlite substitutes the positional index
-  # for an empty JSON key, so assert the named levels that do round-trip.
-  expected <- .qtl_ggplot_hue(df$compreas)
-  named <- names(expected)[nzchar(names(expected))]
-  expect_identical(spec$scales$fill$colors[named], as.list(expected[named]))
+  expect_identical(spec$tooltip$format, "count")
   expect_true(spec$annotations$labels$total$display)
 
   reasons <- vapply(rows, function(r) r$compreas, character(1))
@@ -123,12 +113,7 @@ test_that("reasons_groupBar stacks reasons by group (#14, #21, #22, #134)", {
   expect_identical(spec$scales$fill$label, "Site")
   expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$invid))
   expect_true(spec$annotations$labels$total$display)
-  expect_match(
-    spec$tooltip$formatter,
-    "'Discontinuation Reason: '",
-    fixed = TRUE
-  )
-  expect_match(spec$tooltip$formatter, "'Site: '", fixed = TRUE)
+  expect_identical(spec$tooltip$format, "count+percent")
 })
 
 test_that("reasons_groupBar swaps category and fill when bSwapAxes is TRUE (#90, #134)", {

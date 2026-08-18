@@ -57,19 +57,7 @@ reasons_groupBar <- function(
       ),
       annotations = list(labels = list(total = list(display = TRUE))),
       theme = .qtl_bar_theme(),
-      tooltip = list(
-        formatter = gsm.vizr::js_hook(sprintf(
-          "function (value, context, details) {
-             var d = (details && details.datum) || {};
-             return ['%s: ' + d['%s'],
-                     'Discontinuation Reason: ' + d['%s'],
-                     'Count: ' + d.n];
-           }",
-          strGroupLabel,
-          var_name,
-          compreas_name
-        ))
-      )
+      tooltip = list(format = "count+percent")
     ),
     minHeight = 500
   )
