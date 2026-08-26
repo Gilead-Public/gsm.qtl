@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">gsm.qtl</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.3.0.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.3.0.9001</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,21 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="gsmqtl-development-version">gsm.qtl (development version)<a class="anchor" aria-label="anchor" href="#gsmqtl-development-version"></a></h2>
+<div class="section level4">
+<h4 id="key-enhancements-development-version">Key Enhancements:<a class="anchor" aria-label="anchor" href="#key-enhancements-development-version"></a></h4>
+<ul><li>The six QTL barchart functions (<code><a href="../reference/eligibility_groupBar.html">eligibility_groupBar()</a></code>, <code><a href="../reference/eligibility_sourceBar.html">eligibility_sourceBar()</a></code>, <code><a href="../reference/criteria_groupBar.html">criteria_groupBar()</a></code>, <code><a href="../reference/discontinuation_groupBar.html">discontinuation_groupBar()</a></code>, <code><a href="../reference/discontinuation_reasonBar.html">discontinuation_reasonBar()</a></code> and <code><a href="../reference/reasons_groupBar.html">reasons_groupBar()</a></code>) now render through <code><a href="https://gilead-public.github.io/gsm.vizr/reference/bars.html" class="external-link">gsm.vizr::bars()</a></code> on the <code>gsm.viz</code> JavaScript library instead of <code>ggplot2</code> + <code><a href="https://rdrr.io/pkg/plotly/man/ggplotly.html" class="external-link">plotly::ggplotly()</a></code>. Their arguments are unchanged, but <strong>they now return a <code>bars</code> htmlwidget rather than a <code>plotly</code> object</strong> — code that inspected or post-processed the returned plotly object needs updating. Chart appearance is structurally equivalent; charts sit slightly taller than before because <code>gsm.viz</code> adds its axis and legend chrome on top of the per-category height.</li>
+<li>Tooltips now use the built-in <code>gsm.viz</code> formats: the stacked group charts show <code>&lt;group&gt;: &lt;count&gt; (&lt;percent&gt;)</code> per segment, while <code><a href="../reference/eligibility_sourceBar.html">eligibility_sourceBar()</a></code> and <code><a href="../reference/discontinuation_reasonBar.html">discontinuation_reasonBar()</a></code> show the plain count. Those two single-series charts also no longer map <code>fill</code>, dropping the legend and colour set that duplicated the category axis.</li>
+<li>The QTL0001 report renders one Site chart instead of separate <code>Site</code> and <code>Site (by %)</code> tabs — the chart’s position toggle switches between counts and percentages. The <code>bPercentage</code> argument of <code><a href="../reference/eligibility_groupBar.html">eligibility_groupBar()</a></code> is unchanged.</li>
+<li>
+<code>gsm.qtl</code> no longer vendors its own copy of the <code>gsm.viz</code> bundle. The QTL time-series widget now loads the shared bundle published by <code>gsm.vizr</code>, which moves it from <code>gsm.viz</code> 2.2.0 to 2.4.1.</li>
+</ul></div>
+<div class="section level4">
+<h4 id="other-updates-development-version">Other Updates:<a class="anchor" aria-label="anchor" href="#other-updates-development-version"></a></h4>
+<ul><li>Added <code>gsm.vizr</code> as a package dependency.</li>
+<li>Removed the unused <code>Widget_BarChartQTL</code> widget and its <code>barChartQTL.js</code> shim.</li>
+<li>
+<code><a href="../reference/QTL_lineplot.html">QTL_lineplot()</a></code> still renders with <code>plotly</code>, so <code>plotly</code> and <code>ggplot2</code> remain dependencies until a generic line renderer is available.</li>
+</ul></div>
 </div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="1.3.0" id="gsmqtl-v130">gsm.qtl v1.3.0<a class="anchor" aria-label="anchor" href="#gsmqtl-v130"></a></h2>

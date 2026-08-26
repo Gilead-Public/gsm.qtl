@@ -2,6 +2,52 @@
 
 ## gsm.qtl (development version)
 
+#### Key Enhancements:
+
+- The six QTL barchart functions
+  ([`eligibility_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md),
+  [`eligibility_sourceBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_sourceBar.md),
+  [`criteria_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/criteria_groupBar.md),
+  [`discontinuation_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_groupBar.md),
+  [`discontinuation_reasonBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_reasonBar.md)
+  and
+  [`reasons_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/reasons_groupBar.md))
+  now render through
+  [`gsm.vizr::bars()`](https://gilead-public.github.io/gsm.vizr/reference/bars.html)
+  on the `gsm.viz` JavaScript library instead of `ggplot2` +
+  [`plotly::ggplotly()`](https://rdrr.io/pkg/plotly/man/ggplotly.html).
+  Their arguments are unchanged, but **they now return a `bars`
+  htmlwidget rather than a `plotly` object** — code that inspected or
+  post-processed the returned plotly object needs updating. Chart
+  appearance is structurally equivalent; charts sit slightly taller than
+  before because `gsm.viz` adds its axis and legend chrome on top of the
+  per-category height.
+- Tooltips now use the built-in `gsm.viz` formats: the stacked group
+  charts show `<group>: <count> (<percent>)` per segment, while
+  [`eligibility_sourceBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_sourceBar.md)
+  and
+  [`discontinuation_reasonBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/discontinuation_reasonBar.md)
+  show the plain count. Those two single-series charts also no longer
+  map `fill`, dropping the legend and colour set that duplicated the
+  category axis.
+- The QTL0001 report renders one Site chart instead of separate `Site`
+  and `Site (by %)` tabs — the chart’s position toggle switches between
+  counts and percentages. The `bPercentage` argument of
+  [`eligibility_groupBar()`](https://gilead-public.github.io/gsm.qtl/dev/reference/eligibility_groupBar.md)
+  is unchanged.
+- `gsm.qtl` no longer vendors its own copy of the `gsm.viz` bundle. The
+  QTL time-series widget now loads the shared bundle published by
+  `gsm.vizr`, which moves it from `gsm.viz` 2.2.0 to 2.4.1.
+
+#### Other Updates:
+
+- Added `gsm.vizr` as a package dependency.
+- Removed the unused `Widget_BarChartQTL` widget and its
+  `barChartQTL.js` shim.
+- [`QTL_lineplot()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
+  still renders with `plotly`, so `plotly` and `ggplot2` remain
+  dependencies until a generic line renderer is available.
+
 ## gsm.qtl v1.3.0
 
 #### Key Enhancements:

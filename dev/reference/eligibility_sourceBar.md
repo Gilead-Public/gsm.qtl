@@ -17,4 +17,4 @@ eligibility_sourceBar(df)
 
 ## Value
 
-A `plotly` object
+A `bars` htmlwidget

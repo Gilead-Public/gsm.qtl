@@ -21,4 +21,4 @@ discontinuation_reasonBar(df, varCompreas)
 
 ## Value
 
-A `plotly` object
+A `bars` htmlwidget
