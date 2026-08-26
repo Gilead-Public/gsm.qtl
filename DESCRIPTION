@@ -1,6 +1,6 @@
 Package: gsm.qtl
 Title: Good Statistical Monitoring QTLs
-Version: 1.3.0.9001
+Version: 1.4.0
 Authors@R: c(
     person("Zhongkai", "Wang", , "Zhongkai.Wang6@gilead.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1883-2265")),
@@ -22,7 +22,7 @@ Imports:
     forcats,
     ggplot2,
     gsm.core (>= 1.1.2),
-    gsm.vizr,
+    gsm.vizr (>= 0.1.0),
     gt,
     htmltools,
     htmlwidgets,
@@ -50,8 +50,8 @@ Suggests:
 VignetteBuilder: 
     knitr
 Remotes:
-    gsm.core=Gilead-Public/gsm.core@dev,
-    gsm.vizr=Gilead-Public/gsm.vizr@dev,
+    gsm.core=Gilead-Public/gsm.core@main,
+    gsm.vizr=Gilead-Public/gsm.vizr@release-0.1.0,
     workr=Gilead-Public/workr@main,
     qcthat=Gilead-Public/qcthat@*release
 Config/Needs/website: DT, here, pkgdown, devtools

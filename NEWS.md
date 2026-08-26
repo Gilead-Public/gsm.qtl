@@ -1,4 +1,4 @@
-# gsm.qtl (development version)
+# gsm.qtl v1.4.0
 
 ### Key Enhancements:
 
@@ -27,6 +27,9 @@
 - Removed the unused `Widget_BarChartQTL` widget and its `barChartQTL.js` shim.
 - `QTL_lineplot()` still renders with `plotly`, so `plotly` and `ggplot2` remain dependencies
   until a generic line renderer is available.
+- Removed the unused `riskmetric` dependency (#124).
+- Updated repository links and CI actions for the move to the `Gilead-Public`
+  organization (#132).
 
 # gsm.qtl v1.3.0
 
