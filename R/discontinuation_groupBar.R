@@ -7,55 +7,56 @@
 #' @param varStatus A variable indicating participant study status, defaults to `compyn`.
 #' @param valuesDiscontinued A vector of values in `varStatus` considered premature discontinuations, defaults to 'N'.
 #'
-#' @returns A `plotly` object
+#' @returns A `bars` htmlwidget
 #'
 #' @export
-discontinuation_groupBar <- function(dfNum,
-                                     dfDenom,
-                                     varGroupID,
-                                     strGroupLabel,
-                                     varStatus = compyn,
-                                     valuesDiscontinued = c('N')) {
+discontinuation_groupBar <- function(
+  dfNum,
+  dfDenom,
+  varGroupID,
+  strGroupLabel,
+  varStatus = compyn,
+  valuesDiscontinued = c('N')
+) {
+  group_sym <- rlang::ensym(varGroupID)
+  var_name <- rlang::as_string(group_sym)
+
   groups_with_discontinuation <- dfNum %>%
-    pull(!!enexpr(varGroupID)) %>%
+    pull(!!group_sym) %>%
     unique()
 
-  # Create the gg object
-  group_bar <- dfDenom %>%
-    mutate(fillcol = ifelse(!!enexpr(varStatus) %in% valuesDiscontinued, "Premature Discontinuation", "Completed/Ongoing")) %>%
-    filter(!!enexpr(varGroupID) %in% groups_with_discontinuation) %>%
-    mutate(!!enexpr(varGroupID) := forcats::fct_rev(forcats::fct_infreq(!!enexpr(varGroupID)))) %>%
-    dplyr::group_by(!!enexpr(varGroupID), fillcol) %>%
-    dplyr::summarize(totals = n()) %>%
-    ungroup() %>%
-    ggplot(., aes(
-      y = !!enexpr(varGroupID), fill = fillcol, x = totals,
-      text = paste0(
-        "Count: ", totals,
-        "\n", strGroupLabel, ": ", !!enexpr(varGroupID),
-        "\nDiscontinuation Status: ", fillcol
+  df_counts <- dfDenom %>%
+    mutate(
+      fillcol = factor(
+        ifelse(
+          !!enexpr(varStatus) %in% valuesDiscontinued,
+          "Premature Discontinuation",
+          "Completed/Ongoing"
+        ),
+        levels = c("Completed/Ongoing", "Premature Discontinuation")
       )
-    )) +
-    geom_bar(stat = "identity") +
-    labs(y = strGroupLabel, x = "Participant Count", fill = "Study Status", title = paste0("Participant Count by ", strGroupLabel)) +
-    scale_fill_manual(values = c(
-      "Premature Discontinuation" = "#FF5859",
-      "Completed/Ongoing" = "#00BFC4"
-    )) +
-    theme_classic()
+    ) %>%
+    filter(!!group_sym %in% groups_with_discontinuation) %>%
+    mutate(
+      !!group_sym := .qtl_chart_order(forcats::fct_rev(forcats::fct_infreq(
+        !!group_sym
+      )))
+    ) %>%
+    dplyr::count(!!group_sym, .data$fillcol, name = "totals")
 
   n_groups_without_discontinuation <- dfDenom %>%
-    filter(!(!!enexpr(varGroupID) %in% groups_with_discontinuation)) %>%
-    pull(!!enexpr(varGroupID)) %>%
+    filter(!(!!group_sym %in% groups_with_discontinuation)) %>%
+    pull(!!group_sym) %>%
     unique() %>%
     length()
 
   n_participants_without_discontinuation <- dfDenom %>%
-    filter(!(!!enexpr(varGroupID) %in% groups_with_discontinuation)) %>%
+    filter(!(!!group_sym %in% groups_with_discontinuation)) %>%
     nrow()
 
-  footnote_text <- if (n_groups_without_discontinuation > 0) {
-    paste0(
+  labels <- list(title = paste0("Participant Count by ", strGroupLabel))
+  if (n_groups_without_discontinuation > 0) {
+    labels$captions <- paste0(
       "Note: Excludes ",
       n_groups_without_discontinuation,
       " ",
@@ -64,19 +65,35 @@ discontinuation_groupBar <- function(dfNum,
       n_participants_without_discontinuation,
       " participants)."
     )
-  } else {
-    NULL
   }
 
-  footnote_layout <- calc_plotly_footnote_layout(footnote_text)
-
-  # Create the plotly object
-  x <- plotly::ggplotly(group_bar, tooltip = c("text"), h = calc_fig_size(n_rows = length(groups_with_discontinuation))) %>%
-    layout(
-      margin = footnote_layout$margin,
-      annotations = footnote_layout$annotations,
-      xaxis = list(autorange = TRUE),
-      yaxis = list(autorange = TRUE)
-    )
-  return(x)
+  gsm.vizr::bars(
+    df_counts,
+    gsm.vizr::bars_spec(
+      x = var_name,
+      y = "totals",
+      fill = "fillcol",
+      stat = "identity",
+      orientation = "horizontal",
+      position = "stack",
+      scales = list(
+        x = list(label = strGroupLabel),
+        y = list(label = "Participant Count"),
+        fill = list(
+          label = "Study Status",
+          # Key order sets the stack order: gsm.viz reads it from this map and
+          # ignores the factor-derived scales$fill$order whenever a named colour
+          # map is supplied. Keep it in the `fillcol` level order above.
+          colors = c(
+            "Completed/Ongoing" = "#00BFC4",
+            "Premature Discontinuation" = "#FF5859"
+          )
+        )
+      ),
+      labels = labels,
+      theme = .qtl_bar_theme(),
+      tooltip = list(format = "count+percent")
+    ),
+    minHeight = 500
+  )
 }

@@ -1,133 +1,226 @@
-test_that("eligibility_groupBar uses all arguments (#14, #15, #21, #22, #60)", {
+test_that("eligibility_groupBar builds a horizontal identity stack (#14, #15, #21, #22, #60, #134)", {
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(Source != "Neither")
 
-  out_counts <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = FALSE)
-  out_perc <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = TRUE)
-  built_counts <- plotly::plotly_build(out_counts)
-  built_perc <- plotly::plotly_build(out_perc)
+  out <- eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  )
+  spec <- bars_spec_of(out)
 
-  expect_s3_class(out_counts, "plotly")
-  expect_s3_class(out_perc, "plotly")
-
-  count_text <- plotly_trace_text(out_counts)
-  perc_text <- plotly_trace_text(out_perc)
-  annotations <- built_counts$x$layout[["annotations"]]
-
-  expect_true(any(grepl("Eligibility Status: Ineligible", count_text, fixed = TRUE)))
-  expect_true(any(grepl("Site: S01", count_text, fixed = TRUE)))
-  expect_true(any(grepl("Percentage:", perc_text, fixed = TRUE)))
-  expect_match(built_counts$x$layout$title$text, "Participant Count by Site", fixed = TRUE)
-  expect_match(built_perc$x$layout$title$text, "Participant Percentage by Site", fixed = TRUE)
-  expect_null(annotations)
-  expect_equal(built_counts$x$layout$margin$b, 50)
+  expect_s3_class(out, "bars")
+  expect_s3_class(out, "htmlwidget")
+  expect_identical(
+    spec$mapping,
+    list(x = "invid", y = "totals", fill = "fillcol")
+  )
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$position, "stack")
+  expect_identical(spec$labels$title, "Participant Count by Site")
+  expect_identical(spec$scales$x$label, "Site")
+  expect_identical(spec$scales$y$label, "Participant Count")
+  expect_identical(spec$scales$fill$label, "Eligibility")
+  expect_identical(spec$scales$fill$colors$Ineligible, "#FF5859")
+  # Stack order comes from the colour-map key order, not scales$fill$order, so
+  # the keys must stay in the published ggplot fill order.
+  expect_identical(
+    names(spec$scales$fill$colors),
+    c("No Eligibility Risk", "Ineligible", "Neither")
+  )
+  # expect_equal, not expect_identical: jsonlite parses a whole JSON number back
+  # as an integer, so an identical() check against 25 would fail on type alone.
+  expect_true(spec$theme$dynamicSizing)
+  expect_equal(spec$theme$pxPerCategory, 25)
+  expect_identical(out$x$minHeight, 500)
 })
 
-test_that("eligibility_groupBar reserves space when a footnote is present (#90)", {
+test_that("eligibility_groupBar aggregates counts per group (#60, #134)", {
+  df <- qtl_test_participant_df()
+  dfNum <- df %>% dplyr::filter(Source != "Neither")
+
+  rows <- bars_data_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
+  s01 <- Filter(function(r) r$invid == "S01", rows)
+
+  # S01 has 2 ineligible participants and 1 "Neither" out of 3.
+  expect_equal(sum(vapply(s01, function(r) r$totals, numeric(1))), 3)
+  ineligible <- Filter(function(r) r$fillcol == "Ineligible", s01)[[1]]
+  expect_equal(ineligible$totals, 2)
+})
+
+test_that("eligibility_groupBar bPercentage switches to a filled stack (#60, #134)", {
+  df <- qtl_test_participant_df()
+  dfNum <- df %>% dplyr::filter(Source != "Neither")
+
+  spec <- bars_spec_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site",
+    bPercentage = TRUE
+  ))
+
+  expect_identical(spec$position, "fill")
+  # stat must be ABSENT here: gsm.viz only rewrites fill -> {stack, percent}
+  # when stat is unset, so pinning "identity" would draw raw counts.
+  expect_null(spec$stat)
+  expect_identical(spec$labels$title, "Participant Percentage by Site")
+  expect_identical(spec$scales$y$label, "Participant Percentage")
+})
+
+test_that("eligibility_groupBar carries the exclusion footnote as a caption (#90, #134)", {
   df <- dplyr::bind_rows(
     qtl_test_participant_df(),
     tibble::tribble(
-      ~invid, ~country, ~subjid, ~Source, ~ietestcd_concat, ~dvdtm, ~eligibility_criteria, ~compyn, ~compreas,
-      "S04", "US", "SUBJ-007", "Neither", "", "2024-04-01", "", "Y", "",
-      "S04", "US", "SUBJ-008", "Neither", "", "2024-04-02", "", "", ""
+      ~invid , ~country , ~subjid    , ~Source   , ~ietestcd_concat , ~dvdtm       , ~eligibility_criteria , ~compyn , ~compreas ,
+      "S04"  , "US"     , "SUBJ-007" , "Neither" , ""               , "2024-04-01" , ""                    , "Y"     , ""        ,
+      "S04"  , "US"     , "SUBJ-008" , "Neither" , ""               , "2024-04-02" , ""                    , ""      , ""
     )
   )
   dfNum <- df %>% dplyr::filter(Source != "Neither")
 
-  out <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = FALSE)
-  annotations <- out$x$layoutAttrs[[1]][["annotations"]]
-  margins <- out$x$layoutAttrs[[1]][["margin"]]
+  with_excluded <- bars_spec_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
+  without_excluded <- bars_spec_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = dfNum,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
 
-  expect_match(annotations[[1]][["text"]], "Excludes .* site\\(s\\)")
-  expect_match(annotations[[1]][["text"]], "no ineligible participants")
-  expect_equal(annotations[[1]][["yanchor"]], "top")
-  expect_lt(annotations[[1]][["yshift"]], 0)
-  expect_gt(margins[["b"]], 50)
+  expect_match(with_excluded$labels$captions, "Excludes 1 site\\(s\\)")
+  expect_match(with_excluded$labels$captions, "no ineligible participants")
+  expect_null(without_excluded$labels$captions)
 })
 
-test_that("eligibility_groupBar bPercentage = FALSE shows counts (#60)", {
+test_that("eligibility_groupBar orders categories most-frequent-first (#134)", {
+  # Chart.js draws scales.x.order[1] at the top of a horizontal chart, so the
+  # order array is today's ggplot y-axis read top-to-bottom.
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(Source != "Neither")
-  out <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = FALSE)
-  built <- plotly::plotly_build(out)
 
-  expect_s3_class(out, "plotly")
-  expect_match(built$x$layout$xaxis$title$text, "Participant Count", fixed = TRUE)
-  expect_match(built$x$layout$title$text, "Participant Count by Site", fixed = TRUE)
+  spec <- bars_spec_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
+
+  expect_identical(unlist(spec$scales$x$order), c("S01", "S02", "S03"))
 })
 
-test_that("eligibility_groupBar bPercentage = TRUE shows percentages (#60)", {
+test_that("eligibility_groupBar uses the native count+percent tooltip (#134)", {
   df <- qtl_test_participant_df()
   dfNum <- df %>% dplyr::filter(Source != "Neither")
-  out <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = TRUE)
-  built <- plotly::plotly_build(out)
 
-  expect_s3_class(out, "plotly")
-  expect_match(built$x$layout$xaxis$title$text, "Participant Percentage", fixed = TRUE)
-  expect_match(built$x$layout$title$text, "Participant Percentage by Site", fixed = TRUE)
+  spec <- bars_spec_of(eligibility_groupBar(
+    dfNum = dfNum,
+    dfDenom = df,
+    varGroupID = invid,
+    strGroupLabel = "Site"
+  ))
+
+  # No js_hook formatter: labels and column names no longer pass through
+  # sprintf'd JavaScript, so values with quotes cannot break the tooltip.
+  expect_identical(spec$tooltip$format, "count+percent")
+  expect_null(spec$tooltip$formatter)
 })
 
-test_that("eligibility_groupBar bPercentage TRUE uses stacked fill position (#60)", {
-  df <- qtl_test_participant_df()
-  dfNum <- df %>% dplyr::filter(Source != "Neither")
-  out_counts <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = FALSE)
-  out_perc <- eligibility_groupBar(dfNum = dfNum, dfDenom = df, varGroupID = invid, strGroupLabel = "Site", bPercentage = TRUE)
-  built_counts <- plotly::plotly_build(out_counts)
-  built_perc <- plotly::plotly_build(out_perc)
-
-  # Percentage chart should have bars that reach 1.0 (100%) across all groups
-  perc_x_values <- unlist(lapply(built_perc$x$data, function(trace) max(trace$x, na.rm = TRUE)))
-  expect_true(all(perc_x_values <= 1.0 + 1e-6))  # Allow for small floating point errors
-
-  # Count chart may have varying max x values
-  count_x_values <- unlist(lapply(built_counts$x$data, function(trace) max(trace$x, na.rm = TRUE)))
-  expect_true(any(count_x_values > 1.0))  # At least one should be > 1.0 for counts
-})
-
-test_that("eligibility_sourceBar returns plotly object (#14, #21, #22)", {
+test_that("eligibility_sourceBar counts by source with total labels (#14, #21, #22, #134)", {
   df <- qtl_test_participant_df()
   out <- eligibility_sourceBar(df = df)
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
+  rows <- bars_data_of(out)
 
-  expect_s3_class(out, "plotly")
+  expect_s3_class(out, "bars")
+  # No fill: it would duplicate the category axis and force a redundant legend.
+  expect_identical(spec$mapping, list(x = "Source", y = "n"))
+  expect_null(spec$scales$fill)
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Participant Count by Category/Source")
+  expect_identical(spec$scales$x$label, "Source")
+  expect_identical(spec$scales$y$label, "Participant Count")
+  expect_true(spec$annotations$labels$total$display)
+  expect_identical(spec$tooltip$format, "count")
 
-  source_text <- plotly_trace_text(out)
-
-  expect_true(any(grepl("Source: EDC", source_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Participant Count by Category/Source", fixed = TRUE)
+  edc <- Filter(function(r) r$Source == "EDC", rows)[[1]]
+  expect_equal(edc$n, 3)
 })
 
-test_that("criteria_groupBar uses grouping and label arguments (#14, #21, #22, #23)", {
+test_that("criteria_groupBar splits concatenated criteria and stacks by group (#14, #21, #22, #23, #134)", {
   df <- qtl_test_participant_df() %>%
-    dplyr::mutate(ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE))
+    dplyr::mutate(
+      ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE)
+    )
 
   out <- criteria_groupBar(df = df, varGroupID = invid, strGroupLabel = "Site")
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(out)
+  rows <- bars_data_of(out)
 
-  expect_s3_class(out, "plotly")
+  expect_s3_class(out, "bars")
+  expect_identical(
+    spec$mapping,
+    list(x = "ietestcd_concat", y = "n", fill = "invid")
+  )
+  expect_identical(spec$stat, "identity")
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Criteria by Site")
+  expect_identical(spec$scales$x$label, "Criteria")
+  expect_identical(spec$scales$y$label, "Criteria Count")
+  expect_identical(spec$scales$fill$label, "Site")
+  expect_identical(unlist(spec$scales$fill$colors), .qtl_ggplot_hue(df$invid))
+  expect_true(spec$annotations$labels$total$display)
 
-  criteria_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Criteria:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Site:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Criteria: I001", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Criteria: E010", criteria_text, fixed = TRUE)))
-  expect_false(any(grepl("Criteria: I001, E010", criteria_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Criteria by Site", fixed = TRUE)
+  criteria <- unique(vapply(rows, function(r) r$ietestcd_concat, character(1)))
+  expect_true(all(c("I001", "E010") %in% criteria))
+  expect_false("I001, E010" %in% criteria)
 })
 
-test_that("criteria_groupBar uses grouping and label arguments correctly when swapping axes (#90)", {
+test_that("criteria_groupBar swaps category and fill when bSwapAxes is TRUE (#90, #134)", {
   df <- qtl_test_participant_df() %>%
-    dplyr::mutate(ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE))
+    dplyr::mutate(
+      ietestcd_concat = gsub(";;;", ",", ietestcd_concat, fixed = TRUE)
+    )
 
-  out <- criteria_groupBar(df = df, varGroupID = invid, strGroupLabel = "Site", bSwapAxes = TRUE)
-  built <- plotly::plotly_build(out)
+  spec <- bars_spec_of(criteria_groupBar(
+    df = df,
+    varGroupID = invid,
+    strGroupLabel = "Site",
+    bSwapAxes = TRUE
+  ))
 
-  expect_s3_class(out, "plotly")
-
-  criteria_text <- plotly_trace_text(out)
-  expect_true(any(grepl("Criteria:", criteria_text, fixed = TRUE)))
-  expect_true(any(grepl("Site:", criteria_text, fixed = TRUE)))
-  expect_match(built$x$layout$title$text, "Site by Criteria", fixed = TRUE)
+  expect_identical(
+    spec$mapping,
+    list(x = "invid", y = "n", fill = "ietestcd_concat")
+  )
+  expect_identical(spec$orientation, "horizontal")
+  expect_identical(spec$labels$title, "Site by Criteria")
+  expect_identical(spec$scales$x$label, "Site")
+  expect_identical(spec$scales$fill$label, "Criteria")
+  criteria <- df %>%
+    dplyr::filter(
+      !is.na(.data$ietestcd_concat),
+      nzchar(.data$ietestcd_concat)
+    ) %>%
+    tidyr::separate_longer_delim(ietestcd_concat, ",") %>%
+    dplyr::pull(ietestcd_concat)
+  expect_identical(
+    unlist(spec$scales$fill$colors),
+    .qtl_ggplot_hue(criteria)
+  )
+  expect_identical(spec$tooltip$format, "count+percent")
 })
 
 test_that("eligibility_listing covers df and download arguments (#21, #22, #24, #25)", {
@@ -137,8 +230,12 @@ test_that("eligibility_listing covers df and download arguments (#21, #22, #24, 
   out_gt <- eligibility_listing(df = df, download = FALSE)
 
   expect_s3_class(out_download, "data.frame")
-  expect_true(inherits(out_gt, "shiny.tag") || inherits(out_gt, "shiny.tag.list"))
-  expect_true(all(c("Country", "Site", "Participant ID", "Which I/E") %in% names(out_download)))
+  expect_true(
+    inherits(out_gt, "shiny.tag") || inherits(out_gt, "shiny.tag.list")
+  )
+  expect_true(all(
+    c("Country", "Site", "Participant ID", "Which I/E") %in% names(out_download)
+  ))
   expect_true(nrow(out_download) > 0)
 })
 
@@ -155,8 +252,8 @@ test_that("eligibility_listing handles zero-row data frame (#108)", {
 
 test_that("eligibility_listing handles all-NA dvdtm and eligibility_criteria (#108)", {
   df <- tibble::tribble(
-    ~invid, ~country, ~subjid, ~Source, ~ietestcd_concat, ~dvdtm, ~eligibility_criteria, ~compyn, ~compreas,
-    "S01", "US", "SUBJ-001", "EDC", "I001", NA_character_, NA_character_, "N", "AE"
+    ~invid , ~country , ~subjid    , ~Source , ~ietestcd_concat , ~dvdtm        , ~eligibility_criteria , ~compyn , ~compreas ,
+    "S01"  , "US"     , "SUBJ-001" , "EDC"   , "I001"           , NA_character_ , NA_character_         , "N"     , "AE"
   )
 
   out <- eligibility_listing(df = df, download = TRUE)
@@ -169,7 +266,11 @@ test_that("eligibility_listing handles all-NA dvdtm and eligibility_criteria (#1
 
 test_that("scrollable_gt uses height and width arguments (#21, #22)", {
   gt_tbl <- gt::gt(head(qtl_test_participant_df(), 2))
-  out <- scrollable_gt(gt_tbl = gt_tbl, height = "200px", min_table_width = "800px")
+  out <- scrollable_gt(
+    gt_tbl = gt_tbl,
+    height = "200px",
+    min_table_width = "800px"
+  )
 
   expect_true(inherits(out, "shiny.tag") || inherits(out, "shiny.tag.list"))
   out_html <- as.character(out)

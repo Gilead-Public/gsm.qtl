@@ -1,8 +1,4 @@
 dependencies:
-  - name: gsmViz
-    version: 2.2.0
-    src: 'htmlwidgets/lib/gsm.viz-2.2.0'
-    script: 'gsm.viz.js'
   - name: clickCallback
     version: 1.0.0
     src: 'htmlwidgets/lib'
