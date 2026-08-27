@@ -134,7 +134,7 @@ merged into the target branch. This process is fully documented in the
 Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
-Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+Requests here.](https://github.com/Gilead-Public/gsm.qtl/pulls)
 
 #### Pull Request 137: Migrate QTL report barcharts to gsm.vizr (#134)
 
