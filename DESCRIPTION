@@ -51,7 +51,7 @@ VignetteBuilder:
     knitr
 Remotes:
     gsm.core=Gilead-Public/gsm.core@main,
-    gsm.vizr=Gilead-Public/gsm.vizr@release-0.1.0,
+    gsm.vizr=Gilead-Public/gsm.vizr@main,
     workr=Gilead-Public/workr@main,
     qcthat=Gilead-Public/qcthat@*release
 Config/Needs/website: DT, here, pkgdown, devtools
