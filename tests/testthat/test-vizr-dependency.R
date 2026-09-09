@@ -11,7 +11,13 @@ test_that("the gsm.vizr Remotes entry pins an explicit ref (#134)", {
   # to be, so an install could silently pick up a different build than the one
   # this package is developed and released against.
   desc <- read.dcf(system.file("DESCRIPTION", package = "gsm.qtl"))
-  skip_if_not("Remotes" %in% colnames(desc), "DESCRIPTION declares no Remotes")
+  # A dropped Remotes field is the regression this guards, so it has to fail
+  # rather than skip. Bail out afterwards to keep that one clear failure.
+  has_remotes <- "Remotes" %in% colnames(desc)
+  expect_true(has_remotes)
+  if (!has_remotes) {
+    return()
+  }
 
   entries <- trimws(strsplit(desc[1, "Remotes"], ",")[[1]])
   gsm_vizr <- grep("gsm\\.vizr", entries, value = TRUE)
