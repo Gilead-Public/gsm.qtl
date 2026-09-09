@@ -87,37 +87,34 @@ Each specification includes the following components:
 **attached base packages:** *stats*, *graphics*, *grDevices*, *utils*,
 *datasets*, *methods* and *base*
 
-**other attached packages:** *gsm.qtl(v.1.3.0)*, *testthat(v.3.3.2)*,
-*riskmetric(v.0.2.7)*, *stringr(v.1.6.0)*, *gh(v.1.6.0.9000)*,
-*pander(v.0.6.6)*, *purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.51)*,
-*gt(v.1.3.0)* and *gsm.core(v.1.3.0)*
+**other attached packages:** *gsm.qtl(v.1.4.0)*, *testthat(v.3.3.2)*,
+*stringr(v.1.6.0)*, *gh(v.1.6.1.9000)*, *pander(v.0.6.6)*,
+*purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.52)*, *gt(v.1.3.0)* and
+*gsm.core(v.1.3.1)*
 
 **loaded via a namespace (and not attached):** *gtable(v.0.3.6)*,
-*xfun(v.0.60)*, *bslib(v.0.11.0)*, *ggplot2(v.4.0.3)*,
+*xfun(v.0.60)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
 *htmlwidgets(v.1.6.4)*, *devtools(v.2.5.2)*, *vctrs(v.0.7.3)*,
-*tools(v.4.6.1)*, *generics(v.0.1.4)*, *curl(v.7.1.0)*,
-*tibble(v.3.3.1)*, *pkgconfig(v.2.0.3)*, *data.table(v.1.18.4)*,
-*RColorBrewer(v.1.1-3)*, *S7(v.0.2.2)*, *desc(v.1.4.3)*,
-*lifecycle(v.1.0.5)*, *farver(v.2.1.2)*, *compiler(v.4.6.1)*,
-*brio(v.1.1.5)*, *textshaping(v.1.0.5)*, *htmltools(v.0.5.9)*,
-*usethis(v.3.2.1)*, *sass(v.0.4.10)*, *lazyeval(v.0.2.3)*,
-*yaml(v.2.3.12)*, *plotly(v.4.12.0)*, *pillar(v.1.11.1)*,
-*pkgdown(v.2.2.1)*, *jquerylib(v.0.1.4)*, *tidyr(v.1.3.2)*,
-*ellipsis(v.0.3.3)*, *cranlogs(v.2.1.1)*, *cachem(v.1.1.0)*,
-*sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*, *digest(v.0.6.39)*,
-*stringi(v.1.8.7)*, *duckdb(v.1.5.4.3)*, *forcats(v.1.0.1)*,
-*rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*, *grid(v.4.6.1)*,
-*here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
-*triebeard(v.0.4.1)*, *pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*,
-*waldo(v.0.6.2)*, *scales(v.1.4.0)*, *backports(v.1.5.1)*,
-*rmarkdown(v.2.31)*, *httr(v.1.4.8)*, *otel(v.0.2.0)*, *ragg(v.1.5.2)*,
-*memoise(v.2.0.1)*, *evaluate(v.1.0.5)*, *log4r(v.0.4.4.9000)*,
-*covr(v.3.6.5)*, *rex(v.1.2.2)*, *viridisLite(v.0.4.3)*,
-*rlang(v.1.3.0)*, *urltools(v.1.7.3.1)*, *Rcpp(v.1.1.2)*,
-*DBI(v.1.3.0)*, *glue(v.1.8.1)*, *workr(v.1.1.0)*,
-*BiocManager(v.1.30.27)*, *xml2(v.1.6.0)*, *pkgload(v.1.5.3)*,
-*rstudioapi(v.0.19.0)*, *jsonlite(v.2.0.0)*, *R6(v.2.6.1)*,
-*systemfonts(v.1.3.2)* and *fs(v.2.1.0)*
+*tools(v.4.6.1)*, *generics(v.0.1.4)*, *tibble(v.3.3.1)*,
+*pkgconfig(v.2.0.3)*, *data.table(v.1.18.6.1)*, *RColorBrewer(v.1.1-3)*,
+*S7(v.0.2.2)*, *desc(v.1.4.3)*, *lifecycle(v.1.0.5)*,
+*compiler(v.4.6.1)*, *farver(v.2.1.2)*, *textshaping(v.1.0.5)*,
+*brio(v.1.1.5)*, *htmltools(v.0.5.9)*, *usethis(v.3.2.1)*,
+*sass(v.0.4.10)*, *yaml(v.2.3.12)*, *plotly(v.4.12.1)*,
+*gsm.vizr(v.0.1.0)*, *pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*,
+*jquerylib(v.0.1.4)*, *tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*,
+*cachem(v.1.1.0)*, *sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*,
+*digest(v.0.6.39)*, *stringi(v.1.8.9)*, *duckdb(v.1.5.5)*,
+*forcats(v.1.0.1)*, *rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*,
+*grid(v.4.6.1)*, *here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
+*pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*, *waldo(v.0.6.2)*,
+*scales(v.1.4.0)*, *rmarkdown(v.2.32)*, *httr(v.1.4.9)*,
+*otel(v.0.2.0)*, *ragg(v.1.5.2)*, *memoise(v.2.0.1)*,
+*evaluate(v.1.0.5)*, *viridisLite(v.0.4.3)*, *rlang(v.1.3.0)*,
+*Rcpp(v.1.1.2)*, *DBI(v.1.3.0)*, *glue(v.1.8.1)*, *workr(v.1.1.0)*,
+*xml2(v.1.6.0)*, *pkgload(v.1.5.3)*, *rstudioapi(v.0.19.0)*,
+*jsonlite(v.2.0.0)*, *R6(v.2.6.1)*, *systemfonts(v.1.3.2)* and
+*fs(v.2.1.0)*
 
 ## Pull Request History
 
@@ -134,16 +131,86 @@ approved by the designated reviewers and pass all required GitHub
 qualification checks. Once these conditions are met, the `fix` branch is
 merged into the target branch. This process is fully documented in the
 [Contributor
-Guidelines](https://gilead-biostats.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
+Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
-Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+Requests here.](https://github.com/Gilead-Public/gsm.qtl/pulls)
+
+#### Pull Request 138: gsm.qtl v1.4.0 Release
+
+Merging release-1.4.0 into main
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/138>
+
+| Requester | Date Requested | Reviewers | Review Status |
+|:--:|:--:|:--:|:--:|
+| michkam89 | 2026-08-26 12:08:48 | copilot-pull-request-reviewer\[bot\] michkam89 nandriychuk samussiah | COMMENTED |
+
+#### Pull Request 137: Migrate QTL report barcharts to gsm.vizr (#134)
+
+Merging feat/134-bars-migration into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/137>
+
+| Requester | Date Requested | Reviewers | Review Status |
+|:--:|:--:|:--:|:--:|
+| michkam89 | 2026-08-13 14:49:11 | copilot-pull-request-reviewer\[bot\] michkam89 samussiah | COMMENTED |
+
+#### Pull Request 136: Ignore data-raw
+
+Merging ignore-data-raw into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/136>
+
+|   Requester    |   Date Requested    |  Reviewers   | Review Status |
+|:--------------:|:-------------------:|:------------:|:-------------:|
+| jharmon-gilead | 2026-08-13 14:37:12 | lauramaxwell |   APPROVED    |
+
+#### Pull Request 133: fix: update Gilead-BioStats links to Gilead-Public
+
+Merging fix-132 into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/133>
+
+|  Requester  |   Date Requested    |   Reviewers    | Review Status |
+|:-----------:|:-------------------:|:--------------:|:-------------:|
+| nandriychuk | 2026-08-11 18:12:35 | jharmon-gilead |   APPROVED    |
+
+#### Pull Request 131: Use public actions
+
+Merging public-actions into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/131>
+
+|   Requester    |   Date Requested    |  Reviewers  | Review Status |
+|:--------------:|:-------------------:|:-----------:|:-------------:|
+| jharmon-gilead | 2026-08-04 15:41:12 | nandriychuk |   APPROVED    |
+
+#### Pull Request 127: Fix 124: Remove unused riskmetric package
+
+Merging remove-riskmetric into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/127>
+
+|   Requester    |   Date Requested    | Reviewers | Review Status |
+|:--------------:|:-------------------:|:---------:|:-------------:|
+| jharmon-gilead | 2026-07-21 17:04:08 |  zdz2101  |   APPROVED    |
+
+#### Pull Request 126: Main -\> dev
+
+Merging main into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/126>
+
+|  Requester   |   Date Requested    |   Reviewers    | Review Status |
+|:------------:|:-------------------:|:--------------:|:-------------:|
+| lauramaxwell | 2026-07-17 19:14:00 | jharmon-gilead |   APPROVED    |
 
 #### Pull Request 123: Release candidate v1.3.0
 
 Merging rc-v1.3.0 into main
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/123>
+<https://github.com/Gilead-Public/gsm.qtl/pull/123>
 
 |  Requester   |   Date Requested    |       Reviewers        | Review Status |
 |:------------:|:-------------------:|:----------------------:|:-------------:|
@@ -153,7 +220,7 @@ Merging rc-v1.3.0 into main
 
 Merging fix-118-rename_activity_fields into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/119>
+<https://github.com/Gilead-Public/gsm.qtl/pull/119>
 
 |   Requester    |   Date Requested    |      Reviewers       | Review Status |
 |:--------------:|:-------------------:|:--------------------:|:-------------:|
@@ -163,78 +230,8 @@ Merging fix-118-rename_activity_fields into dev
 
 Merging fix-116-add_active_fields into dev
 
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/117>
+<https://github.com/Gilead-Public/gsm.qtl/pull/117>
 
 | Requester | Date Requested | Reviewers | Review Status |
 |:--:|:--:|:--:|:--:|
 | jharmon-gilead | 2026-05-27 14:44:32 | copilot-pull-request-reviewer\[bot\] zdz2101 | COMMENTED |
-
-#### Pull Request 114: Main -\> dev
-
-Merging main into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/114>
-
-|  Requester   |   Date Requested    |   Reviewers    | Review Status |
-|:------------:|:-------------------:|:--------------:|:-------------:|
-| lauramaxwell | 2026-05-15 13:48:07 | jharmon-gilead |   APPROVED    |
-
-#### Pull Request 113: gsm.qtl v1.2.2 release candidate
-
-Merging gsm.qtl-v1.2.2-rc into main
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/113>
-
-|  Requester   |   Date Requested    |   Reviewers    | Review Status |
-|:------------:|:-------------------:|:--------------:|:-------------:|
-| lauramaxwell | 2026-05-14 19:42:37 | jharmon-gilead |   APPROVED    |
-
-#### Pull Request 112: gsm.qtl v1.2.1
-
-Merging rc-v1.2.1 into main
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/112>
-
-| Requester |   Date Requested    | Reviewers | Review Status |
-|:---------:|:-------------------:|:---------:|:-------------:|
-|  zdz2101  | 2026-05-06 20:48:27 | samussiah |   APPROVED    |
-
-#### Pull Request 111: catch dev up to main
-
-Merging main into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/111>
-
-| Requester |   Date Requested    |  Reviewers   | Review Status |
-|:---------:|:-------------------:|:------------:|:-------------:|
-|  zdz2101  | 2026-05-06 20:41:03 | lauramaxwell |   APPROVED    |
-
-#### Pull Request 109: Fix eligibility_listing crash on zero-row or all-NA input
-
-Merging bugfix/108-eligibility-listing-zero-row into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/109>
-
-| Requester | Date Requested | Reviewers | Review Status |
-|:--:|:--:|:--:|:--:|
-| samussiah | 2026-05-04 19:09:57 | zdz2101 copilot-pull-request-reviewer\[bot\] | APPROVED |
-
-#### Pull Request 107: Migrate workflow runtime from gsm.core to workr (#120)
-
-Merging workr-implementation into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/107>
-
-| Requester | Date Requested | Reviewers | Review Status |
-|:--:|:--:|:--:|:--:|
-| zdz2101 | 2026-05-01 17:32:47 | copilot-pull-request-reviewer\[bot\] zdz2101 lauramaxwell | COMMENTED |
-
-#### Pull Request 106: Update workflows
-
-Merging gha-202604 into dev
-
-<https://github.com/Gilead-BioStats/gsm.qtl/pull/106>
-
-| Requester  |   Date Requested    |  Reviewers   | Review Status |
-|:----------:|:-------------------:|:------------:|:-------------:|
-| jonthegeek | 2026-04-30 19:41:20 | lauramaxwell |   APPROVED    |

@@ -9,11 +9,11 @@ to generate reports for QTL.
 
 Useful links:
 
-- <https://gilead-biostats.github.io/gsm.qtl>
+- <https://gilead-public.github.io/gsm.qtl>
 
-- <https://github.com/Gilead-BioStats/gsm.qtl>,
+- <https://github.com/Gilead-Public/gsm.qtl>,
 
-- Report bugs at <https://github.com/Gilead-BioStats/gsm.qtl/issues>
+- Report bugs at <https://github.com/Gilead-Public/gsm.qtl/issues>
 
 ## Author
 

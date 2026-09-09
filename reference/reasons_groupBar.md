@@ -35,4 +35,4 @@ reasons_groupBar(df, varGroupID, varCompreas, strGroupLabel, bSwapAxes = FALSE)
 
 ## Value
 
-A `plotly` object
+A `bars` htmlwidget

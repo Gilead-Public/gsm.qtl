@@ -3,15 +3,15 @@
 # Good Statistical Monitoring QTL `{gsm.qtl}` R package
 
 This README provides a high-level overview of `gsm.qtl`; see the
-[package website](https://gilead-biostats.github.io/gsm.qtl/) for
+[package website](https://gilead-public.github.io/gsm.qtl/) for
 additional details.
 
 The Good Statistical Monitoring or `gsm` suite of R packages provides a
 framework for statistical data monitoring. `gsm.qtl` is an extension
 package that contains the additional functions, workflows, and document
 template to generate reports for quality tolerance limits (QTL). See
-[`gsm.core`](https://github.com/Gilead-BioStats/gsm.core) for an
-overview of the ecosystem.
+[`gsm.core`](https://github.com/Gilead-Public/gsm.core) for an overview
+of the ecosystem.
 
 # Background
 
@@ -24,7 +24,7 @@ criteria violations, early study discontinuation, etc.
 
 Datasets necessary to calculate a particular QTL can be requested or
 customized based off of previously existing mappings, see
-[`gsm.mapping`](https://github.com/Gilead-BioStats/gsm.mapping).
+[`gsm.mapping`](https://github.com/Gilead-Public/gsm.mapping).
 Additional mappings that have been added to support `gsm.qtl` include
 the `IE` and `EXCLUSION` mappings.
 
@@ -32,7 +32,7 @@ the `IE` and `EXCLUSION` mappings.
 
 `qtlxxxx` metric yaml files have been added to calculate study level
 QTLs, these files follow similar structure to those found in
-[`gsm.kri`](https://github.com/Gilead-BioStats/gsm.kri).
+[`gsm.kri`](https://github.com/Gilead-Public/gsm.kri).
 
 # Reporting
 
@@ -47,7 +47,7 @@ You can install the latest release of gsm.qtl from
 ``` r
 
 # install.packages("pak")
-pak::pak("Gilead-BioStats/gsm.qtl@*release")
+pak::pak("Gilead-Public/gsm.qtl@*release")
 ```
 
 You can install the development version of gsm.qtl from
@@ -56,7 +56,7 @@ You can install the development version of gsm.qtl from
 ``` r
 
 # install.packages("pak")
-pak::pak("Gilead-BioStats/gsm.qtl")
+pak::pak("Gilead-Public/gsm.qtl")
 ```
 
 ## Sample Code

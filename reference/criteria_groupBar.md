@@ -31,4 +31,4 @@ criteria_groupBar(df, varGroupID, strGroupLabel, bSwapAxes = FALSE)
 
 ## Value
 
-A `plotly` object
+A `bars` htmlwidget
