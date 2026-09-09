@@ -24,7 +24,7 @@ eligibility_groupBar(
 \item{bPercentage}{A \code{boolean} to denote whether or not the group bar chart should be visualized as percentages instead of absolute counts.}
 }
 \value{
-A \code{plotly} object
+A \code{bars} htmlwidget
 }
 \description{
 Stacked Eligibility Bar Chart

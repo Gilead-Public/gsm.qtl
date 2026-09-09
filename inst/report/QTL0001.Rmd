@@ -25,11 +25,6 @@ gsm.qtl::QTL_lineplot_v2(dfResults = qtl0001_params$dfResults, strQTL = "Ineligi
 gsm.qtl::eligibility_groupBar(dfNum = qtl0001_params$dfNum, dfDenom = qtl0001_params$dfDenom, varGroupID = invid, strGroupLabel = "Site")
 ```
 
-### Site (by %)
-```{r, echo = FALSE, results = 'asis', fig.height=4}
-gsm.qtl::eligibility_groupBar(dfNum =  qtl0001_params$dfNum, dfDenom = qtl0001_params$dfDenom, varGroupID = invid, strGroupLabel = "Site", bPercentage = TRUE)
-```
-
 ### Country
 ```{r, echo = FALSE, results = 'asis', fig.height=4}
 gsm.qtl::eligibility_groupBar(dfNum = qtl0001_params$dfNum, dfDenom = qtl0001_params$dfDenom, varGroupID = country, strGroupLabel = "Country")

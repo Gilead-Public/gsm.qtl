@@ -12,7 +12,7 @@ discontinuation_reasonBar(df, varCompreas)
 \item{varCompreas}{A variable to identify study completion/discontinuation reasons}
 }
 \value{
-A \code{plotly} object
+A \code{bars} htmlwidget
 }
 \description{
 Discontinuation Reasons Bar Chart

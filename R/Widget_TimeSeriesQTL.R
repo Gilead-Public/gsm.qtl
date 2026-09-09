@@ -35,13 +35,34 @@ Widget_TimeSeriesQTL <- function(
   strShinyGroupSelectID = "GroupID",
   bDebug = FALSE
 ) {
-  gsm.core::stop_if(cnd = !is.data.frame(dfResults), "dfResults is not a data.frame")
-  gsm.core::stop_if(cnd = !(is.null(lMetric) || (is.list(lMetric) && !is.data.frame(lMetric))), "lMetric must be a list, but not a data.frame")
-  gsm.core::stop_if(cnd = !(is.null(dfGroups) || is.data.frame(dfGroups)), "dfGroups is not a data.frame")
-  gsm.core::stop_if(cnd = length(strOutcome) != 1, "strOutcome must be length 1")
-  gsm.core::stop_if(cnd = !is.character(strOutcome), "strOutcome is not a character")
-  gsm.core::stop_if(cnd = !is.logical(bAddGroupSelect), "bAddGroupSelect is not a logical")
-  gsm.core::stop_if(cnd = !is.character(strShinyGroupSelectID), "strShinyGroupSelectID is not a character")
+  gsm.core::stop_if(
+    cnd = !is.data.frame(dfResults),
+    "dfResults is not a data.frame"
+  )
+  gsm.core::stop_if(
+    cnd = !(is.null(lMetric) || (is.list(lMetric) && !is.data.frame(lMetric))),
+    "lMetric must be a list, but not a data.frame"
+  )
+  gsm.core::stop_if(
+    cnd = !(is.null(dfGroups) || is.data.frame(dfGroups)),
+    "dfGroups is not a data.frame"
+  )
+  gsm.core::stop_if(
+    cnd = length(strOutcome) != 1,
+    "strOutcome must be length 1"
+  )
+  gsm.core::stop_if(
+    cnd = !is.character(strOutcome),
+    "strOutcome is not a character"
+  )
+  gsm.core::stop_if(
+    cnd = !is.logical(bAddGroupSelect),
+    "bAddGroupSelect is not a logical"
+  )
+  gsm.core::stop_if(
+    cnd = !is.character(strShinyGroupSelectID),
+    "strShinyGroupSelectID is not a character"
+  )
   gsm.core::stop_if(cnd = !is.logical(bDebug), "bDebug is not a logical")
 
   # Parse `vThreshold` from comma-delimited character string to numeric vector.
@@ -69,6 +90,8 @@ Widget_TimeSeriesQTL <- function(
   )
 
   # create widget
+  # The bundle is served by gsm.vizr so the report loads exactly one copy of
+  # gsm.viz; a widget yaml cannot call a function, so it is attached here.
   widget <- htmlwidgets::createWidget(
     name = "Widget_TimeSeriesQTL",
     purrr::map(
@@ -80,7 +103,8 @@ Widget_TimeSeriesQTL <- function(
         auto_unbox = TRUE
       )
     ),
-    package = "gsm.qtl"
+    package = "gsm.qtl",
+    dependencies = list(gsm.vizr::html_dependency_gsm_viz())
   )
 
   if (bDebug) {
@@ -113,15 +137,34 @@ Widget_TimeSeriesQTL <- function(
 #' @name Widget_TimeSeries-shiny
 #'
 #' @noRd
-Widget_TimeSeriesQTLOutput <- function(outputId, width = "100%", height = "400px") {
-  htmlwidgets::shinyWidgetOutput(outputId, "Widget_TimeSeriesQTL", width, height, package = "gsm.qtl")
+Widget_TimeSeriesQTLOutput <- function(
+  outputId,
+  width = "100%",
+  height = "400px"
+) {
+  htmlwidgets::shinyWidgetOutput(
+    outputId,
+    "Widget_TimeSeriesQTL",
+    width,
+    height,
+    package = "gsm.qtl"
+  )
 }
 
 #' @rdname Widget_TimeSeries-shiny
 #' @noRd
-renderWidget_TimeSeriesQTL <- function(expr, env = parent.frame(), quoted = FALSE) {
+renderWidget_TimeSeriesQTL <- function(
+  expr,
+  env = parent.frame(),
+  quoted = FALSE
+) {
   if (!quoted) {
     expr <- substitute(expr)
   } # force quoted
-  htmlwidgets::shinyRenderWidget(expr, Widget_TimeSeriesQTLOutput, env, quoted = TRUE)
+  htmlwidgets::shinyRenderWidget(
+    expr,
+    Widget_TimeSeriesQTLOutput,
+    env,
+    quoted = TRUE
+  )
 }

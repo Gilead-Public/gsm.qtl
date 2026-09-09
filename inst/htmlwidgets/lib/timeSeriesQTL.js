@@ -360,4 +360,7 @@ function timeSeriesQTL(
   return chart;
 }
 
-main_default.timeSeriesQTL = timeSeriesQTL;
+// Registration onto the bundle's internal `main_default` was dead code: that
+// name is scoped inside the gsm.viz IIFE and has never been a global, so the
+// assignment only ever threw a ReferenceError. Widget_TimeSeriesQTL.js calls
+// the global timeSeriesQTL() defined above directly.

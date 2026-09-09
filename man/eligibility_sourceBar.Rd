@@ -10,7 +10,7 @@ eligibility_sourceBar(df)
 \item{df}{A \code{data.frame} containing the participant level dataset with eligibility}
 }
 \value{
-A \code{plotly} object
+A \code{bars} htmlwidget
 }
 \description{
 Eligibility Bar Chart by Source

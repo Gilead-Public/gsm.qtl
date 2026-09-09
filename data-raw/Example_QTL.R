@@ -65,7 +65,7 @@ mapped <- map(mapped, ~ {
 analyzed <- map_depth(mapped, 1, ~workr::RunWorkflows(metrics_wf, .x))
 reporting <- map2(mapped, analyzed, ~ workr::RunWorkflows(reporting_wf, c(.x, list(lAnalyzed = .y, lWorkflows = metrics_wf))))
 
-# Fix `SnapshotDate` column in reporting results, can be addressed in https://github.com/Gilead-BioStats/gsm.reporting/issues/24
+# Fix `SnapshotDate` column in reporting results, can be addressed in https://github.com/Gilead-Public/gsm.reporting/issues/24
 dates <- names(ie_data) %>% as.Date
 reporting <- map2(reporting, dates, ~{
   .x$Reporting_Results$SnapshotDate <- .y

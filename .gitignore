@@ -52,3 +52,8 @@ docs
 /doc/
 /Meta/
 .positai
+
+# Playwright visual-test harness
+tests/playwright/node_modules/
+tests/playwright/fixture/
+tests/playwright/test-results/

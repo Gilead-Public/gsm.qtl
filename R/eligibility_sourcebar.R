@@ -2,31 +2,31 @@
 #'
 #' @param df A `data.frame` containing the participant level dataset with eligibility
 #'
-#' @returns A `plotly` object
+#' @returns A `bars` htmlwidget
 #' @export
 eligibility_sourceBar <- function(df) {
-  source_bar <- df %>%
-    ggplot(
-      aes(
-        y = Source,
-        fill = Source,
-        text = paste0("\nSource: ", Source)
-      )
-    ) +
-    geom_bar() +
-    geom_text(
-      stat = "count",
-      aes(label = after_stat(count)),
-      nudge_x = 1,
-      color = "black",
-      size  = 4
-    ) +
-    labs(y = "Source", x = "Participant Count", title = "Participant Count by Category/Source") +
-    theme_classic() +
-    theme(
-      axis.text.y = element_text(angle = 45, vjust = 1), # tilt to avoid overlap
-      panel.grid.major.y = element_blank()
-    )
-  plotly::ggplotly(source_bar, tooltip = c("text"), h = calc_fig_size(n_rows = length(unique(df$Source)))) %>%
-    layout(xaxis = list(autorange = TRUE), yaxis = list(autorange = TRUE))
+  df_counts <- df %>%
+    mutate(Source = .qtl_chart_order(.data$Source)) %>%
+    dplyr::count(.data$Source, name = "n")
+
+  gsm.vizr::bars(
+    df_counts,
+    # No fill mapping: it would only duplicate the category axis, and dropping
+    # it also drops the redundant legend and position toggle.
+    gsm.vizr::bars_spec(
+      x = "Source",
+      y = "n",
+      stat = "identity",
+      orientation = "horizontal",
+      scales = list(
+        x = list(label = "Source"),
+        y = list(label = "Participant Count")
+      ),
+      labels = list(title = "Participant Count by Category/Source"),
+      annotations = list(labels = list(total = list(display = TRUE))),
+      theme = .qtl_bar_theme(),
+      tooltip = list(format = "count")
+    ),
+    minHeight = 500
+  )
 }

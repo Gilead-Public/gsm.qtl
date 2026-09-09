@@ -27,7 +27,7 @@ discontinuation_groupBar(
 \item{valuesDiscontinued}{A vector of values in \code{varStatus} considered premature discontinuations, defaults to 'N'.}
 }
 \value{
-A \code{plotly} object
+A \code{bars} htmlwidget
 }
 \description{
 Stacked Discontinuation Bar Chart
