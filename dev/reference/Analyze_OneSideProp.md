@@ -20,7 +20,7 @@ Analyze_OneSideProp(dfTransformed, nPropRate = 0.1, nNumDeviations = 3)
   `Numerator`, `Denominator`, and `Metric`. For more details see the
   Data Model vignette: `vignette("DataModel", package = "gsm.core")`.
   For this function, `dfTransformed` should typically be created using
-  [`gsm.core::Transform_Rate()`](https://gilead-biostats.github.io/gsm.core/reference/Transform_Rate.html).
+  [`gsm.core::Transform_Rate()`](https://rdrr.io/pkg/gsm.core/man/Transform_Rate.html).
 
 - nPropRate:
 

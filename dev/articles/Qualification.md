@@ -87,10 +87,10 @@ Each specification includes the following components:
 **attached base packages:** *stats*, *graphics*, *grDevices*, *utils*,
 *datasets*, *methods* and *base*
 
-**other attached packages:** *gsm.qtl(v.1.3.0.9001)*,
-*testthat(v.3.3.2)*, *stringr(v.1.6.0)*, *gh(v.1.6.1.9000)*,
-*pander(v.0.6.6)*, *purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.51)*,
-*gt(v.1.3.0)* and *gsm.core(v.1.3.1.9000)*
+**other attached packages:** *gsm.qtl(v.1.4.0)*, *testthat(v.3.3.2)*,
+*stringr(v.1.6.0)*, *gh(v.1.6.1.9000)*, *pander(v.0.6.6)*,
+*purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.52)*, *gt(v.1.3.0)* and
+*gsm.core(v.1.3.1)*
 
 **loaded via a namespace (and not attached):** *gtable(v.0.3.6)*,
 *xfun(v.0.60)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
@@ -99,7 +99,7 @@ Each specification includes the following components:
 *pkgconfig(v.2.0.3)*, *data.table(v.1.18.6.1)*, *RColorBrewer(v.1.1-3)*,
 *S7(v.0.2.2)*, *desc(v.1.4.3)*, *lifecycle(v.1.0.5)*,
 *compiler(v.4.6.1)*, *farver(v.2.1.2)*, *textshaping(v.1.0.5)*,
-*brio(v.1.1.5)*, *htmltools(v.0.5.9)*, *usethis(v.3.2.1)*,
+*brio(v.1.1.5)*, *htmltools(v.0.5.9)*, *usethis(v.3.2.2)*,
 *sass(v.0.4.10)*, *yaml(v.2.3.12)*, *plotly(v.4.12.1)*,
 *gsm.vizr(v.0.1.0)*, *pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*,
 *jquerylib(v.0.1.4)*, *tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*,
@@ -108,7 +108,7 @@ Each specification includes the following components:
 *forcats(v.1.0.1)*, *rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*,
 *grid(v.4.6.1)*, *here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
 *pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*, *waldo(v.0.6.2)*,
-*scales(v.1.4.0)*, *rmarkdown(v.2.31)*, *httr(v.1.4.8)*,
+*scales(v.1.4.0)*, *rmarkdown(v.2.32)*, *httr(v.1.4.9)*,
 *otel(v.0.2.0)*, *ragg(v.1.5.2)*, *memoise(v.2.0.1)*,
 *evaluate(v.1.0.5)*, *viridisLite(v.0.4.3)*, *rlang(v.1.3.0)*,
 *Rcpp(v.1.1.2)*, *DBI(v.1.3.0)*, *glue(v.1.8.1)*, *workr(v.1.1.0)*,
@@ -134,7 +134,27 @@ merged into the target branch. This process is fully documented in the
 Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
-Requests here.](https://github.com/gilead-biostats/gsm.qtl/pulls)
+Requests here.](https://github.com/Gilead-Public/gsm.qtl/pulls)
+
+#### Pull Request 142: Main -\> dev after v1.4.0
+
+Merging sync-main-to-dev-v1.4.0 into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/142>
+
+| Requester | Date Requested | Reviewers | Review Status |
+|:--:|:--:|:--:|:--:|
+| michkam89 | 2026-09-09 08:17:44 | copilot-pull-request-reviewer\[bot\] michkam89 lauramaxwell | COMMENTED |
+
+#### Pull Request 138: gsm.qtl v1.4.0 Release
+
+Merging release-1.4.0 into main
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/138>
+
+| Requester | Date Requested | Reviewers | Review Status |
+|:--:|:--:|:--:|:--:|
+| michkam89 | 2026-08-26 12:08:48 | copilot-pull-request-reviewer\[bot\] michkam89 nandriychuk samussiah | COMMENTED |
 
 #### Pull Request 137: Migrate QTL report barcharts to gsm.vizr (#134)
 
@@ -215,23 +235,3 @@ Merging fix-118-rename_activity_fields into dev
 |   Requester    |   Date Requested    |      Reviewers       | Review Status |
 |:--------------:|:-------------------:|:--------------------:|:-------------:|
 | jharmon-gilead | 2026-06-01 15:32:18 | zdz2101 lauramaxwell |   APPROVED    |
-
-#### Pull Request 117: Fix 116: Add active fields to workflows
-
-Merging fix-116-add_active_fields into dev
-
-<https://github.com/Gilead-Public/gsm.qtl/pull/117>
-
-| Requester | Date Requested | Reviewers | Review Status |
-|:--:|:--:|:--:|:--:|
-| jharmon-gilead | 2026-05-27 14:44:32 | copilot-pull-request-reviewer\[bot\] zdz2101 | COMMENTED |
-
-#### Pull Request 114: Main -\> dev
-
-Merging main into dev
-
-<https://github.com/Gilead-Public/gsm.qtl/pull/114>
-
-|  Requester   |   Date Requested    |   Reviewers    | Review Status |
-|:------------:|:-------------------:|:--------------:|:-------------:|
-| lauramaxwell | 2026-05-15 13:48:07 | jharmon-gilead |   APPROVED    |

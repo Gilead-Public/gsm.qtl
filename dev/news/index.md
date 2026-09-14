@@ -1,6 +1,6 @@
 # Changelog
 
-## gsm.qtl (development version)
+## gsm.qtl v1.4.0
 
 #### Key Enhancements:
 
@@ -47,16 +47,20 @@
 - [`QTL_lineplot()`](https://gilead-public.github.io/gsm.qtl/dev/reference/QTL_lineplot.md)
   still renders with `plotly`, so `plotly` and `ggplot2` remain
   dependencies until a generic line renderer is available.
+- Removed the unused `riskmetric` dependency
+  ([\#124](https://github.com/Gilead-Public/gsm.qtl/issues/124)).
+- Updated repository links and CI actions for the move to the
+  `Gilead-Public` organization
+  ([\#132](https://github.com/Gilead-Public/gsm.qtl/issues/132)).
 
 ## gsm.qtl v1.3.0
 
 #### Key Enhancements:
 
 - QTL workflows now run on the new `workr` engine. Workflow helpers
-  ([`MakeWorkflowList()`](https://gilead-biostats.github.io/gsm.core/reference/MakeWorkflowList.html),
-  [`RunWorkflows()`](https://gilead-biostats.github.io/gsm.core/reference/RunWorkflows.html),
-  and
-  [`RunQuery()`](https://gilead-biostats.github.io/gsm.core/reference/RunQuery.html))
+  ([`MakeWorkflowList()`](https://rdrr.io/pkg/gsm.core/man/MakeWorkflowList.html),
+  [`RunWorkflows()`](https://rdrr.io/pkg/gsm.core/man/RunWorkflows.html),
+  and [`RunQuery()`](https://rdrr.io/pkg/gsm.core/man/RunQuery.html))
   are now provided by `workr` instead of `gsm.core`, and the bundled
   QTL, metric, and reporting workflows have been updated to match. If
   you run these workflows in your own pipelines, update your calls to
