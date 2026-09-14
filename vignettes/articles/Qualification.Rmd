@@ -197,7 +197,7 @@ pander::pandoc.p('\\pagebreak')
 The GitHub Pull Request (PR) process begins with the creation of one or more issues that clearly define the proposed additions or revisions to the package. Each issue should be assigned to a product developer (PD) who then creates a `fix` branch named according to the related issue(s), and implements the necessary code updates. Once the work is complete, the PD opens a Pull Request to merge the `fix` branch into the target branch (typically the `dev` branch). They must assign the PR to themselves, request one or more reviewers, and link the PR to the associated issue(s). Before the fix branch can be merged, the PR must be approved by the designated reviewers and pass all required GitHub qualification checks. Once these conditions are met, the `fix` branch is merged into the target branch. This process is fully documented in the [Contributor Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuidelines.html#development-process)
 
 
-Below, the most recent 10 PRs into `r params$repo` are displayed. [See all Pull Requests here.](`r paste0("https://github.com/gilead-biostats/",params$repo,"/pulls")`)
+Below, the most recent 10 PRs into `r params$repo` are displayed. [See all Pull Requests here.](`r paste0("https://github.com/Gilead-Public/",params$repo,"/pulls")`)
 
 ```{r prs}
 release <- gh(paste0("/repos/Gilead-Public/",params$repo,"/releases"))[[1]]
