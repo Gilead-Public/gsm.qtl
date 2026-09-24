@@ -51,7 +51,7 @@ VignetteBuilder:
     knitr
 Remotes:
     gsm.core=Gilead-Public/gsm.core@main,
-    gsm.vizr=Gilead-Public/gsm.vizr@main,
+    gsm.vizr=Gilead-Public/gsm.vizr@issue-63-adjusted-risk-column,
     workr=Gilead-Public/workr@main,
     qcthat=Gilead-Public/qcthat@*release
 Config/Needs/website: DT, here, pkgdown, devtools
