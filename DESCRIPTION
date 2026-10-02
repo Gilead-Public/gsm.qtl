@@ -49,9 +49,9 @@ Suggests:
     workr
 VignetteBuilder: 
     knitr
-Remotes:
-    gsm.core=Gilead-Public/gsm.core@main,
-    gsm.vizr=Gilead-Public/gsm.vizr@main,
+Remotes: 
+    gsm.core=Gilead-Public/gsm.core@integration-56-90-289,
+    gsm.vizr=Gilead-Public/gsm.vizr@integration-56-90-289,
     workr=Gilead-Public/workr@main,
     qcthat=Gilead-Public/qcthat@*release
 Config/Needs/website: DT, here, pkgdown, devtools
