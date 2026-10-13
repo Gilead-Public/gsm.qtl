@@ -88,12 +88,12 @@ Each specification includes the following components:
 *datasets*, *methods* and *base*
 
 **other attached packages:** *gsm.qtl(v.1.4.0)*, *testthat(v.3.3.2)*,
-*stringr(v.1.6.0)*, *gh(v.1.6.1.9000)*, *pander(v.0.6.6)*,
-*purrr(v.1.2.2)*, *dplyr(v.1.2.1)*, *knitr(v.1.52)*, *gt(v.1.3.0)* and
-*gsm.core(v.1.3.1)*
+*stringr(v.1.6.0)*, *gh(v.1.6.1)*, *pander(v.0.6.6)*, *purrr(v.1.2.2)*,
+*dplyr(v.1.2.1)*, *knitr(v.1.52)*, *gt(v.1.3.0)* and
+*gsm.core(v.1.3.1.9000)*
 
 **loaded via a namespace (and not attached):** *gtable(v.0.3.6)*,
-*xfun(v.0.60)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
+*xfun(v.0.61)*, *bslib(v.0.12.0)*, *ggplot2(v.4.0.3)*,
 *htmlwidgets(v.1.6.4)*, *devtools(v.2.5.2)*, *vctrs(v.0.7.3)*,
 *tools(v.4.6.1)*, *generics(v.0.1.4)*, *tibble(v.3.3.1)*,
 *pkgconfig(v.2.0.3)*, *data.table(v.1.18.6.1)*, *RColorBrewer(v.1.1-3)*,
@@ -104,7 +104,7 @@ Each specification includes the following components:
 *gsm.vizr(v.0.1.0)*, *pillar(v.1.11.1)*, *pkgdown(v.2.2.1)*,
 *jquerylib(v.0.1.4)*, *tidyr(v.1.3.2)*, *ellipsis(v.0.3.3)*,
 *cachem(v.1.1.0)*, *sessioninfo(v.1.2.4)*, *tidyselect(v.1.2.1)*,
-*digest(v.0.6.39)*, *stringi(v.1.8.9)*, *duckdb(v.1.5.5)*,
+*digest(v.0.6.39)*, *stringi(v.1.8.9)*, *duckdb(v.1.5.6)*,
 *forcats(v.1.0.1)*, *rprojroot(v.2.1.1)*, *fastmap(v.1.2.0)*,
 *grid(v.4.6.1)*, *here(v.1.0.2)*, *cli(v.3.6.6)*, *magrittr(v.2.0.5)*,
 *pkgbuild(v.1.4.8)*, *withr(v.3.0.3)*, *waldo(v.0.6.2)*,
@@ -135,6 +135,16 @@ Guidelines](https://gilead-public.github.io/gsm.core/articles/ContributorGuideli
 
 Below, the most recent 10 PRs into gsm.qtl are displayed. [See all Pull
 Requests here.](https://github.com/Gilead-Public/gsm.qtl/pulls)
+
+#### Pull Request 144: Use dev versions
+
+Merging dev-versions into dev
+
+<https://github.com/Gilead-Public/gsm.qtl/pull/144>
+
+|   Requester    |   Date Requested    |  Reviewers   | Review Status |
+|:--------------:|:-------------------:|:------------:|:-------------:|
+| jharmon-gilead | 2026-10-13 17:37:08 | lauramaxwell |   APPROVED    |
 
 #### Pull Request 142: Main -\> dev after v1.4.0
 
@@ -225,13 +235,3 @@ Merging rc-v1.3.0 into main
 |  Requester   |   Date Requested    |       Reviewers        | Review Status |
 |:------------:|:-------------------:|:----------------------:|:-------------:|
 | lauramaxwell | 2026-07-08 16:55:26 | jharmon-gilead zdz2101 |   APPROVED    |
-
-#### Pull Request 119: Fix 118: Standardize activity fields
-
-Merging fix-118-rename_activity_fields into dev
-
-<https://github.com/Gilead-Public/gsm.qtl/pull/119>
-
-|   Requester    |   Date Requested    |      Reviewers       | Review Status |
-|:--------------:|:-------------------:|:--------------------:|:-------------:|
-| jharmon-gilead | 2026-06-01 15:32:18 | zdz2101 lauramaxwell |   APPROVED    |
