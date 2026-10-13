@@ -50,10 +50,10 @@ Suggests:
 VignetteBuilder: 
     knitr
 Remotes:
-    gsm.core=Gilead-Public/gsm.core@main,
-    gsm.vizr=Gilead-Public/gsm.vizr@main,
+    gsm.core=Gilead-Public/gsm.core@dev,
+    gsm.vizr=Gilead-Public/gsm.vizr@dev,
     workr=Gilead-Public/workr@main,
-    qcthat=Gilead-Public/qcthat@*release
+    qcthat=Gilead-Public/qcthat@dev
 Config/Needs/website: DT, here, pkgdown, devtools
 Config/roxygen2/version: 8.0.0
 Config/testthat/edition: 3
