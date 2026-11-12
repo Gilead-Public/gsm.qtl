@@ -54,6 +54,8 @@
 <div class="section level4">
 <h4 id="other-updates-1-4-0">Other Updates:<a class="anchor" aria-label="anchor" href="#other-updates-1-4-0"></a></h4>
 <ul><li>QTL metric workflows now explicitly declare their possible <code>Flag</code> values (<code>"0,1,2"</code>).</li>
+<li>
+<code><a href="../reference/Analyze_OneSideProp.html">Analyze_OneSideProp()</a></code> now rejects negative <code>nNumDeviations</code>; zero remains valid and produces only flags 0 and 2.</li>
 <li>Added <code>gsm.vizr</code> as a package dependency.</li>
 <li>Removed the unused <code>Widget_BarChartQTL</code> widget and its <code>barChartQTL.js</code> shim.</li>
 <li>

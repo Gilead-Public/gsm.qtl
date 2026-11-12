@@ -43,6 +43,9 @@
 
 - QTL metric workflows now explicitly declare their possible `Flag`
   values (`"0,1,2"`).
+- [`Analyze_OneSideProp()`](https://gilead-public.github.io/gsm.qtl/dev/reference/Analyze_OneSideProp.md)
+  now rejects negative `nNumDeviations`; zero remains valid and produces
+  only flags 0 and 2.
 - Added `gsm.vizr` as a package dependency.
 - Removed the unused `Widget_BarChartQTL` widget and its
   `barChartQTL.js` shim.
