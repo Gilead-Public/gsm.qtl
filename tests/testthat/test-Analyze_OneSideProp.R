@@ -44,7 +44,7 @@ test_that("Analyze One Side Prop works for Study, when nPropRate is the same (#5
 })
 
 
-test_that("Analyze_OneSideProp returns two or three flags based on nNumDeviations", {
+test_that("Analyze_OneSideProp returns two or three flags based on nNumDeviations (#145)", {
   test_transformed <- tibble::tribble(
     ~GroupID, ~GroupLevel, ~Numerator, ~Denominator, ~Metric,
     "A", "Study", 1, 100, 0.01,
