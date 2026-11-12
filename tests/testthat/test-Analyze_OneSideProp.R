@@ -42,3 +42,35 @@ test_that("Analyze One Side Prop works for Study, when nPropRate is the same (#5
   # The flagging should be working as expected
   expect_equal(actual_flag, expected_flag)
 })
+
+
+test_that("Analyze_OneSideProp returns two or three flags based on nNumDeviations (#145)", {
+  test_transformed <- tibble::tribble(
+    ~GroupID, ~GroupLevel, ~Numerator, ~Denominator, ~Metric,
+    "A", "Study", 1, 100, 0.01,
+    "B", "Study", 4, 100, 0.04,
+    "C", "Study", 6, 100, 0.06
+  )
+
+  flags_with_deviations <- Analyze_OneSideProp(
+    test_transformed,
+    nPropRate = 0.03,
+    nNumDeviations = 3
+  )$Flag
+  flags_without_deviations <- Analyze_OneSideProp(
+    test_transformed,
+    nPropRate = 0.03,
+    nNumDeviations = 0
+  )$Flag
+
+  expect_setequal(unique(flags_with_deviations), c(0, 1, 2))
+  expect_setequal(unique(flags_without_deviations), c(0, 2))
+  expect_error(
+    Analyze_OneSideProp(
+      test_transformed,
+      nPropRate = 0.03,
+      nNumDeviations = -1
+    ),
+    "`nNumDeviations` must be non-negative"
+  )
+})

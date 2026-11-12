@@ -18,7 +18,7 @@
 #'   [`gsm.core::Transform_Rate()`].
 #' @param nPropRate a numeric, between 0 and 1, that represents a proportion of
 #' comparison, e.g. a historic screen failure rate
-#' @param nNumDeviations a numeric, e.g. '3', standard deviations away from the value
+#' @param nNumDeviations a non-negative numeric, e.g. '3', standard deviations away from the value
 #' provided in `nPropRate` to calculate a threshold to which the `Metric` should be flagged
 #'
 #' @return `data.frame` with one row per study-snapshot with columns: GroupID, GroupLevel, Numerator,
@@ -47,6 +47,7 @@ Analyze_OneSideProp <- function(
   )
   stop_if(cnd = !all(!is.na(dfTransformed[["GroupID"]])), message = "NA value(s) found in GroupID")
   stop_if(cnd = (nPropRate >= 1 | nPropRate <= 0), message = "`nPropRate` must be a value between 0 and 1 (exclusive).")
+  stop_if(cnd = nNumDeviations < 0, message = "`nNumDeviations` must be non-negative.")
 
   dfScore <- dfTransformed %>%
     mutate(
